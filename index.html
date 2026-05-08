@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MV Hondius関連ハンタウイルス・リスク評価ダッシュボード</title>
+  <meta name="description" content="MV Hondius関連ハンタウイルス事案のリスク評価支援ダッシュボード（試行版）" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1 id="title">MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）</h1>
+        <p id="subtitle">Hantavirus Cruise Ship Incident Risk Assessment Dashboard</p>
+      </div>
+      <div class="updated-card">
+        <div class="clock">◷</div>
+        <div>
+          <strong id="last-updated">最終更新 --</strong>
+          <span id="update-note">公式情報優先 / 報道情報は補足</span>
+        </div>
+      </div>
+    </header>
+
+    <section id="kpi-grid" class="kpi-grid" aria-label="主要指標"></section>
+    <div id="kpi-note" class="kpi-note"></div>
+
+    <main class="dashboard-grid">
+      <section class="card official-card">
+        <div class="section-title"><span class="icon">🛡️</span><h2>公式リスク評価</h2></div>
+        <div id="official-assessments"></div>
+      </section>
+
+      <section class="card timeline-card">
+        <div class="section-title"><span class="icon">📅</span><h2>疫学タイムライン</h2></div>
+        <div id="timeline" class="timeline"></div>
+      </section>
+
+      <section class="card risk-card">
+        <div class="section-title"><span class="icon">🛡️</span><h2>現在のリスク評価</h2></div>
+        <div id="risk-matrix" class="risk-matrix"></div>
+        <p class="uncertainty">ⓘ 主要な不確実性: ウイルス種の最終確定、船内二次感染の有無、下船者追跡の完全性。</p>
+      </section>
+
+      <section class="card hypotheses-card">
+        <div class="section-title"><span class="icon">💡</span><h2>仮説評価</h2></div>
+        <div id="hypotheses"></div>
+        <p class="small-note">ⓘ ECDCは Argentina での曝露後に船内で一部二次感染した可能性を主仮説としている。</p>
+      </section>
+
+      <section class="card operations-card">
+        <div class="section-title"><span class="icon">👥</span><h2>接触者追跡・運用状況</h2></div>
+        <div class="ops-layout">
+          <div>
+            <h3>A) 運用状況</h3>
+            <table>
+              <thead><tr><th>項目</th><th>状況</th></tr></thead>
+              <tbody id="operations-table"></tbody>
+            </table>
+          </div>
+          <div>
+            <h3>B) 航路（大西洋ルート）</h3>
+            <div id="route-map" class="route-map" aria-label="航路図"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card ai-card">
+        <div class="section-title"><span class="icon">🤖</span><h2>AIサマリー</h2></div>
+        <div id="ai-summary"></div>
+        <div class="sources-mini">Sources: WHO DON 2026-05-04 / ECDC assessment 2026-05-06</div>
+      </section>
+
+      <section class="card signals-card">
+        <div class="section-title"><span class="icon">🛰️</span><h2>報道・専門ニュースによる補助シグナル</h2></div>
+        <div id="media-signals"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span id="source-footer">Data sources: WHO Disease Outbreak News / ECDC assessment & press release / National IHR focal points</span>
+      <span class="legend"><i class="dot official"></i>公式 <i class="dot assessment"></i>評価 <i class="dot supplemental"></i>補足</span>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

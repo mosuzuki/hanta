@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
+    "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
+    "lastUpdated": "2026-05-08T08:00:00+09:00",
+    "updateNote": "公式情報優先 / 報道情報は補足",
+    "status": "Ongoing / rapidly evolving",
+    "primaryEvidencePolicy": "official-first",
+    "fetchCheckedAtUtc": "2026-05-08T07:29:50.843024+00:00",
+    "fetchPolicy": "official-first; KPI values are reviewed, not blindly scraped"
+  },
+  "kpis": {
+    "casesTotal": {
+      "value": 7,
+      "label": "総症例",
+      "evidence": "official"
+    },
+    "pcrPositive": {
+      "value": 3,
+      "label": "PCR陽性",
+      "evidence": "assessment",
+      "note": "ECDC: hantavirus PCR陽性2、ANDV PCR陽性1"
+    },
+    "deaths": {
+      "value": 3,
+      "label": "死亡",
+      "evidence": "official"
+    },
+    "severeIcu": {
+      "value": 1,
+      "label": "重症(ICU)",
+      "evidence": "official"
+    },
+    "symptomaticOnBoard": {
+      "value": 2,
+      "label": "有症状(船内)",
+      "evidence": "official"
+    },
+    "peopleOnBoard": {
+      "value": 149,
+      "label": "船内対象者",
+      "evidence": "assessment",
+      "note": "ECDC 2026-05-06。WHO 2026-05-04では147人"
+    }
+  },
+  "officialAssessments": [
+    {
+      "source": "WHO",
+      "date": "2026-05-04",
+      "badge": "Global risk: Low",
+      "badgeClass": "low",
+      "bullets": [
+        "7例（PCR陽性2、疑い5）・死亡3",
+        "発症は4/6〜4/28",
+        "世界全体へのリスクは low",
+        "対応: 症例隔離、医療搬送、検査継続"
+      ],
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
+    },
+    {
+      "source": "ECDC",
+      "date": "2026-05-06",
+      "badge": "EU/EEA general population: Very low",
+      "badgeClass": "very-low",
+      "bullets": [
+        "7例・死亡3・重症1",
+        "PCRでANDV関連を示唆",
+        "全乗客・乗員を close contacts とみなす",
+        "ANDVのヒト-ヒト感染は close and prolonged contact で稀"
+      ],
+      "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "4/1",
+      "label": "出港",
+      "detail": "Ushuaia",
+      "type": "ship"
+    },
+    {
+      "date": "4/6",
+      "label": "Case 1",
+      "detail": "発症",
+      "type": "case"
+    },
+    {
+      "date": "4/11",
+      "label": "Case 1",
+      "detail": "死亡（船内）",
+      "type": "death"
+    },
+    {
+      "date": "4/24",
+      "label": "Case 3受診",
+      "detail": "Saint Helenaで遺体下船",
+      "type": "port"
+    },
+    {
+      "date": "4/26",
+      "label": "Case 2",
+      "detail": "死亡（Johannesburg）",
+      "type": "death"
+    },
+    {
+      "date": "4/27",
+      "label": "Case 3",
+      "detail": "南アへ医療搬送",
+      "type": "evac"
+    },
+    {
+      "date": "4/28",
+      "label": "Case 4",
+      "detail": "発症",
+      "type": "case"
+    },
+    {
+      "date": "5/2",
+      "label": "WHO・ECDC通知",
+      "detail": "PCR陽性判明",
+      "type": "lab"
+    },
+    {
+      "date": "5/4",
+      "label": "WHO DON",
+      "detail": "公式公表",
+      "type": "notice"
+    },
+    {
+      "date": "5/6",
+      "label": "ECDC評価",
+      "detail": "TAB公表",
+      "type": "document"
+    }
+  ],
+  "riskMatrix": [
+    {
+      "target": "船内の乗客・乗員",
+      "level": "中〜高",
+      "class": "high"
+    },
+    {
+      "target": "下船した近接接触者",
+      "level": "中",
+      "class": "medium"
+    },
+    {
+      "target": "受入国の一般市民",
+      "level": "低",
+      "class": "low"
+    },
+    {
+      "target": "EU/EEA一般人口",
+      "level": "非常に低い",
+      "class": "very-low"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "A",
+      "title": "乗船前（アルゼンチン）共通曝露",
+      "status": "最有力",
+      "class": "best"
+    },
+    {
+      "id": "B",
+      "title": "船内の限定的ヒト-ヒト感染",
+      "status": "可能性あり",
+      "class": "possible"
+    },
+    {
+      "id": "C",
+      "title": "船内環境・げっ歯類曝露",
+      "status": "情報不足",
+      "class": "unknown"
+    },
+    {
+      "id": "D",
+      "title": "広範な国際的コミュニティ拡大",
+      "status": "現時点で低い",
+      "class": "low"
+    }
+  ],
+  "operations": [
+    {
+      "item": "船内",
+      "status": "全員 close contacts として管理"
+    },
+    {
+      "item": "医療搬送",
+      "status": "南アフリカで治療・検査"
+    },
+    {
+      "item": "下船者",
+      "status": "複数国で追跡中"
+    },
+    {
+      "item": "検査",
+      "status": "PCR・血清・シーケンス継続"
+    },
+    {
+      "item": "現地対応",
+      "status": "Cabo Verdeで評価継続"
+    }
+  ],
+  "route": [
+    "Ushuaia",
+    "Antarctica",
+    "South Georgia",
+    "Tristan da Cunha",
+    "Saint Helena",
+    "Ascension",
+    "Cabo Verde"
+  ],
+  "aiSummary": [
+    {
+      "label": "総括",
+      "text": "事案は継続中。現時点では船内および近接接触者にリスクが集中。"
+    },
+    {
+      "label": "根拠",
+      "text": "7例、死亡3、重症1。ANDV関連が示唆されるが、一般市民への波及は限定的。"
+    },
+    {
+      "label": "注視点",
+      "text": "新規症例の発生日、下船者からの二次症例、ウイルス種の最終確定。"
+    },
+    {
+      "label": "実務的示唆",
+      "text": "船内監視、下船者フォロー、医療機関への注意喚起を優先。"
+    }
+  ],
+  "mediaSignals": [
+    {
+      "date": "2026-05-07",
+      "source": "Guardian",
+      "summary": "下船者29人・12か国籍の追跡について報道。公式確認後に主データへ昇格。",
+      "url": "https://www.theguardian.com/world/2026/may/07/global-race-under-way-to-trace-passengers-who-left-hantavirus-ship-before-outbreak-confirmed",
+      "evidence": "media"
+    },
+    {
+      "date": "2026-05-07",
+      "source": "CIDRAP",
+      "summary": "少なくとも8人との報道・専門ニュース。公式値と差異があるため補助シグナル扱い。",
+      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
+      "evidence": "media"
+    }
+  ],
+  "sourceFooter": "Data sources: WHO Disease Outbreak News / ECDC assessment & press release / National IHR focal points"
+}
