@@ -15,7 +15,12 @@
     </div>
     <div class="update-card">
       <div class="update-time">⏱ <span id="lastUpdated">Loading...</span></div>
-      <div class="update-policy" id="updatePolicy">公式情報優先 / 報道・SNS・学術情報は補助</div>
+      <div class="update-policy" id="updatePolicy">1時間ごとに自動更新 / 手動更新可 / 公式情報優先</div>
+      <div class="update-actions">
+        <button id="reloadDataBtn" type="button">表示を再読込</button>
+        <a id="manualUpdateLink" href="#" target="_blank" rel="noopener">GitHubで手動更新</a>
+      </div>
+      <div class="update-small" id="fetchStatus">fetch log: loading</div>
     </div>
   </header>
 

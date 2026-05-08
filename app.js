@@ -2,9 +2,10 @@ let DATA, FETCHLOG, leafletMap;
 const icons = {blue:"🧾", teal:"🔬", red:"💔", orange:"🏥", purple:"🤒", green:"👥"};
 
 async function loadData(){
+  const ts = Date.now();
   const [incident, log] = await Promise.all([
-    fetch("data/incident.json?ts=" + Date.now()).then(r => r.json()),
-    fetch("data/fetch_log.json?ts=" + Date.now()).then(r => r.json()).catch(()=>({latest_items:[], academic_items:[]}))
+    fetch("data/incident.json?ts=" + ts, {cache:"no-store"}).then(r => r.json()),
+    fetch("data/fetch_log.json?ts=" + ts, {cache:"no-store"}).then(r => r.json()).catch(()=>({latest_items:[], academic_items:[]}))
   ]);
   DATA = incident; FETCHLOG = log;
   renderAll();
@@ -12,12 +13,25 @@ async function loadData(){
 
 function $(id){return document.getElementById(id);}
 function esc(s){return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));}
+function buildActionsUrl(){
+  const parts = location.pathname.split("/").filter(Boolean);
+  // GitHub Pages project site: /repo-name/
+  // Manual link cannot know owner from Pages URL reliably, so use current repo name and user should adjust if needed.
+  const repo = parts[0] || "";
+  // Works for the user's known Pages pattern if owner/repo are set in data or fallback to GitHub Actions general page.
+  const owner = "mosuzuki";
+  return `https://github.com/${owner}/${repo}/actions/workflows/update.yml`;
+}
 
 function renderAll(){
   $("title").textContent = DATA.meta.title;
   $("subtitle").textContent = DATA.meta.subtitle;
-  $("lastUpdated").textContent = "最終更新 " + DATA.meta.last_updated_jst;
-  $("updatePolicy").textContent = DATA.meta.update_policy;
+  $("lastUpdated").textContent = "最終更新 " + (DATA.meta.last_updated_jst || DATA.meta.data_last_checked_jst || "");
+  $("updatePolicy").textContent = DATA.meta.update_policy || "1時間ごとに自動更新 / 手動更新可 / 公式情報優先";
+  const fs = $("fetchStatus");
+  if (fs) fs.textContent = `fetch log: ${FETCHLOG.generated_at_jst || FETCHLOG.generated_at || "not yet"} / ${FETCHLOG.status || "unknown"}`;
+  const link = $("manualUpdateLink");
+  if (link) link.href = buildActionsUrl();
   renderKpis(); renderOfficial(); renderTimeline("all"); renderRisk(); renderHypotheses();
   renderLineList(); renderMap(); renderOps(); renderSummary(); renderSignals("all"); renderAcademic();
   bindControls();
@@ -160,6 +174,8 @@ function renderAcademic(){
 }
 
 function bindControls(){
+  const reloadBtn = $("reloadDataBtn");
+  if (reloadBtn) reloadBtn.onclick = () => loadData();
   document.querySelectorAll("#timelineFilters button").forEach(btn => {
     btn.onclick = () => { document.querySelectorAll("#timelineFilters button").forEach(b=>b.classList.remove("active")); btn.classList.add("active"); renderTimeline(btn.dataset.filter); };
   });

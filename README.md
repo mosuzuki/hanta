@@ -1,4 +1,4 @@
-# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v4
+# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v5
 
 ## v3 修正点
 
@@ -63,3 +63,27 @@ Actionsタブで `Update hantavirus incident dashboard` を手動実行できま
 - SNS欄に取得ステータスを明示
 
 GitHubにpushした後、必ず Actions > Update hantavirus incident dashboard > Run workflow を1回実行してください。
+
+
+## v5 修正点
+
+- 右上の日時が毎回更新されるよう、`scripts/fetch_hantavirus.py` が `data/incident.json` の `last_updated_jst` と `data_last_checked_jst` を毎回更新します。
+- `fetch_log.json` の `generated_at_jst` も右上に表示します。
+- ダッシュボード右上に以下を追加しました。
+  - **表示を再読込**：ブラウザ上で `incident.json` と `fetch_log.json` をキャッシュバイパスして再読込
+  - **GitHubで手動更新**：Actionsの `update.yml` へ移動
+- GitHub Actionsは毎時0分に実行されます。
+- 報道・専門ニュースの初期seedを拡充しました。
+- Google News RSS、Bluesky、Mastodon RSS、Reddit RSS、任意のX API、PubMed、主要誌RSS、専門ニュース検索を取得します。
+
+## 右上の日時が更新されない場合
+
+1. GitHub > Actions > `Update hantavirus incident dashboard` を開く
+2. 最新runが緑色で成功しているか確認
+3. その後、`pages-build-deployment` が走って成功しているか確認
+4. ダッシュボード右上の **表示を再読込** を押す
+5. それでも古い場合はブラウザのキャッシュをクリア
+
+## 手動アップデート
+
+GitHub > Actions > `Update hantavirus incident dashboard` > **Run workflow** を押してください。

@@ -75,3 +75,8 @@ tbody tr:hover{background:#f5fbff}
 .footer{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 22px;margin:0 20px 18px;border:1px solid var(--border);border-radius:14px;background:#fff;color:#53606d;font-size:12px}
 .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 12px}.official-dot{background:var(--green)}.eval-dot{background:var(--blue)}.report-dot{background:var(--orange)}.social-dot{background:var(--gray)}.academic-dot{background:#673ab7}
 @media(max-width:1100px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.grid-layout{grid-template-columns:1fr}.official,.timeline-panel,.risk-panel,.hypotheses,.line-list-panel,.map-panel,.ops-panel,.ai-panel,.signals-panel,.academic-panel{grid-column:1;grid-row:auto}.topbar{flex-direction:column}.update-card{text-align:left}.footer{flex-direction:column;align-items:flex-start}}
+
+.update-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:10px;flex-wrap:wrap}
+.update-actions button,.update-actions a{border:1px solid var(--border);background:#fff;border-radius:10px;padding:7px 10px;font-weight:800;color:#0b6175;text-decoration:none;cursor:pointer;font-size:12px}
+.update-actions button:hover,.update-actions a:hover{background:#f0fbfd}
+.update-small{font-size:11px;color:var(--muted);margin-top:6px}
