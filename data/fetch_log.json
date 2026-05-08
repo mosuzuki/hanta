@@ -1,46 +1,10 @@
 {
-  "generated_at_utc": "2026-05-08T07:29:50.843024+00:00",
-  "policy": "official-first; extracted signals are for human review",
-  "sources": [
-    {
-      "id": "who-don-2026-05-04",
-      "name": "WHO Disease Outbreak News",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
-      "status": null,
-      "fetched_at_utc": "2026-05-08T07:29:50.843024+00:00",
-      "error": "FETCH_ERROR: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "id": "ecdc-tab-2026-05-06",
-      "name": "ECDC Threat Assessment Brief",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and",
-      "status": null,
-      "fetched_at_utc": "2026-05-08T07:29:50.843024+00:00",
-      "error": "FETCH_ERROR: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "id": "ecdc-outbreak-page",
-      "name": "ECDC Andes Hantavirus outbreak page",
-      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
-      "status": null,
-      "fetched_at_utc": "2026-05-08T07:29:50.843024+00:00",
-      "error": "FETCH_ERROR: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "id": "guardian-2026-05-07",
-      "name": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/07/global-race-under-way-to-trace-passengers-who-left-hantavirus-ship-before-outbreak-confirmed",
-      "status": null,
-      "fetched_at_utc": "2026-05-08T07:29:50.843024+00:00",
-      "error": "FETCH_ERROR: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "id": "cidrap-2026-05-07",
-      "name": "CIDRAP",
-      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
-      "status": null,
-      "fetched_at_utc": "2026-05-08T07:29:50.843024+00:00",
-      "error": "FETCH_ERROR: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    }
-  ]
+  "generated_at": "2026-05-08T08:00:00+09:00",
+  "status": "seed data",
+  "notes": [
+    "This file is overwritten by scripts/fetch_hantavirus.py in GitHub Actions.",
+    "Official values are seeded from WHO DON 2026-05-04 and ECDC assessment 2026-05-06.",
+    "SNS items are treated as low-confidence signals and never override official data."
+  ],
+  "latest_items": []
 }

@@ -1,171 +1,181 @@
-const iconForKpi = {
-  casesTotal: '👥',
-  pcrPositive: '🔬',
-  deaths: '❤',
-  severeIcu: '🏥',
-  symptomaticOnBoard: '🗣️',
-  peopleOnBoard: '👥'
-};
+let DATA, FETCHLOG;
+const icons = {blue:"🧾", teal:"🔬", red:"💔", orange:"🏥", purple:"🤒", green:"👥"};
 
-const timelineIcons = {
-  ship: '🚢', case: '♙', death: '✚', port: '⚓', evac: '🚑', lab: '📋', notice: '📣', document: '📄'
-};
-
-const summaryIcons = ['📋', '📈', '👁️', '📣'];
-
-function fmtDate(iso) {
-  try {
-    return new Intl.DateTimeFormat('ja-JP', {
-      year: 'numeric', month: '2-digit', day: '2-digit',
-      hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Tokyo', hour12: false
-    }).format(new Date(iso)).replaceAll('/', '-');
-  } catch (_) {
-    return iso;
-  }
+async function loadData(){
+  const [incident, log] = await Promise.all([
+    fetch("data/incident.json?ts=" + Date.now()).then(r => r.json()),
+    fetch("data/fetch_log.json?ts=" + Date.now()).then(r => r.json()).catch(()=>({latest_items:[]}))
+  ]);
+  DATA = incident; FETCHLOG = log;
+  renderAll();
 }
 
-async function loadIncident() {
-  const response = await fetch('data/incident.json', { cache: 'no-store' });
-  if (!response.ok) throw new Error('data/incident.json を読み込めませんでした');
-  return response.json();
+function $(id){return document.getElementById(id);}
+function esc(s){return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));}
+
+function renderAll(){
+  $("title").textContent = DATA.meta.title;
+  $("subtitle").textContent = DATA.meta.subtitle;
+  $("lastUpdated").textContent = "最終更新 " + DATA.meta.last_updated_jst;
+  $("updatePolicy").textContent = DATA.meta.update_policy;
+  renderKpis();
+  renderOfficial();
+  renderTimeline("all");
+  renderRisk();
+  renderHypotheses();
+  renderLineList();
+  renderMap();
+  renderOps();
+  renderSummary();
+  renderSignals("all");
+  bindControls();
 }
 
-function renderHeader(data) {
-  document.getElementById('title').textContent = data.meta.title;
-  document.getElementById('subtitle').textContent = data.meta.subtitle;
-  document.getElementById('last-updated').textContent = `最終更新 ${fmtDate(data.meta.lastUpdated)} JST`;
-  document.getElementById('update-note').textContent = data.meta.updateNote;
-}
-
-function renderKpis(data) {
-  const grid = document.getElementById('kpi-grid');
-  grid.innerHTML = Object.entries(data.kpis).map(([key, item]) => `
-    <article class="kpi-card ${key}" title="${item.note || ''}">
-      <div class="kpi-icon">${iconForKpi[key] || '•'}</div>
+function renderKpis(){
+  $("kpiGrid").innerHTML = DATA.kpis.map(k => `
+    <div class="kpi-card ${esc(k.class)}">
+      <div class="kpi-icon">${icons[k.class] || "●"}</div>
       <div>
-        <div class="kpi-label">${item.label}</div>
-        <div class="kpi-value">${item.value}</div>
+        <div class="kpi-label">${esc(k.label)}</div>
+        <div class="kpi-value">${esc(k.value)}</div>
+        <div class="kpi-src">${esc(k.source)}</div>
       </div>
-    </article>
-  `).join('');
-  const people = data.kpis.peopleOnBoard?.note || '';
-  document.getElementById('kpi-note').textContent = `ⓘ ${people}`;
+    </div>`).join("");
 }
 
-function renderAssessments(data) {
-  const target = document.getElementById('official-assessments');
-  target.innerHTML = data.officialAssessments.map(block => `
-    <article class="assessment-block">
+function renderOfficial(){
+  $("officialAssessments").innerHTML = DATA.official_assessments.map(a => `
+    <section class="assessment">
       <div class="assessment-head">
-        <strong>${block.source} (${block.date})</strong>
-        <a class="pill ${block.badgeClass}" href="${block.url}" target="_blank" rel="noopener">${block.badge}</a>
+        <span>${esc(a.agency)} (${esc(a.date)})</span>
+        <a href="${esc(a.url)}" target="_blank" rel="noopener" class="pill ${esc(a.badgeClass)}">${esc(a.badge)}</a>
       </div>
-      <ul class="clean">${block.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
-    </article>
-  `).join('');
+      <ul>${a.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ul>
+    </section>`).join("");
 }
 
-function renderTimeline(data) {
-  const target = document.getElementById('timeline');
-  const n = data.timeline.length;
-  const nodes = data.timeline.map((ev, i) => {
-    const x = 6 + (i * (88 / (n - 1)));
-    return `<div class="tl-node ${ev.type}" style="left:${x}%">
-      <div class="tl-date">${ev.date}</div>
-      <div class="tl-label"><strong>${ev.label}</strong><br>${ev.detail}</div>
-      <div class="tl-dot"></div>
-      <div class="tl-icon">${timelineIcons[ev.type] || '•'}</div>
-    </div>`;
-  }).join('');
-  target.innerHTML = `<div class="timeline-track"><div class="timeline-line"></div>${nodes}</div>`;
+function renderTimeline(filter){
+  const rows = DATA.timeline.filter(t => filter==="all" || t.confidence === filter || (filter==="reported" && t.confidence!=="official"));
+  $("timeline").innerHTML = rows.map(t => `
+    <div class="t-item ${esc(t.type)}" data-confidence="${esc(t.confidence)}">
+      <div class="t-date">${esc(t.short)}</div>
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-title">${esc(t.title)}</div>
+        <div class="t-detail">${esc(t.detail)}</div>
+        <div class="confidence">${esc(t.date)} / ${esc(t.source)} / ${esc(t.confidence)}</div>
+      </div>
+    </div>`).join("");
 }
 
-function renderRisk(data) {
-  document.getElementById('risk-matrix').innerHTML = data.riskMatrix.map(row => `
-    <div class="risk-row">
-      <span>${row.target}</span>
-      <span class="risk-level ${row.class}"><i class="dot ${row.class}"></i>${row.level}</span>
-    </div>
-  `).join('');
+function renderRisk(){
+  $("riskMatrix").innerHTML = DATA.risk_matrix.map(r => `
+    <div class="risk-row ${esc(r.class)}">
+      <div class="risk-target">${esc(r.target)}</div>
+      <div class="risk-level">${esc(r.level)}</div>
+      <div class="risk-rationale">${esc(r.rationale)}</div>
+    </div>`).join("");
+  $("uncertainties").innerHTML = DATA.uncertainties.map(u=>`<li>${esc(u)}</li>`).join("");
 }
 
-function renderHypotheses(data) {
-  document.getElementById('hypotheses').innerHTML = data.hypotheses.map(h => `
-    <div class="hyp-row">
-      <span class="hyp-id">仮説${h.id}</span>
-      <span class="hyp-title">${h.title}</span>
-      <span class="hyp-badge ${h.class}">${h.status}</span>
-    </div>
-  `).join('');
+function renderHypotheses(){
+  const badgeClass = {best:"green", possible:"blue", unknown:"gray", low:"gray"};
+  $("hypotheses").innerHTML = DATA.hypotheses.map(h => `
+    <div class="hypo-card">
+      <div class="hypo-head">
+        <span class="hypo-title">${esc(h.name)}　${esc(h.title)}</span>
+        <span class="pill ${badgeClass[h.class] || "gray"}">${esc(h.status)}</span>
+      </div>
+      <div class="hypo-meta"><b>支持:</b> ${esc((h.support||[]).join(" / "))}</div>
+      <div class="hypo-meta"><b>未確定・反証:</b> ${esc((h.against||[]).join(" / "))}</div>
+    </div>`).join("");
 }
 
-function renderOperations(data) {
-  document.getElementById('operations-table').innerHTML = data.operations.map(row => `
-    <tr><td>${row.item}</td><td>${row.status}</td></tr>
-  `).join('');
+function renderLineList(){
+  const q = ($("lineSearch")?.value || "").toLowerCase();
+  const rows = DATA.line_list.filter(c => JSON.stringify(c).toLowerCase().includes(q));
+  const badge = (c)=> c==="official" ? "green" : c==="mixed" ? "blue" : c==="reported" ? "gray" : "gray";
+  $("lineList").querySelector("tbody").innerHTML = rows.map(c => `
+    <tr>
+      <td><b>${esc(c.case_id)}</b><br><small>${esc(c.role)}</small></td>
+      <td>${esc(c.status)}</td>
+      <td>${esc(c.sex_age)}<br><small>${esc(c.nationality)}</small></td>
+      <td>${esc(c.onset)}</td>
+      <td>${esc(c.outcome)}</td>
+      <td>${esc(c.location)}</td>
+      <td>${esc(c.lab)}</td>
+      <td><span class="pill ${badge(c.confidence)}">${esc(c.confidence)}</span><br><small>${esc(c.source)}</small></td>
+    </tr>`).join("");
 }
 
-function renderRoute(data) {
-  const labels = data.route;
-  const points = [
-    [56, 202], [112, 170], [178, 155], [270, 132], [352, 104], [432, 70], [520, 28]
-  ];
-  const line = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p[0]} ${p[1]}`).join(' ');
-  const circles = points.map((p, i) => `
-    <circle cx="${p[0]}" cy="${p[1]}" r="5" fill="#fff" stroke="#0d7587" stroke-width="3" />
-    <text x="${p[0] + (i < 3 ? -42 : 12)}" y="${p[1] + (i < 3 ? 23 : 5)}" font-size="12" font-weight="700" fill="#173b60">${labels[i]}</text>
-  `).join('');
-  document.getElementById('route-map').innerHTML = `
-    <svg viewBox="0 0 560 240" role="img" aria-label="MV Hondius route diagram">
-      <defs>
-        <linearGradient id="sea" x1="0" x2="1"><stop offset="0" stop-color="#eaf6ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
-      </defs>
-      <rect width="560" height="240" fill="url(#sea)"/>
-      <path d="M40 120 C120 60 195 78 265 110 S440 130 535 58" fill="none" stroke="#c4d9e8" stroke-width="18" opacity="0.45"/>
-      <path d="M48 214 C125 200 172 186 226 150 C290 106 398 67 536 20" fill="none" stroke="#bdd6ea" stroke-width="1.2" stroke-dasharray="4 5"/>
-      <path d="${line}" fill="none" stroke="#1d64b8" stroke-width="3"/>
-      ${circles}
-    </svg>`;
-}
+function renderMap(){
+  const route = DATA.route;
+  $("shipPositionLabel").textContent = route.position.label;
+  $("mapNote").textContent = `現在位置: ${route.position.label} / ${route.position.timestamp} / Source: ${route.position.source} / Confidence: ${route.position.confidence}`;
 
-function renderSummary(data) {
-  document.getElementById('ai-summary').innerHTML = data.aiSummary.map((s, i) => `
-    <div class="summary-item">
-      <div class="summary-icon">${summaryIcons[i] || '•'}</div>
-      <p><strong>${s.label}:</strong> ${s.text}</p>
-    </div>
-  `).join('');
-}
+  const map = L.map("map", {scrollWheelZoom:false}).setView([0,-28], 3);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 7,
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
 
-function renderSignals(data) {
-  const target = document.getElementById('media-signals');
-  target.innerHTML = `<div class="signals-list">${data.mediaSignals.map(s => `
-    <article class="signal">
-      <div class="meta">${s.date} / ${s.source} / ${s.evidence}</div>
-      <p>${s.summary}</p>
-      <a href="${s.url}" target="_blank" rel="noopener">ソースを開く</a>
-    </article>
-  `).join('')}</div>`;
-}
-
-function renderFooter(data) {
-  document.getElementById('source-footer').textContent = data.sourceFooter;
-}
-
-loadIncident()
-  .then(data => {
-    renderHeader(data);
-    renderKpis(data);
-    renderAssessments(data);
-    renderTimeline(data);
-    renderRisk(data);
-    renderHypotheses(data);
-    renderOperations(data);
-    renderRoute(data);
-    renderSummary(data);
-    renderSignals(data);
-    renderFooter(data);
-  })
-  .catch(error => {
-    document.body.innerHTML = `<main class="app-shell"><div class="card"><h1>読み込みエラー</h1><p>${error.message}</p></div></main>`;
+  const pts = route.waypoints.map(w => [w.lat, w.lng]);
+  L.polyline(pts, {weight:3, opacity:.8}).addTo(map);
+  route.waypoints.forEach(w => {
+    const marker = L.circleMarker([w.lat,w.lng], {
+      radius: w.type==="current-area" ? 8 : 5,
+      weight:2,
+      fillOpacity:.9
+    }).addTo(map);
+    marker.bindPopup(`<b>${esc(w.name)}</b><br>${esc(w.type)}`);
   });
+  const ship = L.marker([route.position.lat, route.position.lng]).addTo(map);
+  ship.bindPopup(`<b>${esc(route.ship_name)}</b><br>${esc(route.position.label)}<br>${esc(route.position.timestamp)}`).openPopup();
+  const bounds = L.latLngBounds(pts.concat([[route.position.lat, route.position.lng]]));
+  map.fitBounds(bounds.pad(.12));
+}
+
+function renderOps(){
+  $("contactOps").innerHTML = DATA.contact_ops.map(o => `
+    <div class="ops-item"><b>${esc(o.item)}</b><span>${esc(o.status)}</span><small>${esc(o.evidence)}</small></div>`).join("");
+}
+
+function renderSummary(){
+  $("aiSummary").innerHTML = DATA.ai_summary.map(s => `
+    <div class="summary-item"><div>▸</div><div><b>${esc(s.heading)}:</b> ${esc(s.text)}</div></div>`).join("");
+}
+
+function renderSignals(filter){
+  const items = (FETCHLOG.latest_items || []).filter(it => filter==="all" || it.kind===filter);
+  $("signals").innerHTML = items.length ? items.map(it => `
+    <div class="signal-item">
+      <div class="signal-kind kind-${esc(it.kind)}">${esc(it.kind)}<br><small>tier ${esc(it.tier ?? "")}</small></div>
+      <div>
+        <div class="signal-title"><a href="${esc(it.url || "#")}" target="_blank" rel="noopener">${esc(it.title || "(untitled)")}</a></div>
+        <div class="signal-snippet">${esc(it.snippet || "")}</div>
+        <div class="confidence">${esc(it.source || "")} / ${esc(it.confidence || "low")}</div>
+      </div>
+      <div class="signal-time">${esc(it.published || "")}</div>
+    </div>`).join("") : `<p class="note">まだ取得ログがありません。GitHub Actions実行後に表示されます。</p>`;
+}
+
+function bindControls(){
+  document.querySelectorAll("#timelineFilters button").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll("#timelineFilters button").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active"); renderTimeline(btn.dataset.filter);
+    };
+  });
+  document.querySelectorAll(".signal-tabs button").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".signal-tabs button").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active"); renderSignals(btn.dataset.signal);
+    };
+  });
+  $("lineSearch").oninput = renderLineList;
+}
+
+loadData().catch(err => {
+  console.error(err);
+  document.body.insertAdjacentHTML("afterbegin", `<div style="padding:12px;background:#fff0f0;color:#8a1f1f">データ読み込みに失敗しました: ${esc(err.message)}</div>`);
+});

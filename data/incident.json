@@ -2,249 +2,502 @@
   "meta": {
     "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
     "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
-    "lastUpdated": "2026-05-08T08:00:00+09:00",
-    "updateNote": "公式情報優先 / 報道情報は補足",
-    "status": "Ongoing / rapidly evolving",
-    "primaryEvidencePolicy": "official-first",
-    "fetchCheckedAtUtc": "2026-05-08T07:29:50.843024+00:00",
-    "fetchPolicy": "official-first; KPI values are reviewed, not blindly scraped"
+    "last_updated_jst": "2026-05-08 08:00 JST",
+    "update_policy": "公式情報優先 / 報道・SNS情報は補助",
+    "disclaimer": "本ダッシュボードは公開情報に基づく試行版です。公式リスク評価はWHO/ECDC等の一次情報を優先し、報道・SNSは未確認シグナルとして扱います。"
   },
-  "kpis": {
-    "casesTotal": {
-      "value": 7,
-      "label": "総症例",
-      "evidence": "official"
-    },
-    "pcrPositive": {
-      "value": 3,
-      "label": "PCR陽性",
-      "evidence": "assessment",
-      "note": "ECDC: hantavirus PCR陽性2、ANDV PCR陽性1"
-    },
-    "deaths": {
-      "value": 3,
-      "label": "死亡",
-      "evidence": "official"
-    },
-    "severeIcu": {
-      "value": 1,
-      "label": "重症(ICU)",
-      "evidence": "official"
-    },
-    "symptomaticOnBoard": {
-      "value": 2,
-      "label": "有症状(船内)",
-      "evidence": "official"
-    },
-    "peopleOnBoard": {
-      "value": 149,
-      "label": "船内対象者",
-      "evidence": "assessment",
-      "note": "ECDC 2026-05-06。WHO 2026-05-04では147人"
-    }
-  },
-  "officialAssessments": [
+  "kpis": [
     {
-      "source": "WHO",
+      "label": "総症例",
+      "value": 7,
+      "source": "ECDC 2026-05-06",
+      "class": "blue"
+    },
+    {
+      "label": "PCR陽性",
+      "value": 3,
+      "source": "ECDC 2026-05-06",
+      "class": "teal"
+    },
+    {
+      "label": "死亡",
+      "value": 3,
+      "source": "WHO/ECDC",
+      "class": "red"
+    },
+    {
+      "label": "重症(ICU)",
+      "value": 1,
+      "source": "ECDC 2026-05-06",
+      "class": "orange"
+    },
+    {
+      "label": "有症状(船内)",
+      "value": 2,
+      "source": "ECDC 2026-05-06",
+      "class": "purple"
+    },
+    {
+      "label": "船内対象者",
+      "value": 149,
+      "source": "ECDC 2026-05-06",
+      "class": "green"
+    }
+  ],
+  "official_assessments": [
+    {
+      "agency": "WHO",
       "date": "2026-05-04",
       "badge": "Global risk: Low",
-      "badgeClass": "low",
+      "badgeClass": "green",
       "bullets": [
         "7例（PCR陽性2、疑い5）・死亡3",
-        "発症は4/6〜4/28",
+        "発症は2026-04-06〜2026-04-28",
         "世界全体へのリスクは low",
-        "対応: 症例隔離、医療搬送、検査継続"
+        "対応：症例隔離、医療搬送、検査継続"
       ],
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
     },
     {
-      "source": "ECDC",
+      "agency": "ECDC",
       "date": "2026-05-06",
       "badge": "EU/EEA general population: Very low",
-      "badgeClass": "very-low",
+      "badgeClass": "green",
       "bullets": [
         "7例・死亡3・重症1",
         "PCRでANDV関連を示唆",
         "全乗客・乗員を close contacts とみなす",
-        "ANDVのヒト-ヒト感染は close and prolonged contact で稀"
+        "ANDVのヒト–ヒト感染は close and prolonged contact で稀"
       ],
       "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and"
     }
   ],
-  "timeline": [
-    {
-      "date": "4/1",
-      "label": "出港",
-      "detail": "Ushuaia",
-      "type": "ship"
-    },
-    {
-      "date": "4/6",
-      "label": "Case 1",
-      "detail": "発症",
-      "type": "case"
-    },
-    {
-      "date": "4/11",
-      "label": "Case 1",
-      "detail": "死亡（船内）",
-      "type": "death"
-    },
-    {
-      "date": "4/24",
-      "label": "Case 3受診",
-      "detail": "Saint Helenaで遺体下船",
-      "type": "port"
-    },
-    {
-      "date": "4/26",
-      "label": "Case 2",
-      "detail": "死亡（Johannesburg）",
-      "type": "death"
-    },
-    {
-      "date": "4/27",
-      "label": "Case 3",
-      "detail": "南アへ医療搬送",
-      "type": "evac"
-    },
-    {
-      "date": "4/28",
-      "label": "Case 4",
-      "detail": "発症",
-      "type": "case"
-    },
-    {
-      "date": "5/2",
-      "label": "WHO・ECDC通知",
-      "detail": "PCR陽性判明",
-      "type": "lab"
-    },
-    {
-      "date": "5/4",
-      "label": "WHO DON",
-      "detail": "公式公表",
-      "type": "notice"
-    },
-    {
-      "date": "5/6",
-      "label": "ECDC評価",
-      "detail": "TAB公表",
-      "type": "document"
-    }
-  ],
-  "riskMatrix": [
+  "risk_matrix": [
     {
       "target": "船内の乗客・乗員",
       "level": "中〜高",
-      "class": "high"
+      "class": "high",
+      "rationale": "閉鎖環境・共用空間・全員をclose contactsとして管理"
     },
     {
       "target": "下船した近接接触者",
       "level": "中",
-      "class": "medium"
+      "class": "medium",
+      "rationale": "潜伏期間内の発症監視と検査が必要"
     },
     {
       "target": "受入国の一般市民",
       "level": "低",
-      "class": "low"
+      "class": "low",
+      "rationale": "ANDVのヒト–ヒト感染は限定的"
     },
     {
       "target": "EU/EEA一般人口",
       "level": "非常に低い",
-      "class": "very-low"
+      "class": "verylow",
+      "rationale": "ECDC評価。自然宿主は欧州に存在しないとされる"
     }
+  ],
+  "uncertainties": [
+    "ウイルス種・系統の最終確定",
+    "船内二次感染の有無",
+    "下船者追跡の完全性",
+    "発症日・曝露日の精度",
+    "船内または寄港地での環境曝露の有無"
   ],
   "hypotheses": [
     {
-      "id": "A",
+      "name": "仮説A",
       "title": "乗船前（アルゼンチン）共通曝露",
       "status": "最有力",
-      "class": "best"
+      "class": "best",
+      "support": [
+        "初発例・Case 2は乗船前に南米・アルゼンチン滞在歴",
+        "ANDVはアルゼンチンでendemic"
+      ],
+      "against": [
+        "全症例を単一の陸上曝露だけで説明できるかは未確定"
+      ]
     },
     {
-      "id": "B",
-      "title": "船内の限定的ヒト-ヒト感染",
+      "name": "仮説B",
+      "title": "船内の限定的ヒト–ヒト感染",
       "status": "可能性あり",
-      "class": "possible"
+      "class": "possible",
+      "support": [
+        "ANDVではclose and prolonged contact後のヒト–ヒト感染が報告される",
+        "閉鎖環境・同室/近接接触があり得る"
+      ],
+      "against": [
+        "伝播連鎖の確定には詳細な接触歴と発症間隔が必要"
+      ]
     },
     {
-      "id": "C",
+      "name": "仮説C",
       "title": "船内環境・げっ歯類曝露",
       "status": "情報不足",
-      "class": "unknown"
+      "class": "unknown",
+      "support": [
+        "船内環境曝露は理論上あり得る"
+      ],
+      "against": [
+        "現時点で感染げっ歯類や汚染環境の確認情報なし"
+      ]
     },
     {
-      "id": "D",
+      "name": "仮説D",
       "title": "広範な国際的コミュニティ拡大",
       "status": "現時点で低い",
-      "class": "low"
+      "class": "low",
+      "support": [
+        "下船者の国際分散がある"
+      ],
+      "against": [
+        "一般市民へのリスクは低く、ANDVは容易には伝播しない"
+      ]
     }
   ],
-  "operations": [
+  "timeline": [
+    {
+      "date": "2026-04-01",
+      "short": "4/1",
+      "type": "voyage",
+      "title": "出港",
+      "detail": "MV HondiusがUshuaia, Argentinaを出港。South Atlantic itinerary開始。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-06",
+      "short": "4/6",
+      "type": "case",
+      "title": "Case 1 発症",
+      "detail": "成人男性が発熱、頭痛、軽度下痢を発症。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-11",
+      "short": "4/11",
+      "type": "death",
+      "title": "Case 1 死亡",
+      "detail": "呼吸困難が進行し船内で死亡。微生物検査は実施されず。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-13",
+      "short": "4/13–15",
+      "type": "voyage",
+      "title": "Tristan da Cunha寄港",
+      "detail": "報道・航路情報ベース。詳細な曝露機会は未確定。",
+      "source": "media",
+      "confidence": "reported"
+    },
+    {
+      "date": "2026-04-24",
+      "short": "4/24",
+      "type": "case",
+      "title": "Case 2 下船 / Case 3 受診",
+      "detail": "Case 1の遺体とCase 2がSaint Helenaで下船。Case 3が発熱・息切れ・肺炎所見で船医受診。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-25",
+      "short": "4/25",
+      "type": "evac",
+      "title": "Case 2が南アへ移動中に悪化",
+      "detail": "Johannesburgへの移動中に状態悪化。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-26",
+      "short": "4/26",
+      "type": "death",
+      "title": "Case 2 死亡",
+      "detail": "Johannesburg到着後、救急部門で死亡。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-27",
+      "short": "4/27",
+      "type": "evac",
+      "title": "Case 3 医療搬送",
+      "detail": "AscensionからSouth Africaへ医療搬送されICU入院。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-28",
+      "short": "4/28",
+      "type": "case",
+      "title": "Case 4 発症",
+      "detail": "成人女性が発熱・倦怠感後、肺炎を呈する。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-02",
+      "short": "5/2",
+      "type": "lab",
+      "title": "WHO/ECDC通知・PCR陽性判明",
+      "detail": "UK IHR NFPからWHOへ通知。South AfricaでCase 3のhantavirus PCR陽性確認。Case 4死亡。",
+      "source": "WHO/ECDC",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-03",
+      "short": "5/3",
+      "type": "death",
+      "title": "追加死亡報告",
+      "detail": "追加死亡が報告され、死亡3例に。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-04",
+      "short": "5/4",
+      "type": "assessment",
+      "title": "WHO DON公表",
+      "detail": "WHOがDisease Outbreak Newsを公表。世界全体へのリスクをlowと評価。",
+      "source": "WHO",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-06",
+      "short": "5/6",
+      "type": "assessment",
+      "title": "ECDC評価・EUHTF派遣",
+      "detail": "ECDCが暫定評価と推奨を公表し、EU Health Task Force専門家を船へ派遣。",
+      "source": "ECDC",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-06",
+      "short": "5/6",
+      "type": "evac",
+      "title": "Cape Verdeから追加搬送",
+      "detail": "報道では追加の医療搬送とCanary Islands方面への移動が報じられる。",
+      "source": "media",
+      "confidence": "reported"
+    },
+    {
+      "date": "2026-05-07",
+      "short": "5/7",
+      "type": "contact",
+      "title": "国際的接触者追跡が拡大",
+      "detail": "下船者・帰国者の追跡、隔離、検査に関する報道が増加。",
+      "source": "media/social",
+      "confidence": "reported"
+    }
+  ],
+  "line_list": [
+    {
+      "case_id": "Case 1",
+      "status": "suspected / epi-linked",
+      "sex_age": "成人男性",
+      "nationality": "Netherlands報道あり",
+      "role": "passenger",
+      "onset": "2026-04-06",
+      "outcome": "死亡 2026-04-11",
+      "location": "船内 / Saint Helenaで遺体下船",
+      "lab": "検査なし",
+      "source": "WHO",
+      "confidence": "official",
+      "notes": "Case 2のclose contact。乗船前に南米・アルゼンチン滞在歴。"
+    },
+    {
+      "case_id": "Case 2",
+      "status": "confirmed",
+      "sex_age": "成人女性",
+      "nationality": "Netherlands報道あり",
+      "role": "passenger",
+      "onset": "2026-04-24以前 GI症状",
+      "outcome": "死亡 2026-04-26",
+      "location": "Saint Helena下船後 Johannesburg",
+      "lab": "PCR陽性 2026-05-04",
+      "source": "WHO",
+      "confidence": "official",
+      "notes": "Case 1のclose contact。飛行機接触者追跡開始。"
+    },
+    {
+      "case_id": "Case 3",
+      "status": "confirmed",
+      "sex_age": "成人男性",
+      "nationality": "UK報道あり",
+      "role": "passenger/crew未確定",
+      "onset": "2026-04-24受診",
+      "outcome": "ICU入院",
+      "location": "South Africa",
+      "lab": "PCR陽性 2026-05-02",
+      "source": "WHO/ECDC",
+      "confidence": "official",
+      "notes": "広範な呼吸器病原体パネル陰性後、hantavirus PCR陽性。"
+    },
+    {
+      "case_id": "Case 4",
+      "status": "suspected/confirmed不明",
+      "sex_age": "成人女性",
+      "nationality": "Germany報道あり",
+      "role": "passenger",
+      "onset": "2026-04-28",
+      "outcome": "死亡 2026-05-02",
+      "location": "船内",
+      "lab": "検査中/未確定",
+      "source": "WHO/ECDC",
+      "confidence": "official",
+      "notes": "肺炎を呈して死亡。"
+    },
+    {
+      "case_id": "Case 5",
+      "status": "suspected",
+      "sex_age": "不明",
+      "nationality": "不明",
+      "role": "船内",
+      "onset": "不明",
+      "outcome": "有症状",
+      "location": "船内",
+      "lab": "検査中",
+      "source": "WHO/ECDC",
+      "confidence": "official",
+      "notes": "高熱または消化器症状。"
+    },
+    {
+      "case_id": "Case 6",
+      "status": "suspected",
+      "sex_age": "不明",
+      "nationality": "不明",
+      "role": "船内",
+      "onset": "不明",
+      "outcome": "有症状",
+      "location": "船内",
+      "lab": "検査中",
+      "source": "WHO/ECDC",
+      "confidence": "official",
+      "notes": "高熱または消化器症状。"
+    },
+    {
+      "case_id": "Case 7",
+      "status": "unknown status / symptomatic",
+      "sex_age": "不明",
+      "nationality": "Switzerland報道あり",
+      "role": "下船者",
+      "onset": "不明",
+      "outcome": "不明/治療中",
+      "location": "Switzerland報道あり",
+      "lab": "PCR陽性報道/要公式確認",
+      "source": "ECDC/media",
+      "confidence": "mixed",
+      "notes": "ECDCは下船後スイスに戻った1例に言及。"
+    }
+  ],
+  "contact_ops": [
     {
       "item": "船内",
-      "status": "全員 close contacts として管理"
+      "status": "全員 close contacts として管理",
+      "evidence": "ECDC"
     },
     {
       "item": "医療搬送",
-      "status": "南アフリカで治療・検査"
+      "status": "南アフリカ・欧州等で治療/検査",
+      "evidence": "WHO/ECDC/media"
     },
     {
       "item": "下船者",
-      "status": "複数国で追跡中"
+      "status": "複数国で追跡中",
+      "evidence": "media"
     },
     {
       "item": "検査",
-      "status": "PCR・血清・シーケンス継続"
+      "status": "PCR・血清・シーケンス/メタゲノム継続",
+      "evidence": "WHO"
     },
     {
       "item": "現地対応",
-      "status": "Cabo Verdeで評価継続"
+      "status": "Cabo Verde/Canary Islands等で調整",
+      "evidence": "media/official"
     }
   ],
-  "route": [
-    "Ushuaia",
-    "Antarctica",
-    "South Georgia",
-    "Tristan da Cunha",
-    "Saint Helena",
-    "Ascension",
-    "Cabo Verde"
-  ],
-  "aiSummary": [
+  "route": {
+    "ship_name": "MV Hondius",
+    "position": {
+      "label": "West Africa / en route to Praia（AIS系公開サイト報告に基づく）",
+      "lat": 15.6,
+      "lng": -23.5,
+      "timestamp": "2026-05-08 08:00 JST",
+      "source": "CruiseMapper search result / AIS-derived public source",
+      "confidence": "external-unverified"
+    },
+    "waypoints": [
+      {
+        "name": "Ushuaia",
+        "lat": -54.8019,
+        "lng": -68.303,
+        "type": "departure"
+      },
+      {
+        "name": "Antarctica",
+        "lat": -63.31,
+        "lng": -57.9,
+        "type": "route"
+      },
+      {
+        "name": "South Georgia",
+        "lat": -54.43,
+        "lng": -36.59,
+        "type": "route"
+      },
+      {
+        "name": "Tristan da Cunha",
+        "lat": -37.1052,
+        "lng": -12.2777,
+        "type": "route"
+      },
+      {
+        "name": "Saint Helena",
+        "lat": -15.965,
+        "lng": -5.7089,
+        "type": "disembarkation"
+      },
+      {
+        "name": "Ascension",
+        "lat": -7.9467,
+        "lng": -14.3559,
+        "type": "evacuation"
+      },
+      {
+        "name": "Praia / Cabo Verde",
+        "lat": 14.9177,
+        "lng": -23.5092,
+        "type": "current-area"
+      },
+      {
+        "name": "Tenerife / Canary Islands",
+        "lat": 28.2916,
+        "lng": -16.6291,
+        "type": "planned"
+      }
+    ]
+  },
+  "ai_summary": [
     {
-      "label": "総括",
+      "heading": "総括",
       "text": "事案は継続中。現時点では船内および近接接触者にリスクが集中。"
     },
     {
-      "label": "根拠",
+      "heading": "根拠",
       "text": "7例、死亡3、重症1。ANDV関連が示唆されるが、一般市民への波及は限定的。"
     },
     {
-      "label": "注視点",
+      "heading": "注視点",
       "text": "新規症例の発生日、下船者からの二次症例、ウイルス種の最終確定。"
     },
     {
-      "label": "実務的示唆",
+      "heading": "実務的示唆",
       "text": "船内監視、下船者フォロー、医療機関への注意喚起を優先。"
     }
-  ],
-  "mediaSignals": [
-    {
-      "date": "2026-05-07",
-      "source": "Guardian",
-      "summary": "下船者29人・12か国籍の追跡について報道。公式確認後に主データへ昇格。",
-      "url": "https://www.theguardian.com/world/2026/may/07/global-race-under-way-to-trace-passengers-who-left-hantavirus-ship-before-outbreak-confirmed",
-      "evidence": "media"
-    },
-    {
-      "date": "2026-05-07",
-      "source": "CIDRAP",
-      "summary": "少なくとも8人との報道・専門ニュース。公式値と差異があるため補助シグナル扱い。",
-      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
-      "evidence": "media"
-    }
-  ],
-  "sourceFooter": "Data sources: WHO Disease Outbreak News / ECDC assessment & press release / National IHR focal points"
+  ]
 }

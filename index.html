@@ -2,87 +2,119 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>MV Hondius関連ハンタウイルス・リスク評価ダッシュボード</title>
-  <meta name="description" content="MV Hondius関連ハンタウイルス事案のリスク評価支援ダッシュボード（試行版）" />
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQmBAu8xK5wQ27p05pwr0j3mXrwl6Yo=" crossorigin=""/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="app-shell">
-    <header class="topbar">
-      <div>
-        <h1 id="title">MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）</h1>
-        <p id="subtitle">Hantavirus Cruise Ship Incident Risk Assessment Dashboard</p>
-      </div>
-      <div class="updated-card">
-        <div class="clock">◷</div>
-        <div>
-          <strong id="last-updated">最終更新 --</strong>
-          <span id="update-note">公式情報優先 / 報道情報は補足</span>
+  <header class="topbar">
+    <div>
+      <h1 id="title">MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）</h1>
+      <p id="subtitle">Hantavirus Cruise Ship Incident Risk Assessment Dashboard</p>
+    </div>
+    <div class="update-card">
+      <div class="update-time">⏱ <span id="lastUpdated">Loading...</span></div>
+      <div class="update-policy" id="updatePolicy">公式情報優先 / 報道・SNS情報は補助</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="kpi-grid" id="kpiGrid"></section>
+    <p class="note" id="kpiNote">149人・23か国籍（ECDC 2026-05-06） / WHO 2026-05-04では147人</p>
+
+    <section class="grid-layout">
+      <article class="panel official">
+        <h2>🛡 公式リスク評価</h2>
+        <div id="officialAssessments"></div>
+      </article>
+
+      <article class="panel timeline-panel">
+        <div class="panel-head">
+          <h2>📅 疫学タイムライン</h2>
+          <div class="filters" id="timelineFilters">
+            <button class="active" data-filter="all">全て</button>
+            <button data-filter="official">公式</button>
+            <button data-filter="reported">報道/SNS</button>
+          </div>
         </div>
-      </div>
-    </header>
+        <div class="timeline-detailed" id="timeline"></div>
+      </article>
 
-    <section id="kpi-grid" class="kpi-grid" aria-label="主要指標"></section>
-    <div id="kpi-note" class="kpi-note"></div>
+      <article class="panel risk-panel">
+        <h2>🛡 現在のリスク評価</h2>
+        <div id="riskMatrix"></div>
+        <div class="uncertainties">
+          <strong>主要な不確実性</strong>
+          <ul id="uncertainties"></ul>
+        </div>
+      </article>
 
-    <main class="dashboard-grid">
-      <section class="card official-card">
-        <div class="section-title"><span class="icon">🛡️</span><h2>公式リスク評価</h2></div>
-        <div id="official-assessments"></div>
-      </section>
-
-      <section class="card timeline-card">
-        <div class="section-title"><span class="icon">📅</span><h2>疫学タイムライン</h2></div>
-        <div id="timeline" class="timeline"></div>
-      </section>
-
-      <section class="card risk-card">
-        <div class="section-title"><span class="icon">🛡️</span><h2>現在のリスク評価</h2></div>
-        <div id="risk-matrix" class="risk-matrix"></div>
-        <p class="uncertainty">ⓘ 主要な不確実性: ウイルス種の最終確定、船内二次感染の有無、下船者追跡の完全性。</p>
-      </section>
-
-      <section class="card hypotheses-card">
-        <div class="section-title"><span class="icon">💡</span><h2>仮説評価</h2></div>
+      <article class="panel hypotheses">
+        <h2>💡 仮説評価</h2>
         <div id="hypotheses"></div>
-        <p class="small-note">ⓘ ECDCは Argentina での曝露後に船内で一部二次感染した可能性を主仮説としている。</p>
-      </section>
+      </article>
 
-      <section class="card operations-card">
-        <div class="section-title"><span class="icon">👥</span><h2>接触者追跡・運用状況</h2></div>
-        <div class="ops-layout">
-          <div>
-            <h3>A) 運用状況</h3>
-            <table>
-              <thead><tr><th>項目</th><th>状況</th></tr></thead>
-              <tbody id="operations-table"></tbody>
-            </table>
-          </div>
-          <div>
-            <h3>B) 航路（大西洋ルート）</h3>
-            <div id="route-map" class="route-map" aria-label="航路図"></div>
-          </div>
+      <article class="panel line-list-panel">
+        <div class="panel-head">
+          <h2>👤 症例ラインリスト</h2>
+          <input id="lineSearch" class="search" placeholder="症例、国籍、場所、検査で検索" />
         </div>
-      </section>
+        <div class="table-wrap">
+          <table id="lineList">
+            <thead>
+              <tr>
+                <th>症例</th><th>Status</th><th>属性</th><th>発症/受診</th><th>転帰</th><th>場所</th><th>検査</th><th>信頼度</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
 
-      <section class="card ai-card">
-        <div class="section-title"><span class="icon">🤖</span><h2>AIサマリー</h2></div>
-        <div id="ai-summary"></div>
-        <div class="sources-mini">Sources: WHO DON 2026-05-04 / ECDC assessment 2026-05-06</div>
-      </section>
+      <article class="panel map-panel">
+        <div class="panel-head">
+          <h2>🗺 航路・現在位置</h2>
+          <span class="pill gray" id="shipPositionLabel">AIS/外部情報</span>
+        </div>
+        <div id="map"></div>
+        <div class="map-note" id="mapNote"></div>
+      </article>
 
-      <section class="card signals-card">
-        <div class="section-title"><span class="icon">🛰️</span><h2>報道・専門ニュースによる補助シグナル</h2></div>
-        <div id="media-signals"></div>
-      </section>
-    </main>
+      <article class="panel ops-panel">
+        <h2>👥 接触者追跡・運用状況</h2>
+        <div class="ops-grid" id="contactOps"></div>
+      </article>
 
-    <footer class="footer">
-      <span id="source-footer">Data sources: WHO Disease Outbreak News / ECDC assessment & press release / National IHR focal points</span>
-      <span class="legend"><i class="dot official"></i>公式 <i class="dot assessment"></i>評価 <i class="dot supplemental"></i>補足</span>
-    </footer>
-  </div>
+      <article class="panel ai-panel">
+        <h2>🤖 AIサマリー</h2>
+        <div id="aiSummary"></div>
+      </article>
+
+      <article class="panel signals-panel">
+        <div class="panel-head">
+          <h2>📡 報道・SNS低信頼度シグナル</h2>
+          <span class="pill red">未確認 / low confidence</span>
+        </div>
+        <div class="signal-tabs">
+          <button class="active" data-signal="all">全て</button>
+          <button data-signal="media">報道</button>
+          <button data-signal="social">SNS</button>
+        </div>
+        <div id="signals"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Data sources: WHO Disease Outbreak News / ECDC assessment & press release / National IHR focal points / curated media / low-confidence social signals</span>
+    <span class="legend"><i class="dot official-dot"></i>公式 <i class="dot eval-dot"></i>評価 <i class="dot report-dot"></i>報道 <i class="dot social-dot"></i>SNS</span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="app.js"></script>
 </body>
 </html>

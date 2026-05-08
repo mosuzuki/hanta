@@ -1,42 +1,61 @@
-[
-  {
-    "id": "who-don-2026-05-04",
-    "name": "WHO Disease Outbreak News",
-    "tier": 1,
-    "type": "official",
-    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
-    "use": "国際的な公式状況、症例数、リスク評価"
-  },
-  {
-    "id": "ecdc-tab-2026-05-06",
-    "name": "ECDC Threat Assessment Brief",
-    "tier": 1,
-    "type": "official-assessment",
-    "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and",
-    "use": "EU/EEA向けリスク評価、仮説、推奨事項"
-  },
-  {
-    "id": "ecdc-outbreak-page",
-    "name": "ECDC Andes Hantavirus outbreak page",
-    "tier": 1,
-    "type": "official-situation",
-    "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
-    "use": "公式値の簡易確認、更新監視"
-  },
-  {
-    "id": "guardian-2026-05-07",
-    "name": "The Guardian",
-    "tier": 2,
-    "type": "media-signal",
-    "url": "https://www.theguardian.com/world/2026/may/07/global-race-under-way-to-trace-passengers-who-left-hantavirus-ship-before-outbreak-confirmed",
-    "use": "下船者追跡・国際移動に関する速報。公式確認まで補助扱い"
-  },
-  {
-    "id": "cidrap-2026-05-07",
-    "name": "CIDRAP",
-    "tier": 2,
-    "type": "expert-news",
-    "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
-    "use": "専門ニュース。公式値との差異を検出する補助シグナル"
-  }
-]
+{
+  "official_sources": [
+    {
+      "name": "WHO Disease Outbreak News",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "ECDC assessment and recommendations",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "ECDC response activated",
+      "url": "https://www.ecdc.europa.eu/en/news-events/cruise-ship-hantavirus-outbreak-ecdc-response-activated",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "Oceanwide Expeditions",
+      "url": "https://oceanwide-expeditions.com/",
+      "tier": 4,
+      "type": "operator"
+    }
+  ],
+  "media_queries": [
+    "MV Hondius hantavirus",
+    "\"Hondius\" \"Andes\" hantavirus",
+    "\"hantavirus\" \"cruise ship\"",
+    "\"MV Hondius\" \"Canary Islands\""
+  ],
+  "social_sources": [
+    {
+      "name": "Bluesky search",
+      "kind": "bsky",
+      "tier": 1,
+      "query": "\"MV Hondius\" OR hantavirus cruise ship"
+    },
+    {
+      "name": "Mastodon hashtag RSS",
+      "kind": "rss",
+      "tier": 1,
+      "url": "https://mastodon.social/tags/hantavirus.rss"
+    },
+    {
+      "name": "Reddit search RSS",
+      "kind": "rss",
+      "tier": 1,
+      "url": "https://www.reddit.com/search.rss?q=%22MV%20Hondius%22%20OR%20%22hantavirus%20cruise%20ship%22&sort=new"
+    },
+    {
+      "name": "X/Twitter recent search",
+      "kind": "x_optional",
+      "tier": 1,
+      "requires_secret": "X_BEARER_TOKEN",
+      "query": "\"MV Hondius\" OR \"hantavirus cruise ship\" -is:retweet"
+    }
+  ]
+}
