@@ -102,6 +102,37 @@
       }
     ],
     "translate_with_openai": true,
-    "openai_model": "gpt-4.1-mini"
+    "openai_model": "gpt-4.1-mini",
+    "science_news_sources": [
+      {
+        "name": "Scientific American",
+        "query": "site:scientificamerican.com hantavirus cruise ship MV Hondius"
+      },
+      {
+        "name": "Science News",
+        "query": "site:sciencenews.org hantavirus cruise ship outbreak MV Hondius"
+      },
+      {
+        "name": "CIDRAP",
+        "query": "site:cidrap.umn.edu hantavirus cruise ship Andes strain"
+      },
+      {
+        "name": "Gavi VaccinesWork",
+        "query": "site:gavi.org vaccineswork hantavirus cruise ship"
+      },
+      {
+        "name": "KFF Health News",
+        "query": "site:kffhealthnews.org hantavirus cruise ship"
+      },
+      {
+        "name": "Nature news",
+        "query": "site:nature.com hantavirus Andes virus cruise ship"
+      },
+      {
+        "name": "Science news",
+        "query": "site:science.org hantavirus Andes virus cruise ship"
+      }
+    ],
+    "mode_note": "Display peer-reviewed PubMed records plus science-news/expert-news items. Incident-specific peer-reviewed literature may not yet be available."
   }
 }

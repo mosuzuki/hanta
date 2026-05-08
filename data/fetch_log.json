@@ -1,12 +1,123 @@
 {
   "generated_at": "2026-05-08T08:00:00+09:00",
-  "generated_at_jst": "2026-05-08 08:00 JST",
-  "status": "seed data",
-  "latest_items": [],
-  "academic_items": [],
+  "generated_at_jst": "2026-05-08 09:30 JST",
+  "status": "seeded-v4",
+  "latest_items": [
+    {
+      "id": "guardian-trace-2026-05-07",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "The Guardian",
+      "title": "Global race under way to trace passengers who left hantavirus ship before outbreak confirmed",
+      "url": "https://www.theguardian.com/world/2026/may/07/global-race-under-way-to-trace-passengers-who-left-hantavirus-ship-before-outbreak-confirmed",
+      "snippet": "下船者の国際的な追跡・健康観察が進んでいることを報じる記事。報道ベースのため公式値の上書きには使わない。",
+      "published": "2026-05-07"
+    },
+    {
+      "id": "cidrap-who-2026-05-04",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "CIDRAP",
+      "title": "WHO warns of hantavirus on cruise ship, with 3 dead, 3 others sickened",
+      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/who-warns-hantavirus-cruise-ship-3-dead-3-others-sickened",
+      "snippet": "WHO発表をもとに、船内症例、死亡例、医療搬送、船内待機の状況を整理した専門ニュース。",
+      "published": "2026-05-04"
+    },
+    {
+      "id": "cidrap-andes-2026-05-06",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "CIDRAP",
+      "title": "At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed",
+      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
+      "snippet": "Andes strain確認、確認例数、スイス症例などの更新を扱う専門ニュース。公式確認前の数値は補助シグナルとして扱う。",
+      "published": "2026-05-06"
+    },
+    {
+      "id": "bsky-fallback-note",
+      "kind": "social",
+      "tier": 1,
+      "confidence": "not-configured",
+      "source": "SNS fetch status",
+      "title": "SNS取得はGitHub Actions実行後に更新",
+      "url": "https://bsky.app/search?q=MV%20Hondius%20hantavirus",
+      "snippet": "Blueskyは公開APIから取得します。X/TwitterはGitHub SecretsにX_BEARER_TOKENを設定した場合のみ取得します。",
+      "published": "initial seed"
+    }
+  ],
+  "academic_items": [
+    {
+      "id": "scientificamerican-2026-05-06",
+      "kind": "academic",
+      "source": "Scientific American",
+      "source_type": "science-news",
+      "title": "A dangerous experiment is playing out on a cruise ship with hantavirus",
+      "title_ja": "ハンタウイルス流行中のクルーズ船で進行する「危険な実験」",
+      "journal": "Scientific American",
+      "published": "2026-05-06",
+      "year": "2026",
+      "abstract": "Science journalism article on the MV Hondius hantavirus outbreak and knowledge gaps in human-to-human transmission of Andes virus.",
+      "summary_ja": "MV Hondiusでのアウトブレイクを、Andes virusのヒト–ヒト感染機序を理解するうえで重要な事例として解説している。専門家コメントをもとに、感染性、ウイルス配列解析、船内接触者対応の不確実性を整理している。",
+      "url": "https://www.scientificamerican.com/article/the-hantavirus-cruise-ship-outbreak-is-a-dangerous-experiment/",
+      "doi": "",
+      "priority": true
+    },
+    {
+      "id": "sciencenews-2026-05-05",
+      "kind": "academic",
+      "source": "Science News",
+      "source_type": "science-news",
+      "title": "What to know about a rare hantavirus outbreak at sea",
+      "title_ja": "海上で発生した稀なハンタウイルスアウトブレイクについて知るべきこと",
+      "journal": "Science News",
+      "published": "2026-05-05",
+      "year": "2026",
+      "abstract": "Science news article explaining the rare outbreak aboard MV Hondius and the uncertainty around land versus onboard exposure.",
+      "summary_ja": "MV Hondiusのアウトブレイクについて、げっ歯類曝露が船内で起きたのか、陸上で起きたのかという主要な不確実性を解説している。クルーズ船という閉鎖環境での感染管理上の課題を整理する記事である。",
+      "url": "https://www.sciencenews.org/article/hantavirus-cruise-ship-outbreak-health",
+      "doi": "",
+      "priority": true
+    },
+    {
+      "id": "cidrap-who-2026-05-04-academic",
+      "kind": "academic",
+      "source": "CIDRAP",
+      "source_type": "expert-news",
+      "title": "WHO warns of hantavirus on cruise ship, with 3 dead, 3 others sickened",
+      "title_ja": "WHO、クルーズ船上のハンタウイルス事案を警告：3人死亡、3人発症",
+      "journal": "CIDRAP",
+      "published": "2026-05-04",
+      "year": "2026",
+      "abstract": "CIDRAP expert news summary based on WHO reporting.",
+      "summary_ja": "WHOの発表をもとに、死亡例、発症者、船内待機、医療搬送の状況を整理している。公式情報の二次整理として有用だが、症例数の主データはWHO/ECDCで確認する必要がある。",
+      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/who-warns-hantavirus-cruise-ship-3-dead-3-others-sickened",
+      "doi": "",
+      "priority": true
+    },
+    {
+      "id": "cidrap-andes-2026-05-06-academic",
+      "kind": "academic",
+      "source": "CIDRAP",
+      "source_type": "expert-news",
+      "title": "At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed",
+      "title_ja": "疑いを含め少なくとも8人が発症、Andes株を確認",
+      "journal": "CIDRAP",
+      "published": "2026-05-06",
+      "year": "2026",
+      "abstract": "CIDRAP update on confirmed Andes strain and suspected cases.",
+      "summary_ja": "Andes strainの確認と、疑い例・確定例の更新について整理した専門ニュース。公式発表と報道値が混在し得るため、ダッシュボードでは補助的な更新シグナルとして扱う。",
+      "url": "https://www.cidrap.umn.edu/misc-emerging-topics/least-8-sickened-suspected-hantavirus-outbreak-andes-strain-confirmed",
+      "doi": "",
+      "priority": true
+    }
+  ],
   "notes": [
-    "GitHub Actions実行後に報道/SNS/学術文献が更新されます。",
-    "SNSは低信頼度シグナルとして表示され、公式KPIを上書きしません。",
-    "OpenAI APIキーがある場合、学術文献の和訳タイトルと日本語要約を生成します。"
+    "v4 includes seeded media/SNS-status and science-news/expert-news items so panels are not blank before first GitHub Actions run.",
+    "Peer-reviewed incident-specific articles may not exist yet; science-news/expert-news sources are monitored separately from PubMed.",
+    "SNS is low-confidence and never overrides official KPIs.",
+    "Run GitHub Actions manually once after deployment."
   ]
 }

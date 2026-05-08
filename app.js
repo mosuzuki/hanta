@@ -131,13 +131,17 @@ function renderSummary(){
 }
 
 function renderSignals(filter){
-  const items = (FETCHLOG.latest_items || []).filter(it => filter==="all" || it.kind===filter);
+  let items = (FETCHLOG.latest_items || []).filter(it => filter==="all" || it.kind===filter);
+  const hasRealSocial = (FETCHLOG.latest_items || []).some(it => it.kind === "social" && !["not-configured","fetch-error"].includes(it.confidence));
+  const emptyMsg = filter === "social" && !hasRealSocial
+    ? "SNS実データはまだ取得されていません。GitHub Actionsを手動実行してください。XはX_BEARER_TOKENが必要です。Bluesky検索リンクを初期表示しています。"
+    : "まだ取得ログがありません。GitHub Actions実行後に表示されます。Actions画面で workflow_dispatch を押すとすぐ更新できます。";
   $("signals").innerHTML = items.length ? items.map(it => `
     <div class="signal-item"><div class="signal-kind kind-${esc(it.kind)}">${esc(it.kind)}<br><small>tier ${esc(it.tier ?? "")}</small></div>
       <div><div class="signal-title"><a href="${esc(it.url || "#")}" target="_blank" rel="noopener">${esc(it.title || "(untitled)")}</a></div>
       <div class="signal-snippet">${esc(it.snippet || "")}</div><div class="confidence">${esc(it.source || "")} / ${esc(it.confidence || "low")}</div></div>
       <div class="signal-time">${esc(it.published || "")}</div></div>`).join("") :
-    `<p class="note">まだ取得ログがありません。GitHub Actions実行後に表示されます。Actions画面で workflow_dispatch を押すとすぐ更新できます。</p>`;
+    `<p class="note">${esc(emptyMsg)}</p>`;
 }
 
 function renderAcademic(){
@@ -152,7 +156,7 @@ function renderAcademic(){
       </div>
       <div class="academic-meta">${esc(it.published || "")}<br><span class="pill ${it.priority ? "orange" : "gray"}">${it.priority ? "主要誌" : "関連"}</span></div>
     </div>`).join("") :
-    `<p class="note">学術文献ログがありません。GitHub Actions実行後にPubMed/Journal RSSから取得されます。</p>`;
+    `<p class="note">学術・専門ニュースログがありません。GitHub Actions実行後にPubMed、主要誌RSS、専門ニュース検索から取得されます。</p>`;
 }
 
 function bindControls(){

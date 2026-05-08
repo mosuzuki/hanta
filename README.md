@@ -1,4 +1,4 @@
-# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v3
+# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v4
 
 ## v3 修正点
 
@@ -50,3 +50,16 @@ Actionsタブで `Update hantavirus incident dashboard` を手動実行できま
 - GitHub Pagesの反映に数分かかることがあります。
 - corporate firewallでOpenStreetMap tileがブロックされる場合があります。
 - 正確な船舶現在位置にはAIS商用APIの利用を推奨します。
+
+
+## v4 追加修正
+
+- 初回Actions実行前でも報道・SNSステータス・学術/専門ニュース欄が空欄にならないよう、初期seedを追加
+- 「学術文献」欄を「学術・専門ニュース」欄に拡張
+  - PubMed査読論文
+  - 主要誌RSS
+  - Scientific American / Science News / CIDRAP / Gavi / KFF / Nature / Science の専門ニュース検索
+- 事例発生直後は査読論文がまだ出ていない可能性が高いため、専門ニュース・解説記事を別枠で表示
+- SNS欄に取得ステータスを明示
+
+GitHubにpushした後、必ず Actions > Update hantavirus incident dashboard > Run workflow を1回実行してください。

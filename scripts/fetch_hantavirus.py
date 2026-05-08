@@ -101,6 +101,22 @@ def fetch_media_google_news(query, limit=10):
     url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
     return parse_rss(url, kind="media", source_name=f"Google News: {query}", tier=2, limit=limit)
 
+def fetch_science_news_google(query, source_name, limit=6):
+    url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
+    raw = parse_rss(url, kind="academic", source_name=f"{source_name} via Google News", tier=3, limit=limit)
+    out = []
+    for x in raw:
+        title = x.get("title","")
+        snippet = x.get("snippet","")
+        out.append({
+            "id": x.get("id") or stable_id("science-news", source_name, title),
+            "kind":"academic", "source":source_name, "source_type":"science-news",
+            "title":title, "title_ja":title, "journal":source_name, "published":x.get("published",""), "year":"",
+            "abstract":snippet, "summary_ja":"専門ニュース・解説記事です。OPENAI_API_KEYを設定すると日本語要約を自動生成します。 " + snippet[:260],
+            "url":x.get("url",""), "doi":"", "priority":True
+        })
+    return out
+
 def pubmed_search(query, days_back=365, retmax=25):
     base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
     mindate = (datetime.now(timezone.utc) - timedelta(days=days_back)).strftime("%Y/%m/%d")
@@ -195,7 +211,18 @@ def fetch_academic(sources):
                 "published":rss["published"], "year":"", "abstract":rss["snippet"], "summary_ja":"日本語要約は未生成です。OPENAI_API_KEYを設定すると自動生成します。",
                 "url":rss["url"], "source":"journal RSS", "doi":"", "priority": True
             })
+    # Science/expert news sources often appear before peer-reviewed incident-specific articles.
+    for src in cfg.get("science_news_sources", []):
+        try:
+            items.extend(fetch_science_news_google(src.get("query","hantavirus cruise ship"), src.get("name","Science news"), limit=5))
+            time.sleep(0.2)
+        except Exception as e:
+            items.append({"id":stable_id("science-news-error", src.get("name",""), str(e)), "kind":"academic", "source":src.get("name","Science news"), "source_type":"fetch-error", "title":f"Science news fetch failed: {e}", "title_ja":"専門ニュース取得に失敗", "journal":src.get("name","Science news"), "published":now_jst(), "year":"", "abstract":"", "summary_ja":str(e), "url":"", "doi":"", "priority":False})
+
     # de-duplicate and sort with rough priority
+    if not any(x.get("kind") == "social" for x in items):
+        items.append({"id":stable_id("social-empty-note", now_jst()), "kind":"social", "tier":1, "confidence":"not-configured", "source":"SNS fetch status", "title":"SNS items not fetched", "url":"https://bsky.app/search?q=MV%20Hondius%20hantavirus", "snippet":"No public SNS items were fetched in this run. X requires X_BEARER_TOKEN; Bluesky/Mastodon/Reddit may have no matching public posts or may rate-limit.", "published":now_jst()})
+
     seen, clean = set(), []
     for it in items:
         key = (it.get("pmid") or "") + "|" + (it.get("doi") or "") + "|" + it.get("title","").lower()
@@ -235,6 +262,9 @@ def main():
         elif s.get("kind") == "x_optional":
             items.extend(fetch_x_optional(s.get("query",'"MV Hondius" OR "hantavirus cruise ship"'), limit=12))
         time.sleep(0.25)
+
+    if not any(x.get("kind") == "social" for x in items):
+        items.append({"id":stable_id("social-empty-note", now_jst()), "kind":"social", "tier":1, "confidence":"not-configured", "source":"SNS fetch status", "title":"SNS items not fetched", "url":"https://bsky.app/search?q=MV%20Hondius%20hantavirus", "snippet":"No public SNS items were fetched in this run. X requires X_BEARER_TOKEN; Bluesky/Mastodon/Reddit may have no matching public posts or may rate-limit.", "published":now_jst()})
 
     seen, clean = set(), []
     for it in items:
