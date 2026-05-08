@@ -3,7 +3,7 @@
     "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
     "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
     "last_updated_jst": "2026-05-08 08:00 JST",
-    "update_policy": "公式情報優先 / 報道・SNS情報は補助",
+    "update_policy": "公式情報優先 / 報道・SNS・学術情報は補助",
     "disclaimer": "本ダッシュボードは公開情報に基づく試行版です。公式リスク評価はWHO/ECDC等の一次情報を優先し、報道・SNSは未確認シグナルとして扱います。"
   },
   "kpis": [
@@ -186,15 +186,6 @@
       "confidence": "official"
     },
     {
-      "date": "2026-04-13",
-      "short": "4/13–15",
-      "type": "voyage",
-      "title": "Tristan da Cunha寄港",
-      "detail": "報道・航路情報ベース。詳細な曝露機会は未確定。",
-      "source": "media",
-      "confidence": "reported"
-    },
-    {
       "date": "2026-04-24",
       "short": "4/24",
       "type": "case",
@@ -274,24 +265,6 @@
       "detail": "ECDCが暫定評価と推奨を公表し、EU Health Task Force専門家を船へ派遣。",
       "source": "ECDC",
       "confidence": "official"
-    },
-    {
-      "date": "2026-05-06",
-      "short": "5/6",
-      "type": "evac",
-      "title": "Cape Verdeから追加搬送",
-      "detail": "報道では追加の医療搬送とCanary Islands方面への移動が報じられる。",
-      "source": "media",
-      "confidence": "reported"
-    },
-    {
-      "date": "2026-05-07",
-      "short": "5/7",
-      "type": "contact",
-      "title": "国際的接触者追跡が拡大",
-      "detail": "下船者・帰国者の追跡、隔離、検査に関する報道が増加。",
-      "source": "media/social",
-      "confidence": "reported"
     }
   ],
   "line_list": [
@@ -424,11 +397,11 @@
   "route": {
     "ship_name": "MV Hondius",
     "position": {
-      "label": "West Africa / en route to Praia（AIS系公開サイト報告に基づく）",
-      "lat": 15.6,
-      "lng": -23.5,
+      "label": "Praia / Cabo Verde周辺（暫定）",
+      "lat": 14.9177,
+      "lng": -23.5092,
       "timestamp": "2026-05-08 08:00 JST",
-      "source": "CruiseMapper search result / AIS-derived public source",
+      "source": "manual seed / external AIS to be fetched",
       "confidence": "external-unverified"
     },
     "waypoints": [

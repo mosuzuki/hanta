@@ -1,10 +1,12 @@
 {
   "generated_at": "2026-05-08T08:00:00+09:00",
+  "generated_at_jst": "2026-05-08 08:00 JST",
   "status": "seed data",
+  "latest_items": [],
+  "academic_items": [],
   "notes": [
-    "This file is overwritten by scripts/fetch_hantavirus.py in GitHub Actions.",
-    "Official values are seeded from WHO DON 2026-05-04 and ECDC assessment 2026-05-06.",
-    "SNS items are treated as low-confidence signals and never override official data."
-  ],
-  "latest_items": []
+    "GitHub Actions実行後に報道/SNS/学術文献が更新されます。",
+    "SNSは低信頼度シグナルとして表示され、公式KPIを上書きしません。",
+    "OpenAI APIキーがある場合、学術文献の和訳タイトルと日本語要約を生成します。"
+  ]
 }

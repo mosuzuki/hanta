@@ -1,39 +1,52 @@
-# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）
+# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v3
 
-GitHub Pages で動く静的ダッシュボードです。
+## v3 修正点
 
-## 今回の v2 追加点
+- Leaflet地図の表示不具合を修正
+  - `invalidateSize()` を複数回実行
+  - `ResizeObserver` を追加
+  - OpenStreetMap tile URLを `https://tile.openstreetmap.org/{z}/{x}/{y}.png` に変更
+  - 地図コンテナの高さと幅をCSSで固定
+- SNS取得を改善
+  - GitHub Actions側で取得して `data/fetch_log.json` に保存
+  - Bluesky / Mastodon RSS / Reddit RSS / X optional
+  - Xは `X_BEARER_TOKEN` がある場合のみ取得
+- 学術文献モニタリングを追加
+  - PubMed E-utilities
+  - 主要学術誌RSSのキーワード抽出
+  - OpenAI APIキーがある場合、和訳タイトルと日本語要約を生成
+- Actionsは1時間ごとに実行
 
-- 疫学タイムラインを詳細化
-- 症例ラインリストを追加
-- Leaflet + OpenStreetMap による実地図上の航路表示
-- 船の現在位置表示欄を追加
-- GitHub Actions を1時間ごとに実行
-- 報道ベースに加えてSNSベースの低信頼度シグナルを表示
-- X/Twitterは `X_BEARER_TOKEN` が設定されている場合のみ取得
-- Bluesky、Mastodon、Reddit、Google News RSSはベストエフォート取得
-
-## GitHub Pages 公開
+## GitHub Pages
 
 1. このフォルダの中身をリポジトリのルートに置く
-2. GitHub の `Settings > Pages`
-3. `Deploy from a branch`
-4. `main / root` を選択
+2. Settings > Pages > Deploy from a branch
+3. main / root を選択
 
-## 重要な設計
+## GitHub Actions
 
-- WHO/ECDC等の公式情報を主データとして扱う
-- 報道・SNS情報は `data/fetch_log.json` に格納し、低信頼度シグナルとして表示
-- SNS情報は症例数やリスク評価を上書きしない
-- 公式値が更新された場合は `data/incident.json` を手動または別スクリプトで更新する
+Actionsタブで `Update hantavirus incident dashboard` を手動実行できます。
+毎時0分にも自動実行されます。
 
-## 任意設定
+## Secrets
 
-X/Twitter取得を有効にする場合は、GitHub repository secrets に以下を設定します。
+任意で以下を設定してください。
 
+- `OPENAI_API_KEY`
+  - 学術文献の和訳タイトル・日本語要約を生成
 - `X_BEARER_TOKEN`
+  - X/Twitter recent searchを有効化
 
-## 注意
+## SNSが表示されない場合
 
-AIS/船舶位置情報サイトはCORSやスクレイピング制限があるため、取得はベストエフォートです。
-正確な現在位置が必要な場合は、MarineTraffic等の正式APIまたはAISデータプロバイダのAPI利用を推奨します。
+- GitHub Actionsがまだ実行されていない可能性があります。
+- Actionsタブから `workflow_dispatch` で手動実行してください。
+- `data/fetch_log.json` が更新されていれば、ダッシュボードに表示されます。
+- SNSは低信頼度シグナルとして表示し、公式KPIは上書きしません。
+
+## 地図が崩れる場合
+
+- ブラウザのキャッシュをクリアしてください。
+- GitHub Pagesの反映に数分かかることがあります。
+- corporate firewallでOpenStreetMap tileがブロックされる場合があります。
+- 正確な船舶現在位置にはAIS商用APIの利用を推奨します。

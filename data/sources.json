@@ -17,26 +17,21 @@
       "url": "https://www.ecdc.europa.eu/en/news-events/cruise-ship-hantavirus-outbreak-ecdc-response-activated",
       "tier": 5,
       "type": "official"
-    },
-    {
-      "name": "Oceanwide Expeditions",
-      "url": "https://oceanwide-expeditions.com/",
-      "tier": 4,
-      "type": "operator"
     }
   ],
   "media_queries": [
     "MV Hondius hantavirus",
     "\"Hondius\" \"Andes\" hantavirus",
     "\"hantavirus\" \"cruise ship\"",
-    "\"MV Hondius\" \"Canary Islands\""
+    "\"MV Hondius\" \"Canary Islands\"",
+    "\"MV Hondius\" \"Cabo Verde\""
   ],
   "social_sources": [
     {
       "name": "Bluesky search",
       "kind": "bsky",
       "tier": 1,
-      "query": "\"MV Hondius\" OR hantavirus cruise ship"
+      "query": "\"MV Hondius\" OR \"hantavirus cruise ship\" OR \"Andes hantavirus\""
     },
     {
       "name": "Mastodon hashtag RSS",
@@ -55,7 +50,58 @@
       "kind": "x_optional",
       "tier": 1,
       "requires_secret": "X_BEARER_TOKEN",
-      "query": "\"MV Hondius\" OR \"hantavirus cruise ship\" -is:retweet"
+      "query": "\"MV Hondius\" OR \"hantavirus cruise ship\" OR \"Andes hantavirus\" -is:retweet"
     }
-  ]
+  ],
+  "academic": {
+    "pubmed_query": "(hantavirus OR orthohantavirus OR \"Andes virus\" OR \"Andes hantavirus\" OR \"Hantavirus Pulmonary Syndrome\" OR HPS OR HCPS) AND (outbreak OR transmission OR epidemiology OR vaccine OR antiviral OR rodents OR \"person-to-person\")",
+    "pubmed_retmax": 25,
+    "days_back": 365,
+    "priority_journals": [
+      "The Lancet",
+      "The Lancet Infectious Diseases",
+      "New England Journal of Medicine",
+      "JAMA",
+      "JAMA Network Open",
+      "BMJ",
+      "Clinical Infectious Diseases",
+      "The Journal of Infectious Diseases",
+      "Emerging Infectious Diseases",
+      "Eurosurveillance",
+      "PLOS Neglected Tropical Diseases",
+      "PLOS Pathogens",
+      "Nature",
+      "Nature Medicine",
+      "Nature Communications",
+      "Science",
+      "Science Translational Medicine",
+      "Vaccine",
+      "Viruses",
+      "Pathogens"
+    ],
+    "rss_feeds": [
+      {
+        "name": "Emerging Infectious Diseases",
+        "url": "https://wwwnc.cdc.gov/eid/rss"
+      },
+      {
+        "name": "Eurosurveillance",
+        "url": "https://www.eurosurveillance.org/rss/current.xml"
+      },
+      {
+        "name": "The Lancet Infectious Diseases",
+        "url": "https://www.thelancet.com/rssfeed/laninf_current.xml"
+      },
+      {
+        "name": "Clinical Infectious Diseases",
+        "url": "https://academic.oup.com/rss/site_5107/3361.xml"
+      },
+      {
+        "name": "The Journal of Infectious Diseases",
+        "url": "https://academic.oup.com/rss/site_5108/3361.xml"
+      }
+    ],
+    "translate_with_openai": true,
+    "openai_model": "gpt-4.1-mini"
+  }
 }
