@@ -2,11 +2,16 @@ name: Update hantavirus incident dashboard
 
 on:
   schedule:
+    # Hourly. GitHub cron uses UTC; Japan time runs at every hour +09:00 as well.
     - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: hantavirus-dashboard-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -14,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,7 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Fetch public signals and academic literature
+      - name: Fetch public signals and academic/expert literature
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -36,5 +44,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/incident.json data/fetch_log.json
-          git diff --cached --quiet || git commit -m "Update hantavirus dashboard data"
+          git diff --cached --quiet || git commit -m "Update hantavirus dashboard data [skip ci]"
           git push
