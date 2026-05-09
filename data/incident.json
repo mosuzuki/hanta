@@ -2,10 +2,10 @@
   "meta": {
     "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
     "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
-    "last_updated_jst": "2026-05-10 01:02 JST",
+    "last_updated_jst": "2026-05-10 02:54 JST",
     "update_policy": "公式情報優先 / 報道・SNS・学術情報は補助",
     "disclaimer": "本ダッシュボードは公開情報に基づく試行版です。公式リスク評価はWHO/ECDC等の一次情報を優先し、報道・SNSは未確認シグナルとして扱います。",
-    "data_last_checked_jst": "2026-05-10 01:02 JST"
+    "data_last_checked_jst": "2026-05-10 02:54 JST"
   },
   "kpis": [
     {
@@ -401,7 +401,7 @@
       "label": "in West Africa cruising at speed of 11",
       "lat": 14.9177,
       "lng": -23.5092,
-      "timestamp": "2026-05-10 01:02 JST",
+      "timestamp": "2026-05-10 02:54 JST",
       "source": "https://www.cruisemapper.com/ships/MV-Hondius-1624",
       "confidence": "external-unverified"
     },
