@@ -2,10 +2,10 @@
   "meta": {
     "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
     "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
-    "last_updated_jst": "2026-05-11 00:20 JST",
+    "last_updated_jst": "2026-05-11 01:04 JST",
     "update_policy": "WHO DONを優先 / 1時間ごとに自動更新 / 報道・SNS・専門ニュースは新着順",
     "disclaimer": "本ダッシュボードは公開情報に基づく試行版です。公式リスク評価はWHO/ECDC等の一次情報を優先し、報道・SNSは未確認シグナルとして扱います。",
-    "data_last_checked_jst": "2026-05-11 00:20 JST",
+    "data_last_checked_jst": "2026-05-11 01:04 JST",
     "who_latest_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   "kpis": [
