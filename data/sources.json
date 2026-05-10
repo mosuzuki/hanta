@@ -1,8 +1,14 @@
 {
   "official_sources": [
     {
-      "name": "WHO Disease Outbreak News",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599",
+      "name": "WHO Disease Outbreak News DON600",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "WHO response note",
+      "url": "https://www.who.int/news/item/07-05-2026-who-s-response-to-hantavirus-cases-linked-to-a-cruise-ship",
       "tier": 5,
       "type": "official"
     },
@@ -17,16 +23,49 @@
       "url": "https://www.ecdc.europa.eu/en/news-events/cruise-ship-hantavirus-outbreak-ecdc-response-activated",
       "tier": 5,
       "type": "official"
+    },
+    {
+      "name": "UKHSA",
+      "url": "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "UKHSA news search: hantavirus cruise ship",
+      "url": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=uk-health-security-agency&keywords=hantavirus%20cruise%20ship",
+      "tier": 5,
+      "type": "official-search"
+    },
+    {
+      "name": "US CDC Hantavirus",
+      "url": "https://www.cdc.gov/hantavirus/",
+      "tier": 5,
+      "type": "official"
+    },
+    {
+      "name": "US CDC Newsroom search: hantavirus",
+      "url": "https://www.cdc.gov/media/",
+      "tier": 5,
+      "type": "official-search"
+    },
+    {
+      "name": "RIVM Hantavirus current information",
+      "url": "https://www.rivm.nl/en/hantavirus/current-information",
+      "tier": 5,
+      "type": "official"
     }
   ],
   "media_queries": [
     "\"hantavirus\" \"MV Hondius\"",
     "\"Andes virus\" \"MV Hondius\"",
-    "\"hantavirus\" \"cruise ship\"",
+    "\"hantavirus\" \"cruise ship\" \"MV Hondius\"",
     "\"Andes hantavirus\" \"cruise ship\"",
     "\"hantavirus\" \"Tenerife\" \"MV Hondius\"",
     "\"hantavirus\" \"RIVM\" \"Hondius\"",
-    "\"hantavirus\" \"UKHSA\" \"cruise ship\""
+    "\"hantavirus\" \"UKHSA\" \"cruise ship\"",
+    "\"hantavirus\" \"CDC\" \"Hondius\"",
+    "\"hantavirus\" \"ProMED\" \"Hondius\"",
+    "\"hantavirus\" \"FluTrackers\" \"Hondius\""
   ],
   "social_sources": [
     {
@@ -108,7 +147,7 @@
     "science_news_sources": [
       {
         "name": "BMJ News",
-        "query": "site:bmj.com hantavirus MV Hondius OR hantavirus cruise ship"
+        "query": "site:bmj.com hantavirus cruise ship OR MV Hondius"
       },
       {
         "name": "Scientific American",
@@ -123,6 +162,18 @@
         "query": "site:cidrap.umn.edu hantavirus cruise ship Andes"
       },
       {
+        "name": "ProMED-mail",
+        "query": "site:promedmail.org hantavirus MV Hondius OR hantavirus cruise ship"
+      },
+      {
+        "name": "FluTrackers",
+        "query": "site:flutrackers.com hantavirus MV Hondius OR hantavirus cruise ship"
+      },
+      {
+        "name": "Avian Flu Diary",
+        "query": "site:afludiary.blogspot.com hantavirus MV Hondius OR hantavirus cruise ship"
+      },
+      {
         "name": "STAT",
         "query": "site:statnews.com hantavirus cruise ship Andes"
       },
@@ -135,6 +186,50 @@
         "query": "site:science.org hantavirus Andes cruise ship"
       }
     ],
-    "mode_note": "Only hantavirus-related peer-reviewed articles, science news, expert news, and official explainer articles. No Japanese translation is generated."
-  }
+    "mode_note": "Only hantavirus-related items. Items are sorted newest first; dashboard displays first 20 and show-more for overflow."
+  },
+  "trusted_event_sources": [
+    {
+      "name": "ProMED-mail",
+      "url": "https://www.promedmail.org/",
+      "tier": 3,
+      "type": "expert-curated",
+      "query": "site:promedmail.org hantavirus MV Hondius OR hantavirus cruise ship"
+    },
+    {
+      "name": "FluTrackers",
+      "url": "https://flutrackers.com/forum/",
+      "tier": 2,
+      "type": "community-curated",
+      "query": "site:flutrackers.com hantavirus MV Hondius OR hantavirus cruise ship"
+    },
+    {
+      "name": "Avian Flu Diary",
+      "url": "https://afludiary.blogspot.com/",
+      "tier": 2,
+      "type": "long-running-blog",
+      "query": "site:afludiary.blogspot.com hantavirus MV Hondius OR hantavirus cruise ship"
+    },
+    {
+      "name": "CIDRAP",
+      "url": "https://www.cidrap.umn.edu/",
+      "tier": 3,
+      "type": "expert-news",
+      "query": "site:cidrap.umn.edu hantavirus cruise ship Andes"
+    },
+    {
+      "name": "Outbreak News Today",
+      "url": "https://outbreaknewstoday.com/",
+      "tier": 2,
+      "type": "outbreak-news",
+      "query": "site:outbreaknewstoday.com hantavirus cruise ship"
+    },
+    {
+      "name": "HealthMap",
+      "url": "https://www.healthmap.org/",
+      "tier": 2,
+      "type": "event-intelligence",
+      "query": "site:healthmap.org hantavirus"
+    }
+  ]
 }

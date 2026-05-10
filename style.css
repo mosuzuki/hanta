@@ -89,3 +89,5 @@ tbody tr:hover{background:#f5fbff}
 .academic-en{display:none}
 .academic-summary{margin-top:4px}
 @media(max-width:1100px){.feeds-panel{grid-template-columns:1fr;grid-column:1;grid-row:auto}}
+
+.show-more.visible{display:block !important}

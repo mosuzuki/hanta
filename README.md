@@ -1,4 +1,4 @@
-# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v6
+# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v7
 
 ## v3 修正点
 
@@ -96,3 +96,13 @@ GitHub > Actions > `Update hantavirus incident dashboard` > **Run workflow** を
 - 報道・SNSを左、ニュース・専門ニュースを右に表示。
 - 各リストは最初の20件のみ表示し、「さらに表示」で追加表示。
 - ニュース・専門ニュースに和訳は付けません。
+
+
+## v7 修正点
+
+- 報道・SNS、ニュース・専門ニュースを新しいもの順にソート。
+- 各リストは最初の20件だけ表示し、21件目以降は「さらに表示」で追加表示。
+- フィルタを切り替えると表示件数を20件にリセット。
+- 公式ソースにUKHSAとUS CDCを追加。
+- 信頼できる長期運用ソースとしてProMED-mail、FluTrackers、Avian Flu Diary、CIDRAP、Outbreak News Today、HealthMapを追加。
+- これらの追加ソースもハンタウイルス関連語でフィルタされ、公式KPIは上書きしない。

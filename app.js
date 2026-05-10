@@ -40,6 +40,19 @@ function renderAll(){
   bindControls();
 }
 
+
+function itemTimeValue(it){
+  const s = String(it?.published || it?.date || it?.updated || "").trim();
+  if (!s) return 0;
+  const normalized = s.replace(/^today$/i, new Date().toISOString());
+  const t = Date.parse(normalized);
+  if (!Number.isNaN(t)) return t;
+  const m = s.match(/(20\d{2})[-/](\d{1,2})[-/](\d{1,2})/);
+  if (m) return Date.UTC(Number(m[1]), Number(m[2])-1, Number(m[3]));
+  return 0;
+}
+function newestFirst(a,b){ return itemTimeValue(b) - itemTimeValue(a); }
+
 function renderKpis(){
   $("kpiGrid").innerHTML = DATA.kpis.map(k => `
     <div class="kpi-card ${esc(k.class)}"><div class="kpi-icon">${icons[k.class] || "●"}</div><div>
@@ -152,7 +165,9 @@ function renderSignals(filter){
   const keywords = ["hantavirus","andv","andes","hondius","orthohantavirus"];
   let items = (FETCHLOG.latest_items || [])
     .filter(it => currentSignalFilter==="all" || it.kind===currentSignalFilter)
-    .filter(it => keywords.some(k => `${it.title||""} ${it.snippet||""} ${it.source||""}`.toLowerCase().includes(k)) || it.confidence === "status");
+    .filter(it => keywords.some(k => `${it.title||""} ${it.snippet||""} ${it.source||""}`.toLowerCase().includes(k)) || it.confidence === "status")
+    .sort(newestFirst);
+  const total = items.length;
   const shown = items.slice(0, signalLimit);
   $("signals").innerHTML = shown.length ? shown.map(it => `
     <div class="signal-item"><div class="signal-kind kind-${esc(it.kind)}">${esc(it.kind)}<br><small>tier ${esc(it.tier ?? "")}</small></div>
@@ -162,21 +177,24 @@ function renderSignals(filter){
     `<p class="note">ハンタウイルス関連の報道・SNS取得ログがありません。GitHub Actionsを手動実行してください。</p>`;
   const btn = $("showMoreSignals");
   if (btn) {
-    btn.classList.toggle("visible", items.length > signalLimit);
-    btn.textContent = `さらに表示（${signalLimit}/${items.length}）`;
+    const more = total > signalLimit;
+    btn.classList.toggle("visible", more);
+    btn.textContent = more ? `さらに表示（${Math.min(signalLimit,total)}/${total}）` : "";
   }
 }
 
 function renderAcademic(){
   const keywords = ["hantavirus","andv","andes","hondius","orthohantavirus"];
   const items = (FETCHLOG.academic_items || [])
-    .filter(it => keywords.some(k => `${it.title||""} ${it.abstract||""} ${it.summary_ja||""} ${it.source||""}`.toLowerCase().includes(k)));
+    .filter(it => keywords.some(k => `${it.title||""} ${it.abstract||""} ${it.summary_ja||""} ${it.source||""}`.toLowerCase().includes(k)))
+    .sort(newestFirst);
+  const total = items.length;
   const shown = items.slice(0, academicLimit);
   $("academicList").innerHTML = shown.length ? shown.map(it => `
     <div class="academic-item"><div class="signal-kind kind-academic">news<br><small>${esc(it.year || "")}</small></div>
       <div>
         <div class="academic-title"><a href="${esc(it.url || "#")}" target="_blank" rel="noopener">${esc(it.title || "(untitled)")}</a></div>
-        <div class="academic-summary">${esc(it.abstract || it.summary_ja || "")}</div>
+        <div class="academic-summary">${esc(it.abstract || it.snippet || it.summary_ja || "")}</div>
         <div class="confidence">${esc(it.journal || it.source || "")} / ${esc(it.source_type || it.source || "")} / ${esc(it.doi || "")}</div>
       </div>
       <div class="academic-meta">${esc(it.published || "")}<br><span class="pill ${it.priority ? "orange" : "gray"}">${it.priority ? "専門" : "関連"}</span></div>
@@ -184,8 +202,9 @@ function renderAcademic(){
     `<p class="note">ハンタウイルス関連のニュース・専門ニュースログがありません。GitHub Actionsを手動実行してください。</p>`;
   const btn = $("showMoreAcademic");
   if (btn) {
-    btn.classList.toggle("visible", items.length > academicLimit);
-    btn.textContent = `さらに表示（${academicLimit}/${items.length}）`;
+    const more = total > academicLimit;
+    btn.classList.toggle("visible", more);
+    btn.textContent = more ? `さらに表示（${Math.min(academicLimit,total)}/${total}）` : "";
   }
 }
 
@@ -196,7 +215,7 @@ function bindControls(){
     btn.onclick = () => { document.querySelectorAll("#timelineFilters button").forEach(b=>b.classList.remove("active")); btn.classList.add("active"); renderTimeline(btn.dataset.filter); };
   });
   document.querySelectorAll(".signal-tabs button").forEach(btn => {
-    btn.onclick = () => { document.querySelectorAll(".signal-tabs button").forEach(b=>b.classList.remove("active")); btn.classList.add("active"); renderSignals(btn.dataset.signal); };
+    btn.onclick = () => { document.querySelectorAll(".signal-tabs button").forEach(b=>b.classList.remove("active")); btn.classList.add("active"); signalLimit = 20; renderSignals(btn.dataset.signal); };
   });
   $("lineSearch").oninput = renderLineList;
   const moreS = $("showMoreSignals");
