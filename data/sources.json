@@ -20,13 +20,13 @@
     }
   ],
   "media_queries": [
-    "MV Hondius hantavirus latest",
-    "\"MV Hondius\" \"Andes virus\"",
-    "\"hantavirus\" \"cruise ship\" \"Tenerife\"",
-    "\"hantavirus\" \"MV Hondius\" UKHSA",
-    "\"hantavirus\" \"MV Hondius\" RIVM",
-    "\"hantavirus\" \"MV Hondius\" CDC",
-    "\"MV Hondius\" \"Tristan da Cunha\" hantavirus"
+    "\"hantavirus\" \"MV Hondius\"",
+    "\"Andes virus\" \"MV Hondius\"",
+    "\"hantavirus\" \"cruise ship\"",
+    "\"Andes hantavirus\" \"cruise ship\"",
+    "\"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+    "\"hantavirus\" \"RIVM\" \"Hondius\"",
+    "\"hantavirus\" \"UKHSA\" \"cruise ship\""
   ],
   "social_sources": [
     {
@@ -103,42 +103,38 @@
         "url": "https://academic.oup.com/rss/site_5108/3361.xml"
       }
     ],
-    "translate_with_openai": true,
+    "translate_with_openai": false,
     "openai_model": "gpt-4.1-mini",
     "science_news_sources": [
       {
+        "name": "BMJ News",
+        "query": "site:bmj.com hantavirus MV Hondius OR hantavirus cruise ship"
+      },
+      {
         "name": "Scientific American",
-        "query": "site:scientificamerican.com (hantavirus OR \"Andes virus\") (\"MV Hondius\" OR \"cruise ship\" OR outbreak)"
+        "query": "site:scientificamerican.com hantavirus cruise ship Andes"
       },
       {
         "name": "Science News",
-        "query": "site:sciencenews.org hantavirus cruise ship outbreak"
+        "query": "site:sciencenews.org hantavirus cruise ship"
       },
       {
         "name": "CIDRAP",
-        "query": "site:cidrap.umn.edu hantavirus cruise ship Andes strain"
+        "query": "site:cidrap.umn.edu hantavirus cruise ship Andes"
       },
       {
-        "name": "Reuters Health",
-        "query": "site:reuters.com hantavirus MV Hondius Andes cruise ship"
+        "name": "STAT",
+        "query": "site:statnews.com hantavirus cruise ship Andes"
       },
       {
-        "name": "RIVM",
-        "query": "site:rivm.nl/en/hantavirus Hondius Andes virus"
-      },
-      {
-        "name": "NETEC",
-        "query": "site:netec.org hantavirus cruise ship MV Hondius"
-      },
-      {
-        "name": "Nature news",
+        "name": "Nature News",
         "query": "site:nature.com hantavirus Andes cruise ship"
       },
       {
-        "name": "Science news",
+        "name": "Science",
         "query": "site:science.org hantavirus Andes cruise ship"
       }
     ],
-    "mode_note": "Display peer-reviewed PubMed records plus science-news/expert-news items. Incident-specific peer-reviewed literature may not yet be available."
+    "mode_note": "Only hantavirus-related peer-reviewed articles, science news, expert news, and official explainer articles. No Japanese translation is generated."
   }
 }

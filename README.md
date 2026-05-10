@@ -1,4 +1,4 @@
-# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v5
+# MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版） v6
 
 ## v3 修正点
 
@@ -87,3 +87,12 @@ GitHubにpushした後、必ず Actions > Update hantavirus incident dashboard >
 ## 手動アップデート
 
 GitHub > Actions > `Update hantavirus incident dashboard` > **Run workflow** を押してください。
+
+
+## v6 修正点
+- WHO DON 2026-05-08（DON600）を基準にKPIとラインリストを更新。
+- Actions実行時にWHO DON600相当のKPIを反映。
+- 報道・SNS、ニュース・専門ニュースはハンタウイルス関連語でフィルタ。
+- 報道・SNSを左、ニュース・専門ニュースを右に表示。
+- 各リストは最初の20件のみ表示し、「さらに表示」で追加表示。
+- ニュース・専門ニュースに和訳は付けません。

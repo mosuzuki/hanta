@@ -89,26 +89,29 @@
         <div id="aiSummary"></div>
       </article>
 
-      <article class="panel signals-panel">
-        <div class="panel-head">
-          <h2>📡 報道・SNS低信頼度シグナル</h2>
-          <span class="pill red">未確認 / low confidence</span>
+      <article class="panel feeds-panel">
+        <div class="feed-column">
+          <div class="panel-head">
+            <h2>📡 報道・SNS</h2>
+            <span class="pill red">補助情報 / low confidence</span>
+          </div>
+          <div class="signal-tabs">
+            <button class="active" data-signal="all">全て</button>
+            <button data-signal="media">報道</button>
+            <button data-signal="social">SNS</button>
+          </div>
+          <div id="signals"></div>
+          <button id="showMoreSignals" class="show-more" type="button">さらに表示</button>
         </div>
-        <div class="signal-tabs">
-          <button class="active" data-signal="all">全て</button>
-          <button data-signal="media">報道</button>
-          <button data-signal="social">SNS</button>
+        <div class="feed-column">
+          <div class="panel-head">
+            <h2>🧪 ニュース・専門ニュース</h2>
+            <span class="pill blue">Hantavirus only</span>
+          </div>
+          <div class="academic-help">ハンタウイルス関連のBMJ、Scientific American、Science News、CIDRAP等の専門ニュースとPubMed/主要誌RSSを表示します。和訳は付けません。</div>
+          <div id="academicList"></div>
+          <button id="showMoreAcademic" class="show-more" type="button">さらに表示</button>
         </div>
-        <div id="signals"></div>
-      </article>
-
-      <article class="panel academic-panel">
-        <div class="panel-head">
-          <h2>📚 学術・専門ニュース モニタリング</h2>
-          <span class="pill blue">PubMed / journal RSS</span>
-        </div>
-        <div class="academic-help">PubMedの査読論文に加え、Scientific American、Science News、CIDRAPなどの専門ニュースを抽出します。OpenAI APIキー設定時は和訳タイトルと日本語要約を自動生成します。</div>
-        <div id="academicList"></div>
       </article>
     </section>
   </main>

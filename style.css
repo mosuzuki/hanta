@@ -80,3 +80,12 @@ tbody tr:hover{background:#f5fbff}
 .update-actions button,.update-actions a{border:1px solid var(--border);background:#fff;border-radius:10px;padding:7px 10px;font-weight:800;color:#0b6175;text-decoration:none;cursor:pointer;font-size:12px}
 .update-actions button:hover,.update-actions a:hover{background:#f0fbfd}
 .update-small{font-size:11px;color:var(--muted);margin-top:6px}
+
+.feeds-panel{grid-column:1 / 4;grid-row:5;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.feed-column{min-width:0}
+.show-more{display:none;margin:10px auto 0;border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 14px;font-weight:800;color:#0b6175;cursor:pointer}
+.show-more.visible{display:block}
+.signal-item,.academic-item{grid-template-columns:82px 1fr 92px}
+.academic-en{display:none}
+.academic-summary{margin-top:4px}
+@media(max-width:1100px){.feeds-panel{grid-template-columns:1fr;grid-column:1;grid-row:auto}}

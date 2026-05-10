@@ -2,62 +2,63 @@
   "meta": {
     "title": "MV Hondius関連ハンタウイルス・リスク評価ダッシュボード（試行版）",
     "subtitle": "Hantavirus Cruise Ship Incident Risk Assessment Dashboard",
-    "last_updated_jst": "2026-05-10 22:42 JST",
-    "update_policy": "公式情報優先 / 報道・SNS・学術情報は補助",
+    "last_updated_jst": "2026-05-10 12:00 JST",
+    "update_policy": "WHO DONを優先して症例数・ラインリストを自動更新 / 報道・SNSは補助",
     "disclaimer": "本ダッシュボードは公開情報に基づく試行版です。公式リスク評価はWHO/ECDC等の一次情報を優先し、報道・SNSは未確認シグナルとして扱います。",
-    "data_last_checked_jst": "2026-05-10 22:42 JST"
+    "data_last_checked_jst": "2026-05-10 12:00 JST"
   },
   "kpis": [
     {
       "label": "総症例",
-      "value": 7,
-      "source": "ECDC 2026-05-06",
+      "value": 8,
+      "source": "WHO DON 2026-05-08",
       "class": "blue"
     },
     {
-      "label": "PCR陽性",
-      "value": 3,
-      "source": "ECDC 2026-05-06",
+      "label": "確定例",
+      "value": 6,
+      "source": "WHO DON 2026-05-08",
       "class": "teal"
     },
     {
       "label": "死亡",
       "value": 3,
-      "source": "WHO/ECDC",
+      "source": "WHO DON 2026-05-08",
       "class": "red"
     },
     {
-      "label": "重症(ICU)",
-      "value": 1,
-      "source": "ECDC 2026-05-06",
+      "label": "CFR",
+      "value": "38%",
+      "source": "WHO DON 2026-05-08",
       "class": "orange"
     },
     {
-      "label": "有症状(船内)",
-      "value": 2,
-      "source": "ECDC 2026-05-06",
+      "label": "入院中",
+      "value": 4,
+      "source": "WHO DON 2026-05-08",
       "class": "purple"
     },
     {
       "label": "船内対象者",
-      "value": 149,
-      "source": "ECDC 2026-05-06",
+      "value": 147,
+      "source": "WHO DON 2026-05-08",
       "class": "green"
     }
   ],
   "official_assessments": [
     {
       "agency": "WHO",
-      "date": "2026-05-04",
-      "badge": "Global risk: Low",
+      "date": "2026-05-08",
+      "badge": "Global risk: Low / Ship risk: Moderate",
       "badgeClass": "green",
       "bullets": [
-        "7例（PCR陽性2、疑い5）・死亡3",
-        "発症は2026-04-06〜2026-04-28",
+        "8例（確定6、probable 2）・死亡3（CFR 38%）",
+        "確定6例はいずれもAndes virus（ANDV）",
+        "船上の乗客・乗員へのリスクは moderate",
         "世界全体へのリスクは low",
-        "対応：症例隔離、医療搬送、検査継続"
+        "42日間の健康観察、接触者追跡、検査、隔離を推奨"
       ],
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
     },
     {
       "agency": "ECDC",
@@ -65,10 +66,10 @@
       "badge": "EU/EEA general population: Very low",
       "badgeClass": "green",
       "bullets": [
-        "7例・死亡3・重症1",
-        "PCRでANDV関連を示唆",
         "全乗客・乗員を close contacts とみなす",
-        "ANDVのヒト–ヒト感染は close and prolonged contact で稀"
+        "ANDVのヒト–ヒト感染は close and prolonged contact で稀",
+        "EU/EEA一般人口へのリスクは very low",
+        "ECDC/WHO専門家が船上対応を支援"
       ],
       "url": "https://www.ecdc.europa.eu/en/publications-data/hantavirus-associated-cluster-illness-cruise-ship-ecdc-assessment-and"
     }
@@ -76,27 +77,27 @@
   "risk_matrix": [
     {
       "target": "船内の乗客・乗員",
-      "level": "中〜高",
-      "class": "high",
-      "rationale": "閉鎖環境・共用空間・全員をclose contactsとして管理"
-    },
-    {
-      "target": "下船した近接接触者",
       "level": "中",
       "class": "medium",
-      "rationale": "潜伏期間内の発症監視と検査が必要"
+      "rationale": "WHOは船上の乗客・乗員へのリスクをmoderateと評価"
     },
     {
-      "target": "受入国の一般市民",
+      "target": "高リスク接触者",
+      "level": "中〜高",
+      "class": "high",
+      "rationale": "WHOは高リスク接触者に42日間の能動的モニタリング・隔離を推奨"
+    },
+    {
+      "target": "低リスク接触者",
       "level": "低",
       "class": "low",
-      "rationale": "ANDVのヒト–ヒト感染は限定的"
+      "rationale": "WHOは低リスク接触者には受動的自己観察を推奨"
     },
     {
-      "target": "EU/EEA一般人口",
-      "level": "非常に低い",
+      "target": "一般人口",
+      "level": "低",
       "class": "verylow",
-      "rationale": "ECDC評価。自然宿主は欧州に存在しないとされる"
+      "rationale": "WHOは世界全体へのリスクをlowと評価"
     }
   ],
   "uncertainties": [
@@ -164,8 +165,8 @@
       "short": "4/1",
       "type": "voyage",
       "title": "出港",
-      "detail": "MV HondiusがUshuaia, Argentinaを出港。South Atlantic itinerary開始。",
-      "source": "WHO",
+      "detail": "MV HondiusがUshuaia, Argentinaを出港。Case 1は乗船前にArgentina, Chile, Uruguayを3か月超旅行。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
@@ -173,8 +174,8 @@
       "short": "4/6",
       "type": "case",
       "title": "Case 1 発症",
-      "detail": "成人男性が発熱、頭痛、軽度下痢を発症。",
-      "source": "WHO",
+      "detail": "成人男性が発症。Case 1は乗船前の環境曝露が最有力とされる。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
@@ -182,26 +183,35 @@
       "short": "4/11",
       "type": "death",
       "title": "Case 1 死亡",
-      "detail": "呼吸困難が進行し船内で死亡。微生物検査は実施されず。",
-      "source": "WHO",
+      "detail": "船内で死亡。検査は実施されずprobable case。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-14",
+      "short": "4/14",
+      "type": "contact",
+      "title": "Case 8 下船",
+      "detail": "成人男性がTristan da Cunhaで下船。後に4/28発症。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-22",
+      "short": "4/22",
+      "type": "contact",
+      "title": "Case 7 下船",
+      "detail": "成人男性がSt Helenaで下船し、4/27–28にSouth Africa・Qatar経由でSwitzerlandへ帰国。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-04-24",
       "short": "4/24",
       "type": "case",
-      "title": "Case 2 下船 / Case 3 受診",
-      "detail": "Case 1の遺体とCase 2がSaint Helenaで下船。Case 3が発熱・息切れ・肺炎所見で船医受診。",
-      "source": "WHO",
-      "confidence": "official"
-    },
-    {
-      "date": "2026-04-25",
-      "short": "4/25",
-      "type": "evac",
-      "title": "Case 2が南アへ移動中に悪化",
-      "detail": "Johannesburgへの移動中に状態悪化。",
-      "source": "WHO",
+      "title": "Case 2 下船 / Case 3 発症",
+      "detail": "Case 2がSaint Helenaで消化器症状を伴い下船。Case 3が発症。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
@@ -209,163 +219,213 @@
       "short": "4/26",
       "type": "death",
       "title": "Case 2 死亡",
-      "detail": "Johannesburg到着後、救急部門で死亡。",
-      "source": "WHO",
+      "detail": "Johannesburgの医療機関で死亡。5/4にPCRでハンタウイルス感染確認。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-04-27",
       "short": "4/27",
       "type": "evac",
-      "title": "Case 3 医療搬送",
-      "detail": "AscensionからSouth Africaへ医療搬送されICU入院。",
-      "source": "WHO",
+      "title": "Case 3 医療搬送 / Case 6 発症",
+      "detail": "Case 3がAscension IslandからSouth Africaへ医療搬送されICU入院。Case 6が発症。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-04-28",
       "short": "4/28",
       "type": "case",
-      "title": "Case 4 発症",
-      "detail": "成人女性が発熱・倦怠感後、肺炎を呈する。",
-      "source": "WHO",
+      "title": "Case 4・Case 8 発症",
+      "detail": "Case 4が発熱・倦怠感で発症。Case 8は下痢で発症し、2日後に発熱。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-04-30",
+      "short": "4/30",
+      "type": "case",
+      "title": "Case 5 発症",
+      "detail": "船医の成人男性が発熱、疲労、筋肉痛、軽度呼吸器症状を発症。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-01",
+      "short": "5/1",
+      "type": "case",
+      "title": "Case 7 発症",
+      "detail": "Switzerland到着後に症状が出現し、直ちに自己隔離・公衆衛生当局へ報告。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-05-02",
       "short": "5/2",
       "type": "lab",
-      "title": "WHO/ECDC通知・PCR陽性判明",
-      "detail": "UK IHR NFPからWHOへ通知。South AfricaでCase 3のhantavirus PCR陽性確認。Case 4死亡。",
-      "source": "WHO/ECDC",
-      "confidence": "official"
-    },
-    {
-      "date": "2026-05-03",
-      "short": "5/3",
-      "type": "death",
-      "title": "追加死亡報告",
-      "detail": "追加死亡が報告され、死亡3例に。",
-      "source": "WHO",
+      "title": "WHO通知・Case 3 PCR陽性",
+      "detail": "UK IHR NFPからWHOへ通知。Case 3はPCR陽性、後にシーケンスでANDV確認。Case 4死亡。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-05-04",
       "short": "5/4",
-      "type": "assessment",
-      "title": "WHO DON公表",
-      "detail": "WHOがDisease Outbreak Newsを公表。世界全体へのリスクをlowと評価。",
-      "source": "WHO",
+      "type": "lab",
+      "title": "Case 2 PCR陽性 / WHO DON599",
+      "detail": "Case 2がPCRでハンタウイルス感染確認。WHOが初回DONを公表。",
+      "source": "WHO DON599/600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-05",
+      "short": "5/5",
+      "type": "lab",
+      "title": "Case 7 PCR陽性",
+      "detail": "SwitzerlandのCase 7がPCRでANDV陽性確認。",
+      "source": "WHO DON600",
       "confidence": "official"
     },
     {
       "date": "2026-05-06",
       "short": "5/6",
+      "type": "lab",
+      "title": "Case 5・6 PCR陽性 / 医療搬送",
+      "detail": "Case 5・6がPCRでANDV陽性確認。Case 5はNetherlandsへ医療搬送。船はCabo Verdeを離れCanary Islandsへ。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-07",
+      "short": "5/7",
+      "type": "evac",
+      "title": "Case 6 Netherlandsへ搬送",
+      "detail": "Case 6はNetherlandsへ医療搬送され、安定して隔離中。",
+      "source": "WHO DON600",
+      "confidence": "official"
+    },
+    {
+      "date": "2026-05-08",
+      "short": "5/8",
       "type": "assessment",
-      "title": "ECDC評価・EUHTF派遣",
-      "detail": "ECDCが暫定評価と推奨を公表し、EU Health Task Force専門家を船へ派遣。",
-      "source": "ECDC",
+      "title": "WHO DON600公表",
+      "detail": "8例（確定6、probable 2）、死亡3、全確定例はANDV。船上リスクmoderate、世界リスクlow。",
+      "source": "WHO DON600",
       "confidence": "official"
     }
   ],
   "line_list": [
     {
       "case_id": "Case 1",
-      "status": "suspected / epi-linked",
+      "status": "probable",
       "sex_age": "成人男性",
-      "nationality": "Netherlands報道あり",
+      "nationality": "不明（Netherlands報道あり）",
       "role": "passenger",
       "onset": "2026-04-06",
       "outcome": "死亡 2026-04-11",
-      "location": "船内 / Saint Helenaで遺体下船",
-      "lab": "検査なし",
-      "source": "WHO",
+      "location": "船内",
+      "lab": "検査未実施",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "Case 2のclose contact。乗船前に南米・アルゼンチン滞在歴。"
+      "notes": "4/1乗船。乗船前にArgentina, Chile, Uruguayを3か月超旅行。乗船前環境曝露が最有力。"
     },
     {
       "case_id": "Case 2",
       "status": "confirmed",
       "sex_age": "成人女性",
-      "nationality": "Netherlands報道あり",
-      "role": "passenger",
-      "onset": "2026-04-24以前 GI症状",
+      "nationality": "不明（Netherlands報道あり）",
+      "role": "passenger / Case 1 close contact",
+      "onset": "2026-04-24以前（GI症状）",
       "outcome": "死亡 2026-04-26",
       "location": "Saint Helena下船後 Johannesburg",
       "lab": "PCR陽性 2026-05-04",
-      "source": "WHO",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "Case 1のclose contact。飛行機接触者追跡開始。"
+      "notes": "Case 1のclose contact。同伴して乗船。St HelenaからSouth Africaへの飛行機接触者追跡。"
     },
     {
       "case_id": "Case 3",
       "status": "confirmed",
       "sex_age": "成人男性",
-      "nationality": "UK報道あり",
+      "nationality": "不明（UK報道あり）",
       "role": "passenger/crew未確定",
-      "onset": "2026-04-24受診",
-      "outcome": "ICU入院",
-      "location": "South Africa",
-      "lab": "PCR陽性 2026-05-02",
-      "source": "WHO/ECDC",
+      "onset": "2026-04-24",
+      "outcome": "ICU入院中",
+      "location": "Johannesburg, South Africa",
+      "lab": "PCR陽性 2026-05-02、sequencingでANDV確認",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "広範な呼吸器病原体パネル陰性後、hantavirus PCR陽性。"
+      "notes": "4/27にAscension IslandからSouth Africaへ医療搬送。"
     },
     {
       "case_id": "Case 4",
-      "status": "suspected/confirmed不明",
+      "status": "confirmed",
       "sex_age": "成人女性",
-      "nationality": "Germany報道あり",
+      "nationality": "不明（Germany報道あり）",
       "role": "passenger",
       "onset": "2026-04-28",
       "outcome": "死亡 2026-05-02",
-      "location": "船内",
-      "lab": "検査中/未確定",
-      "source": "WHO/ECDC",
+      "location": "船内 / 検体はNetherlandsへ",
+      "lab": "死後検体でANDV確認",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "肺炎を呈して死亡。"
+      "notes": "発熱・倦怠感後に肺炎を呈し死亡。"
     },
     {
       "case_id": "Case 5",
-      "status": "suspected",
-      "sex_age": "不明",
+      "status": "confirmed",
+      "sex_age": "成人男性",
       "nationality": "不明",
-      "role": "船内",
-      "onset": "不明",
-      "outcome": "有症状",
-      "location": "船内",
-      "lab": "検査中",
-      "source": "WHO/ECDC",
+      "role": "ship doctor",
+      "onset": "2026-04-30",
+      "outcome": "安定、隔離中",
+      "location": "Netherlands",
+      "lab": "PCR陽性 2026-05-06、ANDV",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "高熱または消化器症状。"
+      "notes": "発熱、疲労、筋肉痛、軽度呼吸器症状。5/6にNetherlandsへ医療搬送。"
     },
     {
       "case_id": "Case 6",
-      "status": "suspected",
-      "sex_age": "不明",
+      "status": "confirmed",
+      "sex_age": "成人男性",
       "nationality": "不明",
-      "role": "船内",
-      "onset": "不明",
-      "outcome": "有症状",
-      "location": "船内",
-      "lab": "検査中",
-      "source": "WHO/ECDC",
+      "role": "ship guide",
+      "onset": "2026-04-27",
+      "outcome": "安定、隔離中",
+      "location": "Netherlands",
+      "lab": "PCR陽性 2026-05-06、ANDV",
+      "source": "WHO DON600",
       "confidence": "official",
-      "notes": "高熱または消化器症状。"
+      "notes": "軽度呼吸器・消化器症状。5/7にNetherlandsへ医療搬送。"
     },
     {
       "case_id": "Case 7",
-      "status": "unknown status / symptomatic",
-      "sex_age": "不明",
-      "nationality": "Switzerland報道あり",
-      "role": "下船者",
-      "onset": "不明",
-      "outcome": "不明/治療中",
-      "location": "Switzerland報道あり",
-      "lab": "PCR陽性報道/要公式確認",
-      "source": "ECDC/media",
-      "confidence": "mixed",
-      "notes": "ECDCは下船後スイスに戻った1例に言及。"
+      "status": "confirmed",
+      "sex_age": "成人男性",
+      "nationality": "不明（Switzerland）",
+      "role": "disembarked passenger",
+      "onset": "2026-05-01",
+      "outcome": "入院・隔離中",
+      "location": "Zurich, Switzerland",
+      "lab": "PCR陽性 2026-05-05、ANDV",
+      "source": "WHO DON600",
+      "confidence": "official",
+      "notes": "4/22にSt Helenaで下船、4/27–28にSouth Africa・Qatar経由でSwitzerlandへ。到着後発症し自己隔離。"
+    },
+    {
+      "case_id": "Case 8",
+      "status": "probable",
+      "sex_age": "成人男性",
+      "nationality": "不明",
+      "role": "disembarked passenger",
+      "onset": "2026-04-28（下痢）、4/30頃発熱",
+      "outcome": "安定、隔離中",
+      "location": "Tristan da Cunha",
+      "lab": "検査確認待ち",
+      "source": "WHO DON600",
+      "confidence": "official",
+      "notes": "4/14にTristan da Cunhaで下船。検査確認までprobable case。"
     }
   ],
   "contact_ops": [
@@ -398,11 +458,11 @@
   "route": {
     "ship_name": "MV Hondius",
     "position": {
-      "label": "in West Africa cruising en route to CANARY ISLANDS",
+      "label": "Praia / Cabo Verde周辺（暫定）",
       "lat": 14.9177,
       "lng": -23.5092,
-      "timestamp": "2026-05-10 22:42 JST",
-      "source": "https://www.cruisemapper.com/ships/MV-Hondius-1624",
+      "timestamp": "2026-05-08 08:00 JST",
+      "source": "manual seed / external AIS to be fetched",
       "confidence": "external-unverified"
     },
     "waypoints": [
@@ -459,19 +519,19 @@
   "ai_summary": [
     {
       "heading": "総括",
-      "text": "事案は継続中。現時点では船内および近接接触者にリスクが集中。"
+      "text": "WHO DON 2026-05-08時点で8例（確定6、probable 2）、死亡3例。確定6例はいずれもAndes virus。"
     },
     {
       "heading": "根拠",
-      "text": "7例、死亡3、重症1。ANDV関連が示唆されるが、一般市民への波及は限定的。"
+      "text": "WHOは船上の乗客・乗員へのリスクをmoderate、世界全体へのリスクをlowと評価。"
     },
     {
       "heading": "注視点",
-      "text": "新規症例の発生日、下船者からの二次症例、ウイルス種の最終確定。"
+      "text": "Case 8の検査確認、下船者・飛行機接触者の追跡、追加発症、シーケンス解析。"
     },
     {
       "heading": "実務的示唆",
-      "text": "船内監視、下船者フォロー、医療機関への注意喚起を優先。"
+      "text": "高リスク接触者の42日間の能動的モニタリング、早期隔離、検査、ICU対応能力の確保が重要。"
     }
   ]
 }
