@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T12:07:16.694589+00:00",
-  "generated_at_jst": "2026-06-04 21:07 JST",
+  "generated_at": "2026-06-04T16:24:19.137578+00:00",
+  "generated_at_jst": "2026-06-05 01:24 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -92,6 +92,17 @@
       "published": "Sat, 16 May 2026 07:00:00 GMT"
     },
     {
+      "id": "bb669405e946dd6a",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "From US to Singapore, countries race to track hantavirus - CNN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWnNDUGRsdW1KUHBpYUJOMkY0UzlfN05SRUwwNEVnbVh3TzVISXZsMXF1NFIxRWF2SnpoMnZnX24tS3BVSW5ocGw4dHRSREV4bnI1RExteTJ3WV9FaUpWTF9ZTTMwMm03dm9IUmYxQ1k0SVhITDZDUEpzX0F4UFR6cA?oc=5",
+      "snippet": "From US to Singapore, countries race to track hantavirus CNN",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "bcb6c619b6364201",
       "kind": "media",
       "tier": 2,
@@ -101,17 +112,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSUtJWlpGRW5zb09BeTBqUkRVNnRaWjFQdGFQUjVCN2FWcWhVc2g2TDExNWdqeXBVWDlIZmI2SnFtWEdicnlxQ1dtYzFock43NTd1dzhvYlJtSjdBY2hCX3lwQ1VVdTl4cy1BbUVOQnluUTYzSVp5bWFPd21sMmRucVF2cXZ5d3RBR1JqTE5IcWZGMlViaWR2eDZRR2JtTnpPRlNrdTVtVQ?oc=5",
       "snippet": "Where did the cruise ship hantavirus come from and what happens next? The Guardian",
       "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "ed01b603449e299e",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "MV Hondius docks in Tenerife, Canary Islands; passengers disembark ship hit by hantavirus - CNN",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IMzgyMm1yWFlqRm1iTEwyWmFCY3h5VmpVREMxbXphMDdkb2hmSnJCQzdlRjBya3JrbXdiN1pDWjVwUHZzdkU4T0U2Sk13aVdONGhxTzN5dGwydFpNZ3hNN1Z5UVA1V1FlX2xFaUpoRkJ5VGdreXh1dFFReURSRGs?oc=5",
-      "snippet": "MV Hondius docks in Tenerife, Canary Islands; passengers disembark ship hit by hantavirus CNN",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "325c7ed62cb4f9c0",
@@ -125,15 +125,26 @@
       "published": "Tue, 02 Jun 2026 14:11:26 GMT"
     },
     {
-      "id": "26baed0939ecedfb",
+      "id": "ddc590607b0b25aa",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Five MV Hondius passengers leave hantavirus quarantine in Nebraska - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUzdaSFdvSVNlSk5KaV83UmVXQlJsbk1WT0FfMkVldndLcjJKa1VfcHRzU25POGRSbEFBSHJtN1hWd2EtaHkwS0NvVWFZcW5reU81S08zMnpmaFViT3RCZnF1dldfbDgzRWhKNDB1aFB0TGFQOVhXTGdGaEM3NGNhNTlBOW16ekJDYm94NXNGbWxfdVRo0gGaAUFVX3lxTE8wLURKWXhSZzdoNERGcmwxNWNoWDZBN2RkWC1OUW9TeFF2Q3ZYRkc1dkdPMkc0TjdsNXA1OVZjRllaUGZ6UHlpSlFHZlYzVS1yYjZJVHpWcXc1UDZxRmJNTUc4Q2E3ZVZ3Ti15ODdSMjl1aXNtOHZnTXBfYVAyTlFkQmRJZjFYY0xlNW5NTTYwbWpCWkFTSkdPNEE?oc=5",
-      "snippet": "Five MV Hondius passengers leave hantavirus quarantine in Nebraska NewsNation",
-      "published": "Tue, 02 Jun 2026 19:49:57 GMT"
+      "title": "Oregon Health Authority monitors returning MV Hondius passenger after hantavirus outbreak - KVAL",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXIweVgwenM3Q253emNUWnFCdVN6MXN3bGpPSExXb29EckxWb3VOZ05LbjQyME1Dam92TzR2MGw0MENTazlZRTQwUjlMWkpobDM4N0NyRDR3VmU2MnNUREtHcGN6NnlQMGd3VGxYdzVGXzBWVEhUVHVBbC1XT01yUmJQdHktOVlTRVZ5R1h0YjJvY3hhcEhWcS1uMEZHblg2YnZuUXd1MDcwVEMzSThiSzJNWFBnSDVvYmF2cExZQW1PZDlsR2ZYX1dERk5SOVBMQ2NLcnFCcTFLbXdxSFc0XzlZQQ?oc=5",
+      "snippet": "Oregon Health Authority monitors returning MV Hondius passenger after hantavirus outbreak KVAL",
+      "published": "Tue, 02 Jun 2026 18:01:13 GMT"
+    },
+    {
+      "id": "3b1e9b6d7beb92f0",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "Five MV Hondius passengers leave hantavirus quarantine in Nebraska - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa0ZxZUNJSFN5TVZ0Y2t3d0UyRTNGZ1pMM3dOY2I5bVJncWdJb1hDZkJBbDFwV2dsbHl6MEFnWkZzSFN2d282Sk1mUVhwb3A2S1I1MEJvZUpJdEVSSGRIWFkwY2RDR3NNalhla25zX0RJa3BuczRNS1FxbUlub3dMNnlGSXNWMG44OEgySDkyRQ?oc=5",
+      "snippet": "Five MV Hondius passengers leave hantavirus quarantine in Nebraska Yahoo",
+      "published": "Tue, 02 Jun 2026 19:15:38 GMT"
     },
     {
       "id": "aa7da736ae4d3203",
@@ -145,17 +156,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHlxYUY1Ujd1Q0YyakZseUEycUlEbTUtaDlHTE5DSWQtLTViQ2swYUhNMzc5eEhpRW1lNENydlRfbjF6bWVJZjZfbGJxd1BKQnkxVW51cWs2OUhQNFhaXzNPZ2tOcDIyVXBGak5qQ21oOXVkNWFoNW14R3BsSTBSOG1RY1MxQk9ZXzVibWJqbUdDcU1m?oc=5",
       "snippet": "A cruise ship outbreak made the world aware of hantavirus. Scientists want to use this new fame The Independent",
       "published": "Thu, 04 Jun 2026 06:21:00 GMT"
-    },
-    {
-      "id": "ddc590607b0b25aa",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Oregon Health Authority monitors returning MV Hondius passenger after hantavirus outbreak - KVAL",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXIweVgwenM3Q253emNUWnFCdVN6MXN3bGpPSExXb29EckxWb3VOZ05LbjQyME1Dam92TzR2MGw0MENTazlZRTQwUjlMWkpobDM4N0NyRDR3VmU2MnNUREtHcGN6NnlQMGd3VGxYdzVGXzBWVEhUVHVBbC1XT01yUmJQdHktOVlTRVZ5R1h0YjJvY3hhcEhWcS1uMEZHblg2YnZuUXd1MDcwVEMzSThiSzJNWFBnSDVvYmF2cExZQW1PZDlsR2ZYX1dERk5SOVBMQ2NLcnFCcTFLbXdxSFc0XzlZQQ?oc=5",
-      "snippet": "Oregon Health Authority monitors returning MV Hondius passenger after hantavirus outbreak KVAL",
-      "published": "Tue, 02 Jun 2026 18:01:13 GMT"
     },
     {
       "id": "1b855ec7f9e61286",
@@ -180,14 +180,14 @@
       "published": "Sat, 16 May 2026 07:00:00 GMT"
     },
     {
-      "id": "d9c13156ae2b1122",
+      "id": "89d31557e3c4a314",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "MV Hondius docks in Rotterdam after hantavirus ordeal - dw.com",
+      "title": "MV Hondius docks in Rotterdam after hantavirus ordeal - DW",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYnNya25ZYzU3YVNCSy15Tnl6UFVOdkRaaGJ3cE1JMjlvRXdFUG1tQzBrSkJUSnJiQ002RDlHRnFnUlJwY3RsU0ViTUdPbHNRRkgwbWxGV1RGeWltWGdQVm1oVFowUjgwakNFdTVHSU9ZOW9nRGRPSzZkS2FnMzgzLWEtM0hjU1R6c011amxGMNIBjwFBVV95cUxQWXpvVW9VeFBFVnU2QkwzMGdINWZCeTVsQndRakkwUmNPQTdhSVNqd0VHT3g4LTFXTWdoUUp4dnVxS2NDTlNmdVdDbmFVOEhkTU9tS1M4X1pDXzluT2Q0cjdlWlYzWlMzVm1VTUxLYlVEdWlEeU5BR1BaWk03NFIyeURBaG55S0JnUGNOYVFvRQ?oc=5",
-      "snippet": "MV Hondius docks in Rotterdam after hantavirus ordeal dw.com",
+      "snippet": "MV Hondius docks in Rotterdam after hantavirus ordeal DW",
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
@@ -202,6 +202,17 @@
       "published": "Fri, 29 May 2026 13:23:00 GMT"
     },
     {
+      "id": "996c555ddba9ff5d",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness - Florida Hospital News and Healthcare Report",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWkFsYUM1cHAtbWtBTmRCNzgwZ3lBbUdqaDFBRDdXVnk0VGVUVExVb1JoYm1GdTZEY0VEQ0lrWkE4NHJvRkF5YjhzSFNiM2ZMN3E4R19YWXlhRDhTZDNvYmx1bGVpei1KSzY0ejg3dW9BYVh6THM2dVI4c0gtODU5OW9RY0RPLWNOamJKTTZRcEtzNHdnU3d2bnI4dHNMM0VUd2wtR011UXIyUQ?oc=5",
+      "snippet": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness Florida Hospital News and Healthcare Report",
+      "published": "Tue, 26 May 2026 20:48:06 GMT"
+    },
+    {
       "id": "a2410c4eaf75cfb7",
       "kind": "media",
       "tier": 2,
@@ -211,17 +222,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVBNLUlScGFKUW5aV3QxbGlsNEdlelFBX1ZrOWZEMF9GQlREeGp5UDVNNERDZkNxNTdSOVpfNUh4eDh1eFFfVS1QQ1ZadjQxNVEtQkNHVWtZeGlpMGw3TFRfcU9oZ0E0LXJDc1hrNXFYamVpZW04MGxJSExNaTBBXzhSd2wtd053TUswR2Y3TVEwYm9lUUgwUkZKZXkyQXIzLU4xRzd5WDVLRTg?oc=5",
       "snippet": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak PBS",
       "published": "Sun, 10 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "4b7856824ce2481a",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Hantavirus Cruise Ship Cleared for Sailing as MV Hondius Returns to Service, Offering Important Travel Lessons for Cruise Passengers Worldwide - Travel And Tour World",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YcnhHMGkxSDdmX0NiNXMwazJUT0paTFdmTGRlWjBBZWpfeXo1LWl5UkhXU2g1c3RpX01DZEhkblRDV3NHTWxZYTdYNFdQYjRlcDhYcXg3dDhscmxfbFoxMmVhSDZaUm9GVmM1UTBR?oc=5",
-      "snippet": "Hantavirus Cruise Ship Cleared for Sailing as MV Hondius Returns to Service, Offering Important Travel Lessons for Cruise Passengers Worldwide Travel And Tour World",
-      "published": "Thu, 04 Jun 2026 05:02:31 GMT"
     },
     {
       "id": "73ae0148b1a41f2e",
@@ -235,17 +235,6 @@
       "published": "Fri, 29 May 2026 13:23:00 GMT"
     },
     {
-      "id": "c4d4892c096e8de0",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
-      "title": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus - Institut Pasteur",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZmpkNGtLUVBzenZ2aEFOMklIUDBIVmZXV08xRWNnZ1hfNFlrdUFhS0R0RzdaVFhBeGxsMEthM191Mi1zTlVBWjFxY1d3OFRhWExWWFlXQjFHZEtzWHp2U2tkQW5EX3NmRFBsNjNjZ0pjd1ByQjYwM1l4czFRNUZXZFliOXJwcGN6X1JNWXZzb2ZrbTRfZ2VXYXhxdzhCZDRuZWVTNFJqaUt2MEY0U0V4YWdRcktZaENNdG1Ra2FvWTNjRlQzRkJhVmtJSkR6NWZVVS04ZVdB?oc=5",
-      "snippet": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus Institut Pasteur",
-      "published": "Tue, 12 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "13d25d53e2a96959",
       "kind": "media",
       "tier": 2,
@@ -255,6 +244,17 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlJEdTcwMXFPTWhhVWhRM2p0bnZyR0NBTTJTU00zV2NmR003a051eENzVjlRVElybk1WODlJOVhMcmdyY2gxRHB2NFRiVlI1T0p0bC12UV9URm9pc1ZmdGNTbkpEeHZ1YVRMc0k0UTZpOVZ5MC1OYlh1dFZVbEtwQmdrTEIxZTBqSloyekRXbTTSAZgBQVVfeXFMUGt3Qmg0elViY25HZEd6S1FRdjdQUU15aDFuQzZKM2d4dzAxcHhVSFE5SHVaRzI4aGlzTDU3VzMyeDZhcG5mcm0xWjhaTG1FbGZsYWhKREs4N2hwVXJFZFpmSC1CcFk0Mk1LVV83YWhleTJReVIyVWVfTFlrbTlOZ3NDWEIyREo2cmMtY3lBQmUwaGVGUlV6ems?oc=5",
       "snippet": "Oregonian Exposed To Andes Virus Returns News Radio 1190 KEX",
       "published": "Tue, 02 Jun 2026 17:27:00 GMT"
+    },
+    {
+      "id": "c4d4892c096e8de0",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
+      "title": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus - Institut Pasteur",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZmpkNGtLUVBzenZ2aEFOMklIUDBIVmZXV08xRWNnZ1hfNFlrdUFhS0R0RzdaVFhBeGxsMEthM191Mi1zTlVBWjFxY1d3OFRhWExWWFlXQjFHZEtzWHp2U2tkQW5EX3NmRFBsNjNjZ0pjd1ByQjYwM1l4czFRNUZXZFliOXJwcGN6X1JNWXZzb2ZrbTRfZ2VXYXhxdzhCZDRuZWVTNFJqaUt2MEY0U0V4YWdRcktZaENNdG1Ra2FvWTNjRlQzRkJhVmtJSkR6NWZVVS04ZVdB?oc=5",
+      "snippet": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus Institut Pasteur",
+      "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
       "id": "7e71483408c59276",
@@ -301,17 +301,6 @@
       "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
-      "id": "a29574f1fde17688",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
-      "title": "WHO’s response to hantavirus cases linked to a cruise ship - World Health Organization (WHO)",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelRHb3JINWxkUDFNQXF2SmExU2RscVB0YlJoTzFIdk9DTGFyMEtCS0llMzh5bHNXUkdUSWdNOWtGandBb19RLUtMd3hka0lLLVBBUjBXZHNXaTJUbWFhZmN2N1EyOGVNVlU3SmZHZmtGUXVjT3BSeHJEUGs1cHZ4Z3pmV0Q1ZTk2azlpYVJHQ0Y0dmp0OVlnVm9BSDg2eUcw?oc=5",
-      "snippet": "WHO’s response to hantavirus cases linked to a cruise ship World Health Organization (WHO)",
-      "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "1a8bf8c06ccd4be9",
       "kind": "media",
       "tier": 2,
@@ -321,6 +310,17 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUp1UElUWjE0QVAtQl9rRkRzWWhvSG1LTWpIR1NZc1NETUFYYnVsN2dqQW10ZmV2UW9qN3FsREdFenRfVF94S1hqRFhUc25WVzNfRnJVWjlKeUdVOEVVSkdxWVJ2NG4wS2tYM09TQ285VzY5OVl4dGxmUUxmU1A0YXl3T204ZXdzVnM1WDR3cWFlOTJWa2s3LWlobEI0X1NFdVBubWhqb1pXN0MwQUkzcmxZbEVFaEpyb2lDSU9iaw?oc=5",
       "snippet": "Medical epidemiologist explains what to know about the cruise ship hantavirus outbreak PBS",
       "published": "Sat, 09 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "a29574f1fde17688",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
+      "title": "WHO’s response to hantavirus cases linked to a cruise ship - World Health Organization (WHO)",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelRHb3JINWxkUDFNQXF2SmExU2RscVB0YlJoTzFIdk9DTGFyMEtCS0llMzh5bHNXUkdUSWdNOWtGandBb19RLUtMd3hka0lLLVBBUjBXZHNXaTJUbWFhZmN2N1EyOGVNVlU3SmZHZmtGUXVjT3BSeHJEUGs1cHZ4Z3pmV0Q1ZTk2azlpYVJHQ0Y0dmp0OVlnVm9BSDg2eUcw?oc=5",
+      "snippet": "WHO’s response to hantavirus cases linked to a cruise ship World Health Organization (WHO)",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
       "id": "92c4cdf5bcfde8c8",
@@ -444,17 +444,6 @@
       "published": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
-      "id": "fb38c282c4ceba24",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "US cruise passenger quarantining for hantavirus says he will remain in Nebraska for full 42 days - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTlB5M0NuMVRROTM2cmVCenV4TW54UXM5ajBlSWVRRVd3bV9YMm01TkhrcTZrOWlqS204dkpfWmE3Sk9XRkVlclFOelVsNDAzeTVjMXNHV0t6d0NvWFl5T2pQVDV5V28wdlJ6c1NLZ0Fxa3h3dHNzMUVtT3hpRUZZR3FzaFdjbDEweUoxanBFZE9NdWZnMGJRVUMtbWJfUzdUSGVNRTZCeUZCYkVFUDJJ0gG0AUFVX3lxTE1TcTA4Y0hNUjA3MmkwUlYtY00wRzdSOW1ZMW5EQ25iUnBCTlc2TllEWjRJRnMtM0p2UFlJcVhVOWltcWVCSVZuYktIREFzNFNXSEd0WmdjM2dvMm9MWXM3R1J2alRNQ0E2SndoSFJ6SVZvNktYeXI1cGo0ZVNiUGtMYlRJc3V4czk5VTRmdjU1R3BmYlVobGhBaDRzbDBqVURVc0ZmalJFczJtbTBUSnZQQmVtTA?oc=5",
-      "snippet": "US cruise passenger quarantining for hantavirus says he will remain in Nebraska for full 42 days ABC News - Breaking News, Latest News and Videos",
-      "published": "Mon, 01 Jun 2026 15:14:09 GMT"
-    },
-    {
       "id": "693321630cff08d2",
       "kind": "media",
       "tier": 2,
@@ -464,6 +453,17 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWZhQURrMHJ6eXpCaGNucmdrczN6eHJZWUpFZmlwS0tQQXgxaUI3alR4cE5FUEM5U1VwOHl5bHNUclpHa2hmZHpBUFAwUFhiMXA3OVZuZVBKQzlYbnpONXhGdmJMaWh3RHFUU25keVF3cFJVU19TMkVHYW1vMnVIZWVaa0tWOExNM3FvVWZNUkllRzhlSi1XNkItQWo5dDhn?oc=5",
       "snippet": "Five US passengers from hantavirus-hit ship return to home states Reuters",
       "published": "Tue, 02 Jun 2026 14:11:26 GMT"
+    },
+    {
+      "id": "fb38c282c4ceba24",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
+      "title": "US cruise passenger quarantining for hantavirus says he will remain in Nebraska for full 42 days - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTlB5M0NuMVRROTM2cmVCenV4TW54UXM5ajBlSWVRRVd3bV9YMm01TkhrcTZrOWlqS204dkpfWmE3Sk9XRkVlclFOelVsNDAzeTVjMXNHV0t6d0NvWFl5T2pQVDV5V28wdlJ6c1NLZ0Fxa3h3dHNzMUVtT3hpRUZZR3FzaFdjbDEweUoxanBFZE9NdWZnMGJRVUMtbWJfUzdUSGVNRTZCeUZCYkVFUDJJ0gG0AUFVX3lxTE1TcTA4Y0hNUjA3MmkwUlYtY00wRzdSOW1ZMW5EQ25iUnBCTlc2TllEWjRJRnMtM0p2UFlJcVhVOWltcWVCSVZuYktIREFzNFNXSEd0WmdjM2dvMm9MWXM3R1J2alRNQ0E2SndoSFJ6SVZvNktYeXI1cGo0ZVNiUGtMYlRJc3V4czk5VTRmdjU1R3BmYlVobGhBaDRzbDBqVURVc0ZmalJFczJtbTBUSnZQQmVtTA?oc=5",
+      "snippet": "US cruise passenger quarantining for hantavirus says he will remain in Nebraska for full 42 days ABC News - Breaking News, Latest News and Videos",
+      "published": "Mon, 01 Jun 2026 15:14:09 GMT"
     },
     {
       "id": "f5f785764512f2f2",
@@ -554,15 +554,15 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
-      "id": "70e23e32daba5b28",
+      "id": "4241ffc3abd3f354",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "A cruise ship outbreak made the world aware of hantavirus. Scientists want to use this new fame - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHlxYUY1Ujd1Q0YyakZseUEycUlEbTUtaDlHTE5DSWQtLTViQ2swYUhNMzc5eEhpRW1lNENydlRfbjF6bWVJZjZfbGJxd1BKQnkxVW51cWs2OUhQNFhaXzNPZ2tOcDIyVXBGak5qQ21oOXVkNWFoNW14R3BsSTBSOG1RY1MxQk9ZXzVibWJqbUdDcU1m?oc=5",
-      "snippet": "A cruise ship outbreak made the world aware of hantavirus. Scientists want to use this new fame The Independent",
-      "published": "Thu, 04 Jun 2026 06:21:00 GMT"
+      "title": "Should You Cancel Your Cruise as Deadly Hantavirus Emerges? - American Community Media",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUUxUUFZLcmtPZnlhTXpvWV9nWEY4MENGM1J6QzFhcFF4LW1EU3h2LXItWXhHYkhISnM1bndwVk9IcDQ5dnZhY2d5QWtWX0FwS0JFT2dONzBCWDVESGhGbzF6dTlwWHZJcXNhZTJDbk9MZDRVQW00YTJlZlhBdC0wcEp6STF2VDlXMjY4OW5NMDh6a193XzJzSnU2YXFreDQ2b0FCeW9rQ3hWdw?oc=5",
+      "snippet": "Should You Cancel Your Cruise as Deadly Hantavirus Emerges? American Community Media",
+      "published": "Thu, 04 Jun 2026 12:00:50 GMT"
     },
     {
       "id": "14f86658f025ec0f",
@@ -574,6 +574,17 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZi16eU53MVdRRjU5VFBIcV9hU2d2dWFDYlJ2LXdfUGRZLUVoZV9WWGRWSE9pQjNVQWtvdHNlcVM5SkFNZUJGU3g3UlBmR0RSSS1nZXIwbWNwakM4NG9YMlFra3NmRE1OeHVxWEZMTWtjcWxfSXJabGhkd2JpZVJBVkNtaXY2eENKMGVzYXVEMU5mcHNjdkxkdE5oQ3NiZ2RxTjZWRWxDa1NjSU1ldzlrSkVFY05Cc0p4Y3NoNEZmT2dzS09YU1dCVmdyWkJSVVBpb004X2NyNlpsZ01TZlRDanpMTQ?oc=5",
       "snippet": "Oregon Health Authority monitors returning MV Hondius passenger after hantavirus outbreak KATU",
       "published": "Tue, 02 Jun 2026 17:11:02 GMT"
+    },
+    {
+      "id": "70e23e32daba5b28",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
+      "title": "A cruise ship outbreak made the world aware of hantavirus. Scientists want to use this new fame - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHlxYUY1Ujd1Q0YyakZseUEycUlEbTUtaDlHTE5DSWQtLTViQ2swYUhNMzc5eEhpRW1lNENydlRfbjF6bWVJZjZfbGJxd1BKQnkxVW51cWs2OUhQNFhaXzNPZ2tOcDIyVXBGak5qQ21oOXVkNWFoNW14R3BsSTBSOG1RY1MxQk9ZXzVibWJqbUdDcU1m?oc=5",
+      "snippet": "A cruise ship outbreak made the world aware of hantavirus. Scientists want to use this new fame The Independent",
+      "published": "Thu, 04 Jun 2026 06:21:00 GMT"
     },
     {
       "id": "81c30f6bb39f1ac9",
@@ -598,17 +609,6 @@
       "published": "Wed, 03 Jun 2026 09:00:00 GMT"
     },
     {
-      "id": "1b925521718b2672",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "Hantavirus Cruise Ship Cleared for Sailing as MV Hondius Returns to Service, Offering Important Travel Lessons for Cruise Passengers Worldwide - Travel And Tour World",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YcnhHMGkxSDdmX0NiNXMwazJUT0paTFdmTGRlWjBBZWpfeXo1LWl5UkhXU2g1c3RpX01DZEhkblRDV3NHTWxZYTdYNFdQYjRlcDhYcXg3dDhscmxfbFoxMmVhSDZaUm9GVmM1UTBR?oc=5",
-      "snippet": "Hantavirus Cruise Ship Cleared for Sailing as MV Hondius Returns to Service, Offering Important Travel Lessons for Cruise Passengers Worldwide Travel And Tour World",
-      "published": "Thu, 04 Jun 2026 05:02:31 GMT"
-    },
-    {
       "id": "ef94430970e2ba38",
       "kind": "media",
       "tier": 2,
@@ -631,17 +631,6 @@
       "published": "Tue, 02 Jun 2026 18:19:00 GMT"
     },
     {
-      "id": "5c7d2882af07d530",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "Oregonian returns home after cruise ship hantavirus exposure - Elkhorn Media Group",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTzByQkQwaWZSdTRybEZsdXZLbEtOWGdjYm8wbjNqaUpGdUE0TVlPWFNMZVU4dDlZanRfajM5d0cyLUNMeWRXN2YyVDBES0Jadzh2S3FCMEJNWVMxbEZrNHZNWUxFSW5zVG9BR1IyeWh0X0FFaG5kSTliWVhmY0k5ZTdTazZxWHVJckxGWXdtV2FBa3ItWFE?oc=5",
-      "snippet": "Oregonian returns home after cruise ship hantavirus exposure Elkhorn Media Group",
-      "published": "Wed, 03 Jun 2026 15:38:48 GMT"
-    },
-    {
       "id": "5a94106820d5adc6",
       "kind": "media",
       "tier": 2,
@@ -662,6 +651,17 @@
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMUJJQ1V1NHdEeFlydkV2X0o5SHk2QW1EYXNHZXRETm9QeHNtWHNKQnVFT2JOLWpYZzYyWTc3bEMtUTdlNGRVczBtelljcHlfanpBUEtZSlF5TjJBLTljWW5RRWpwOUtFMkkyMmhXT0owM2FUaGdydDRySTZiTWNLNmE5ZVd2YUZVTlQ3bENSdThabEd4YXNCSzI3MUg3Ym9uREt5Nm12OEVpX3F3QXdPSnd0UjJOQ3g0M0Z3aDljMi11d3RneXA0eG1KNTR0ZzkxRzdnNE1oaENweTNGNUlzVDBkWGludXFrVS1VUnJoZHJKZndQMHBjTQ?oc=5",
       "snippet": "Exposed Hantavirus Patients Could Go Home—If They Agree To 24/7 Surveillance (Latest Updates) Forbes",
       "published": "Fri, 29 May 2026 13:23:00 GMT"
+    },
+    {
+      "id": "8a03827828b245aa",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
+      "title": "Hantavirus death reported in Mohave County - KTAR News 92.3 FM",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wYXRBcXNDVFNJRHhVUnJ0bVJsUk1IZHRRT0hSd0tuM0ZfQXg4MzBha2o3SndLbjBZWm9LVjh0bWM1R3JtQ015eXdaUXBKbHRPZGtUSEg3OXhmcC1NUUZIWlVEVHdId0lOSmdIWjhneDhoSDl1TzhQYw?oc=5",
+      "snippet": "Hantavirus death reported in Mohave County KTAR News 92.3 FM",
+      "published": "Tue, 02 Jun 2026 16:18:10 GMT"
     },
     {
       "id": "171daa04ffc06765",
@@ -862,6 +862,17 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
+      "id": "4ca6f81c0cff8ca1",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
+      "title": "Bend doctor returns home to finish quarantine after hantavirus outbreak on cruise ship - OregonLive.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd2RzN2MxZ3d3cFpDU284V0VjNW53VVE1OG4ycFN0a1ptVGRvbDRUUlIwekZPWks3Y0RrcDdWNERjQmZqWkhyYVVQRkplVFZ5UUs4clk5Um9pZGg1RXU1TVdZVHVQSkdpdDN0ejdvME1ndjA0d1p1UzBVbjNHOWw5RGNuR19JM3FrLVZpRGwtX0Y3elNqQ084YUZNUGNLa2xUM3RhVDBMYnJNa3FTRzIwcXlTRzRsR0RDVFJudlBITTh2Y2RQejh6T1NsNlZZZ9IB4gFBVV95cUxOMjRxYWdyQl9ONkx2OVVQbm5XUXVWaFNlREhIbEJ5cmdqTXI1cFZLN2Q2UmtDNHBHQUc2Y3M3dmd3ZWFWQWFiVWx3dlFEM2VpcDZkOW15Qk1RcTNSMWVjbnpfM05hTDhma2VGRFJ5ZmhtTDY4QV9QZDVtVXJ3Q09sQ2pOc1htd08tR2luR3lDNlZzZVpOOXM2NHZuRmJZelcxeDhKdTN5eGl5TjFPZHMyeWEyRkM3TjdLRVV5dlJPbWdDQ2g1OVBWN2RmX0QtdWZBZ2g2Q1g1aFRzbWJ1OWdmanhR?oc=5",
+      "snippet": "Bend doctor returns home to finish quarantine after hantavirus outbreak on cruise ship OregonLive.com",
+      "published": "Thu, 04 Jun 2026 00:01:00 GMT"
+    },
+    {
       "id": "236ca18cd90465e2",
       "kind": "media",
       "tier": 2,
@@ -871,17 +882,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNLWJUd3NTYThMSWNxdFd2T08yQldCSWo5dVRhUUlVQjhLUW00eFdrQjZiT3JBcVppSXcwRDhBYVh5cmRTR215eThRUHlWM3I1OG96R3NoRXdwLWczQVktRUltaVNkNVRKREdqSDB1MzBENFhZUVBYQlBXaEJ2Y3ZvbjRCQWFBMDZJakxfT3E2WG1IZU0wSHdINnhhbVBnOHNuSl9kTjd1SEJlUGNaWlJJTEdKNjlvMWlZaVFFbW1jYzhaQ1Z6UTB0VE5yeTI5SGVkU0FkdVZZSzZscm9ublNhdjNhUkpKa3B4VXIxVFdpT1BQLTJ6OFVOWHl5dDRUZGRUZXRuNGxmR3dtTE1QbFZPUmNBTQ?oc=5",
       "snippet": "Hantavirus Updates County of San Luis Obispo (.gov)",
       "published": "Fri, 15 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "c98436729a2803c2",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
-      "title": "2026 Multi-country Hantavirus Cluster Linked to Cruise Ship - Centers for Disease Control and Prevention | CDC (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mR1BPWFMwOEJxZnFIU3p1ZS1OVnBvR2pTVFY4Z2wzekhRV3NraU9oQlc2NDdVNUIxVXFlN1ZKUUJFaWFzR3g1NGNaSUd1ZXV0ZVZaLXV5V1JZMjE0M3c?oc=5",
-      "snippet": "2026 Multi-country Hantavirus Cluster Linked to Cruise Ship Centers for Disease Control and Prevention | CDC (.gov)",
-      "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
       "id": "cb9f76ac4017968b",
@@ -895,15 +895,37 @@
       "published": "Tue, 02 Jun 2026 14:11:26 GMT"
     },
     {
-      "id": "89355637238ceebd",
+      "id": "f5ec97b94d0fc416",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "5 American cruise ship passengers leave Nebraska quarantine facility - InformNNY.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGNLQnN3WU8wMHFaN3NJcjhVd0RlSnJlVVUwRGkzQ0RsTjJxSktHYk9rTmxkMUd3Q1JFY25HWml0bUU5d2p0YnI5QTlCT2Q1aXVqd0w0Mjd5RDJsU2ZiTjQ2cWdQOHVUWlVrVWxlSDg3MFFVa3RPNWZMWVdoYm0xOWVEYzF2R0tIM28tVnUwNXBfM0tRc1BWTmhxS3d5MEd2eC1SYWJJVGxqNGhmM3JxY1VWbDV1Z9IBuwFBVV95cUxNNHoyTF9xcW80UFNod1phZ1dYaDl0UFpERTR3QzF1Zkd2MzFOT3dpV1IyVFBFU09MQlZxLU83TXF5UUhpcGxIb29uVHB6OTQxeHpNZUxZWHdHT3JZeFRraXVFcnUxc09RWWUwLXVLR2xhOXpYRkVPQkFuY0tkYTVXTDZCZWQ4ZHY1RUZrZXY5V01HaV9kcVd1cW04SVkycUNlYUtraFFUSTZlaklSeWE1U3pPRDVfcGNXQlU4?oc=5",
-      "snippet": "5 American cruise ship passengers leave Nebraska quarantine facility InformNNY.com",
+      "title": "5 American cruise ship passengers leave Nebraska quarantine facility - WOWK 13 News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVlgyaFFiRWppeTJPZEc4aWpVNlczS1l2ZGNNSzFQM283Y3dQQ3hEejBld3UzdDhIZG1nTUNJRkV5WHJOREJUa3dGM1dOUGh3eVp0MS04ZlQwczNZUkxqcEZpdUd0SnE3UUVxRmd6UXhTdHVfanhkSUstQ3RBWHBRbFJBZUJTSUo0eXl5SkRkUUo0dm5scUw5RzUwWGRUYjRwN0RtSnZDUFo0WjJoMTdn0gG0AUFVX3lxTFBRZ052STc5ZzQwbFhSTVQ3dEw2Wk52SUhhd3BHLUREbE95V1V2LTBfMWNEd2hYMVphOGZmcDlZaTlPQlNNY3dWb3FhdVIxVjFucWlWOThlNHRqWmNjVjhXeUVselBtUzR1VHNkYWdYMUpDOE5lTEdkMUVheUtfWkkzVVZuV0xNNTZtWFpTVFgxbDIyZlJVS3VXRDhXRmZHdHFnQTllejB3WWRtRzB1ZjI1OXBOTQ?oc=5",
+      "snippet": "5 American cruise ship passengers leave Nebraska quarantine facility WOWK 13 News",
       "published": "Mon, 01 Jun 2026 23:51:27 GMT"
+    },
+    {
+      "id": "fa8174a056936faa",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUWlQaHNoaWNyYk5NYjBWRFQyQ3VjdGR5QjJCNnJhSnZOYldPS2pzQnVCa1d0ZzRmRVVYWE9GeGJiUjltNXlULUpKT3RLZ3ZVVEZTMFBUamdEX3lZNVZhUzlBbnRfaHBVQ0pmOWx4LUZMRGE2cGVHcmkxSHdINWZYTEFqeGpxTTg5M1VzRXpB?oc=5",
+      "snippet": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus CNN",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "14835eb309e24457",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVBNLUlScGFKUW5aV3QxbGlsNEdlelFBX1ZrOWZEMF9GQlREeGp5UDVNNERDZkNxNTdSOVpfNUh4eDh1eFFfVS1QQ1ZadjQxNVEtQkNHVWtZeGlpMGw3TFRfcU9oZ0E0LXJDc1hrNXFYamVpZW04MGxJSExNaTBBXzhSd2wtd053TUswR2Y3TVEwYm9lUUgwUkZKZXkyQXIzLU4xRzd5WDVLRTg?oc=5",
+      "snippet": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak PBS",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "80ed48b74cfddf1d",
@@ -917,6 +939,39 @@
       "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
+      "id": "73e5cca2bd4cd069",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Cruise ship stricken with hantavirus heads for Tenerife - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeTRSRmsyWi1CcVVmNW9WWGJjemxLajRpYm4xeGFDVnYwQzVYZ0JtajZHTkNaZ0tRMjZyUXFGS2lUQnZVcVItUlJoUmZpVWk4cEphVFBaY0VFb3JwN1pjSGpaaUxaUFktaUpwTktlTEFHNl9yTWduOXJPb1NqTUw0THdpMlViRTRMYXdZcXo0TEVkUjJhTEoyTWhiRjVQbE9rb0R0aU9zUm14dGUzOGd6d1Vn0gG3AUFVX3lxTE13QUZOSkx6cHIyVzN2THhDUFgwVFgtMlVROHdyRW5XaW1QTmNOc3g0dU0tWHBMbU93QXVoNUxfSDVLYXBMUTZ5c3hpWnM2S2JnY0g1V3lRV3lZRFlNcUlYM3VGNF9Ob0txajZ6UFFFTE9hbzM4d1RDR0QxemlSY2RHX3ZzMGcwNTFrV2Z4Z3lXa3JjYmNpbERZVU5ZSjJCaFNFYThrNWw1UmljRnY1TnJnS05GVk8zcw?oc=5",
+      "snippet": "Cruise ship stricken with hantavirus heads for Tenerife Al Jazeera",
+      "published": "Sat, 09 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "af66065a619f53cf",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Americans evacuated from hantavirus-stricken cruise ship off Spanish island - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeVoteDROS3dnNXhsOUI4Q2tGVVh1eW8ycGFSakt2b3RlXy1TRndyMVlFd3Y3SWpLVUphd2UzS3BnREZLZzFSTUQ4ZHlxcXF3UUlYZk0ya3Q0b0NTT3BxLWhLVC16bzhNMGt6akFfdmozRVo1OWhqRVNoTnUyblZvVnFIaHM0LWU5bnd1Zmd6NUtLUHVaSF8xSHltWE50WGw0eEk0dw?oc=5",
+      "snippet": "Americans evacuated from hantavirus-stricken cruise ship off Spanish island NBC News",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "4b8c19a3dcfc0dd3",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "WHO head seeks to reassure residents of Spanish island where hantavirus-stricken ship is headed - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb05zTGw3TGhLdkNheUxIRGJKVDZjS2hKdFpCcktpQmFOMndIZWhYQ0ZQd3l6VWhrSVB3b0ZFZEE2RVJXNmJ6V1BOTDEzY0k5R1o4MjJ5Z3dacWFsRXNuaDNWaTBEUlpvUkhjUVRYTFAxQmJOcnZoUjByRW11V1luaXFfOWo4RnhkT0xlanA4V0V2V0FEMmF5ZHNOSGU?oc=5",
+      "snippet": "WHO head seeks to reassure residents of Spanish island where hantavirus-stricken ship is headed AP News",
+      "published": "Sat, 09 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "e879c7aa2dd99961",
       "kind": "media",
       "tier": 2,
@@ -926,6 +981,39 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVERsblJVX3J6Rkc2cGgxQmxIZ2xMNGVaaFlvem5NMzBTYkdkWDlqd2V5cEVORXFlM3FCLWZwWnhuWHJ3d3hSaTVxc1hPLW13ZXFjR3pZOTY5emlreWlYMFlRb2xCMTFkRy1qSTh5OUxqaTV4c1dWazBHZEw0VzJseGVGZkc2ckgyOW5ZNk45VXdCTGozX2dIemhzNWFtNnpKMHdXVnVn?oc=5",
       "snippet": "Passenger Evacuated from Hantavirus-Hit Cruise Ship Tests Positive for Disease in Spain People.com",
       "published": "Tue, 26 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "0568f58464a87637",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Cruise ship hit by hantavirus outbreak docks in Rotterdam - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YNXdzUmhnNzhwYVBjODIxd1RFWkh6MDR1cVNSMHpqYWhPdEMyOXJBcGQxa2g0Uy1RQ1pOWGs4eWozSW14R1RGSzNiMVZlMEtaR2FUR3BIVHA3dw?oc=5",
+      "snippet": "Cruise ship hit by hantavirus outbreak docks in Rotterdam BBC",
+      "published": "Mon, 18 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "a7379219e9c44e55",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "WHO says hantavirus ship operation completed, monitoring to continue - UN News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWMGp0RzVhcGRfQnlSUXE2ZmxzMm83cGZpc3N4bW1hVlRac1V3M3U4VnFXOUJvUWs2V29WV0lZeHdub0swVEREa2k4RENxdDZtY3hOSTZqVQ?oc=5",
+      "snippet": "WHO says hantavirus ship operation completed, monitoring to continue UN News",
+      "published": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "d8ad3344f3e23d63",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Hantavirus-hit ship sets sail for Netherlands as final passengers evacuated in Tenerife - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXhSWllhVGpLWXlNNEpYZ29fc3FPN0JZOWNQOTEtNjJwRWR0dEhFQ0N4WEJWS0tPdjFoRkpsY0hLUHVmSlhUbXFFa3hpTGtSdmhIZkhiOUFnQS14dDhGdWlVNDBFbkVvWVBvdnJ0RC1fN2VocV91WVpHb1NtQ0Z6eFlqR2hibjNBOWVNTGFiQ0ZkU3NJNjFCRFBLYTF0TkJCSDlyUENPSUZIOFNCMTFDemp3dVB1dVBWU0ZQNGlwejZINmdWVDhiQUNiQlM5RHZ2?oc=5",
+      "snippet": "Hantavirus-hit ship sets sail for Netherlands as final passengers evacuated in Tenerife Reuters",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "f78f346cfbc9b544",
@@ -939,6 +1027,39 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT"
     },
     {
+      "id": "b3173cb1d18846b0",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "WHO chief reassures Tenerife residents ahead of hantavirus cruise ship arrival - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VOVEwd3FEMjNadzU1T0lWcHJlRUZUb3RhR3RWekxjVm9sRWZjalliLWszX0tYN1BXTVMzV3cybjRsd3JFZlRpRU9xQk0zeS01TXI3bGhkcU1EUQ?oc=5",
+      "snippet": "WHO chief reassures Tenerife residents ahead of hantavirus cruise ship arrival BBC",
+      "published": "Sat, 09 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "f2a37a7a30d5f7a2",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Evacuated US and French MV Hondius passengers test positive for hantavirus - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkdZc2lRVkRBeHBQLVdvYkR5S3VvLXVLZ0NmNTlIb25IX01xOTV3WnFackFhenlnNGxaUzdDQ2hfdkxEVmthRTVaR1JKbi1BOWFQLVo4T3lrOERuTVBmc2FfYlZNSFdaZXE5dGpXdDQ4XzN4Qkc2TXFEMDlTQnNyR3ZCUGtkSjRBNnVmSl90eG1JQTZrN2RDMGUzSmlWZ0tFRTF4eWNaSzFJMHB1anN1Nkd4dHdVd0sxOVFtbFR1QThvLVlkTEtWM2QxQzU?oc=5",
+      "snippet": "Evacuated US and French MV Hondius passengers test positive for hantavirus The Guardian",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "fff1feec23de0724",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Evacuation flights leave Tenerife after cruise ship virus outbreak - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTZWRnJKRW80UDVpWnhYcjVURGlTaUxjZXlrUHIxY0hKeGIxZ0h0b2FjQTZoeGxqUlNmTjZoZXNDZzlPTXU2S1dmLS1PMnpoX2VhcUQ4UGR5RDJIaXJ1UnhhVmx1NDJBRWt5bzhPZURCV0s0dUZTejE0MHB3enRMSmxham9mNmdGUXRScTkxNWxXaFFLalEtY3ZKM2NlcEF1NDgxbzdxWENGZTh4RzRrQzJTNVRYY0ZweHdyTDdqX19Sal9VMFE?oc=5",
+      "snippet": "Evacuation flights leave Tenerife after cruise ship virus outbreak Reuters",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "74a5e94af4871718",
       "kind": "media",
       "tier": 2,
@@ -948,83 +1069,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOU9SbXBwMGU3SWV2VlBYN1dlRG94YklqMUQ3R0tHTmd0TUhTT1pxQzYwLU9iNmFUTUxyYk5DaXRteEloVkcwNlduS1EzNFlHUHdfUW1iVE9SR0pzZm5oVGgxNVU4RXJ5YUIyenE3LVVaTlRMRThEcjRyeWRJejVEQXowR0hqVFRMOFp2bU9XSncyX3NTNXptWWlnRS1HNm12amNV?oc=5",
       "snippet": "Hantavirus Outbreak Tests Global Health Law Amid WHO Crisis Think Global Health",
       "published": "Wed, 13 May 2026 21:19:18 GMT"
-    },
-    {
-      "id": "4dc2e5169ff6db56",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Multitude of questions remain over hantavirus outbreak as MV Hondius sets sail for Tenerife - France 24",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZmFkcU5FM0NPTzg3dy00ek9JQ29SSkpVMjMxRTQ3MHZGWGlEV20ydHJPVVFFbDlXeXRTUlRyeElEVFREcUtRczBpcU0xREh0RDl5TmFoWnpaU0NYRXQ5U3lhcko5M29TUHZoOXd3c1hHNDlYcGl5NUNFc2kxZGxuTmpGOGxXSUJva21BbHg3YkV5cTJNQzhlZXl0bmxIekdPbG1MbWxsNjFQVzRPSVlOcUFNTWpNbklaRHZDLUw5YnNmTVViQkZYRVBoWlVDSVk?oc=5",
-      "snippet": "Multitude of questions remain over hantavirus outbreak as MV Hondius sets sail for Tenerife France 24",
-      "published": "Wed, 06 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "670abc76ea16410a",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Hantavirus-ridden MV Hondius cruise ship anchors in Canary Islands after deadly outbreak — as passengers evacuate - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeGpxVTBjVE9NWlhDU2lINEdnVWhDYV9yejNFWjV2QVZqcU5FMGE1WFBYYXIwQjc1YnFFWE9XNTI3SGVjSk9LOXhGUk9kcG9seGRfUGkyV1c2NGhWVnE0RVdpT0xKYnVRanMxUEt4aE5Ld2cxenllRks1ZHA0VEtGQW1VeWtybF9uNVlZaXd3emFKWnNpMkx0Tlk3VjlpMFYxSzgyc0hvOUZxNXNhRFBkaU5XX3lNejctNExTMDdVMEg4cTZiYmVmeGJB?oc=5",
-      "snippet": "Hantavirus-ridden MV Hondius cruise ship anchors in Canary Islands after deadly outbreak — as passengers evacuate New York Post",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "30f92b09866d4e1f",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "How a Nature Cruise Turned Into a Nightmare - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0RhYk1MVnRWZ01DdEhhcTRIelU0ZFMtVDMwekFBdlBjSUdQSG56cllUc1ljYjJyZkM0RXhoRHAyRE0xOHE0MEJvM3BZUTd4UWkwaGE4UE8wVlhUM1g5R29YWWIyeFV2bXBjN09yT2p6OV9acUNYRVctSzd1YmhSZVZFeTI?oc=5",
-      "snippet": "How a Nature Cruise Turned Into a Nightmare The New York Times",
-      "published": "Sat, 16 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "252115269adbaa37",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Spain readies for evacuations as a hantavirus-hit cruise ship heads for Canary Islands - NPR",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XZFZvZnhhcm82bWV5bzZjUHlQRjFzSGdFc1JHOXBZSnNpajIwMEFBS0QzZHhaR2d4aWdNZ3p1cVRkeENRRXFGWTM5NnFGMHk5b2JvX1JPQmljRnZ3VjRVdng1LUhIWVhETnZJcXRKU3VuUUM1RDdOWHZELWc?oc=5",
-      "snippet": "Spain readies for evacuations as a hantavirus-hit cruise ship heads for Canary Islands NPR",
-      "published": "Fri, 08 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "69c4149517a8af2d",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Passengers leave hantavirus-hit cruise ship in Tenerife as WHO says outbreak ‘not another COVID’ - UN News",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tbWljNWtHYXdEcTVlREZPRUF4eHluQ1NyWENhYzNNZklvNUFaTnBrSUVxa2pYVjNaRVROeUFWSUNyUnIyS1Y5X2l5eU5kTUEyNlFqd3RNcw?oc=5",
-      "snippet": "Passengers leave hantavirus-hit cruise ship in Tenerife as WHO says outbreak ‘not another COVID’ UN News",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "5f121c1c6044e322",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Tenerife resident calls docking of hantavirus ship 'reckless' - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mVGVRcURzLWYtMm1ud1RzTkxhTTg5djdNNHRZbWtIZ2xlSTFrc001blpYU0MzX01DVFRHWEVpU1pPX1NfakdBS2RLajM2WHliVC1KS2RHWQ?oc=5",
-      "snippet": "Tenerife resident calls docking of hantavirus ship 'reckless' BBC",
-      "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "93f462806f3a10d2",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "MV Hondius cruise ship hit by hantavirus outbreak arrives in Tenerife - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04RUxJQ2ozbm9lX0F0YlNienNZUkVSR0pGc0VnbWY3UWd6MEJLaWVyOHN2SkdEUzQ2UzdrMFU4MDhoU2ZFX0kxbVMtMVZLVkphSmpUOGlkek1BbktDc09R?oc=5",
-      "snippet": "MV Hondius cruise ship hit by hantavirus outbreak arrives in Tenerife The Jerusalem Post",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "aa5bc7bbc5728762",
@@ -1038,69 +1082,25 @@
       "published": "Wed, 27 May 2026 07:20:42 GMT"
     },
     {
-      "id": "75130a6b318fb76c",
+      "id": "1ca077027c1838e0",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "From US to Singapore, countries race to track hantavirus - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWnNDUGRsdW1KUHBpYUJOMkY0UzlfN05SRUwwNEVnbVh3TzVISXZsMXF1NFIxRWF2SnpoMnZnX24tS3BVSW5ocGw4dHRSREV4bnI1RExteTJ3WV9FaUpWTF9ZTTMwMm03dm9IUmYxQ1k0SVhITDZDUEpzX0F4UFR6cA?oc=5",
-      "snippet": "From US to Singapore, countries race to track hantavirus CNN",
-      "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "1612100d3e424b55",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "What to Know About the Hantavirus Outbreak on an Atlantic Cruise Ship - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTU9TN2lob0g1ZUQ4RFQ5dzlMY09oSnFJSTFtcjRtb1BRNkVXQll1MXBNSjluaXIyTDZIc2g4STl3dXpRMnJ2NFo1WVhndWcxLWdNdkRlX0J4am9mLTVBbTdNaWY0em14SDJOemdpYVZZcFlSSVE4VHJHdU1wV3R6ekxn?oc=5",
-      "snippet": "What to Know About the Hantavirus Outbreak on an Atlantic Cruise Ship The New York Times",
-      "published": "Mon, 18 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "cb0470a289c1f28c",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Hantavirus cruise ship: Evacuation begins - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFNiZGs0Z1NOZVBuZFUwNkN1SFd4YVlPZjNiRV9LUDB4MjgzZGktZGpjaV9hUjhqWmZJd2I4WWpmUGQwZURGTC1RVV8yNXhuTFZ3elRDOVBoRDUyVmRQTi1QdEF2OEJqN0ZfXzRFMEl6T0V3cDV2YnZ4M3pEUV9kMV9rQWoxRnB3d0Q4U0RjTGJpd9IBlwFBVV95cUxQRzFxckQzNEp3b1VwbzU3Z19uM3F3cGZDeHptakc5N3lQVVFGR05vWXdZalhaaVpTRy1hXzVwZU5mWGFfTW52QldwU21uaTJLMm9paW1HODltLUZyejk4Y2ltTmF5Qzd4RnJOY1hnZXU0eWFVM0ZlQTFzU2YtTlhlYXNVeXVLNkpTLXBiSjVzTHhxWEJkSFNz?oc=5",
-      "snippet": "Hantavirus cruise ship: Evacuation begins NewsNation",
+      "title": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus - NPR",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQUt0bVlySmtVMThuWmRuMWVJMGlJMkMwVk92VTV6TjNHSTZLQ1Y3MmJiQ09pRWNWVXdJWlIzMkNudUJON1RNNFpnYjhTdE1OeklsMXZWV2hGa3ZnbTNISHZQR05WSFE2bTFfSVc4R3hlUmlrOHE0ekZzQnhEaVdkNENtb2xmWEJWVzhFNHNvTmtEYXlT?oc=5",
+      "snippet": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus NPR",
       "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
-      "id": "bccd5a5c03e80d51",
+      "id": "aa7fdaa96dac0005",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Canadian from hantavirus-hit cruise ship tests positive - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSempEd1o2VDlqTl90RUJBZFJJQmhKMTlzMHRUWi1UWldzeGhzeHExSkF5OUluSkd3bEhSak5QSExXbVVxN0hkQlhlbHVqWGN0MmYtbXhiQjFFUQ?oc=5",
-      "snippet": "Canadian from hantavirus-hit cruise ship tests positive BBC",
-      "published": "Sun, 17 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "04ccb3899682a61b",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeklhUG91ZzdDNFI1M29QSVJwSjBjbkNPZlpZRFNISkZnN0xqMHBpMnA0SnZvdFFpcG9NTHdoMXdmVVItcm54NXBZRlhHdUlHaDRFWGF0UU9UdUZyaThPT1BDMXh0ZklIZ1ZMdUlzQUVjdHlaaVdmbmp1bGNDWlJPNDlSNU9JTFMtZkNj0gGQAUFVX3lxTFBzYXlmSjEyR2tzZS1xajhNMndpcUxDYWMxV0dXXy1taVpXcmE3djcwM0FFcmNuaFhTT3YzQWZ2OG1sbGJBT0VIUUtMRTR5TTJyY0JHT0VhRVVHalptdkNiWUNhMGc2MXdUcUpsRzVmWHpiaEVFVDItNEpvTEE3WjJuRHctNTRGUVBTdzBab0t0Sg?oc=5",
-      "snippet": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup NewsNation",
-      "published": "Wed, 13 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "3f6e9eb6d87da0e9",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Passengers from hantavirus-hit cruise ship fly to Madrid as CDC says outbreak threat is low - Oregon Public Broadcasting - OPB",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWE5jYkVwRE1IeFFsOWNCY3JibWFXOUc0d2tKdXp6UldsYVJIM1l0WG5DN2IxUHJGQlJUNVE0MXNBdHVJd0dfQWJFY2wxTjlEQXpqSnNzV0hwR01yTDk3dzJ1MC10NlFfMHVZZHFzSGc2RjZITV9QVWZqb0VEaG1wMFBFcjF5djNPNnczNTdnVEtKUGRSRkRRR2ZHb21vNVBqV0lHUzNvcVBOdmZPWDV1TFhrV2JOd0NrR3ZidTAxRzNUUQ?oc=5",
-      "snippet": "Passengers from hantavirus-hit cruise ship fly to Madrid as CDC says outbreak threat is low Oregon Public Broadcasting - OPB",
+      "title": "Countries airlift nationals evacuated from virus-hit cruise ship - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HcnFfclF5UHczNGdVXzhOWUJaM0x6NGJhYmlJdDJLM2hDcV80b1dXTlBCNU5DRWFhTGV5S0Vubm1EX01vRGQyejRyVkNOZVM0azRKX1B3OFlpUQ?oc=5",
+      "snippet": "Countries airlift nationals evacuated from virus-hit cruise ship BBC",
       "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
@@ -1733,17 +1733,6 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "a1728c438722c3ff",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "How to arm yourself against hantavirus misinformation - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdWlBdEtvUlJzcWU0Mk0zN2IzaGhRMVlpUmNKTTlZeVRaeUZsbDBNOGF3d1c0MHJfZHZUNHBOVWxSanRKd0dGRHJTZVFSVlBodk5qNGJiYy1WR050UWRYUVZ5OGkxNGY0WFZjZGJOSE5PNXUzNDdDSUt6ZXNUN25aQ09WWE5ac1Q1amhtX1RwVG5CREJBSWp3aXlMV0JVZw?oc=5",
-      "snippet": "How to arm yourself against hantavirus misinformation Scientific American",
-      "published": "Fri, 15 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "29b3e4651f827817",
       "kind": "academic",
       "tier": 3,
@@ -1753,6 +1742,17 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb0NsaFZTVlhyMWFBbkF1T0s0UkZ0dUFfWnhDNGxzMUctV290SzItcnVNUjFzakNmcGJuNWdTNlFKU2FXcmFLMXlvcGxMdjJMaWVHbDRVRzI5NjkwbC1VNm9QRG0zOXZDSWVtUGpFWFV0UUtwc0kwejlBYU5mXzh6dW9NVnpSdHpjUjd3bW56OVBvNy03d0RWbHRwQU9SOGJvUEF0UGxzMlBQZVhrcXRF?oc=5",
       "snippet": "“I could be in this room for 42 days and literally not get to breathe fresh air.” What it’s like quarantining for hantavirus Scientific American",
       "published": "Tue, 19 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "a1728c438722c3ff",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "How to arm yourself against hantavirus misinformation - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdWlBdEtvUlJzcWU0Mk0zN2IzaGhRMVlpUmNKTTlZeVRaeUZsbDBNOGF3d1c0MHJfZHZUNHBOVWxSanRKd0dGRHJTZVFSVlBodk5qNGJiYy1WR050UWRYUVZ5OGkxNGY0WFZjZGJOSE5PNXUzNDdDSUt6ZXNUN25aQ09WWE5ac1Q1amhtX1RwVG5CREJBSWp3aXlMV0JVZw?oc=5",
+      "snippet": "How to arm yourself against hantavirus misinformation Scientific American",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
       "id": "8ecd70d1ff5443bd",
@@ -1786,6 +1786,17 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3ZEU2LTUtYmdSV1FmQ1p5XzNrSWcwakFNU2FDeW0yRTExYmR1WkUyRlI1MlJFLTl1c28zc3BhOHJnUmRqQzBPWkl0YlMtdXVmVDRpaGd5cGpYZ0VxSWhUaEdmdkxfMHp1WDBIb0R4ZWVsN1VJYVhKc0F4SVNsdw?oc=5",
       "snippet": "Hantavirus questions grow in the wake of a cruise ship outbreak Science News",
       "published": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "b9dd8413e453ff20",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "CIDRAP",
+      "title": "Quick takes: Hantavirus quarantine, new COVID postexposure antiviral, combo flu-COVID vaccine study - CIDRAP",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWMzYjFiQ1lIc3Z4Nk1FdmJQRW1kM0J2eGdyZUVRVEdzOFI4SW5pWDJDczFmSnNJa3BxR095NmhkM1BSZEVKZTVIeDNRenkzYWtZamFUb3RtaUdjWXVTc0RfeGtuUTZJRVFwRmtxZDZKMkZhUlctQkZacktWTE51RklNd042aktoaXpFZWJUazhET0Ffdk14eFd3bWZiMXZZZUpTdGxtN3pkZHRybHdMTlMtYThpczNoSUtoY0NvQy10VEY5?oc=5",
+      "snippet": "Quick takes: Hantavirus quarantine, new COVID postexposure antiviral, combo flu-COVID vaccine study CIDRAP",
+      "published": "Mon, 01 Jun 2026 18:09:00 GMT"
     },
     {
       "id": "0464c77a76023ca6",
@@ -1975,17 +1986,6 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
-      "id": "c24251fa994e3ad7",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "CIDRAP",
-      "title": "Quick takes: Hantavirus quarantine update, new postexposure antiviral for COVID, combination flu/COVID vaccine study - CIDRAP",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzdOd3EybWk2V3NXeEIycU1SZ2RoZ3djc0I0d05fMngyY01yVktnRms3OVVfNUtXeGZZR3FwYTEyalQ1alhkRzJYWThGVzBxOVBuTXNBNjEwaEI3dWE0azBacjlnUXZvRVN4RFpfdzVPMTFXdklGM2I4Y0RFeFZrWFdOeHpITDhoOEpRZHFSZWdERjJ6Um5OUjVZNHE3NUFxRXhzcnZLc2pCZzNHVVNkVVQ2UFhBcFNQUC1GM3BB?oc=5",
-      "snippet": "Quick takes: Hantavirus quarantine update, new postexposure antiviral for COVID, combination flu/COVID vaccine study CIDRAP",
-      "published": "Mon, 01 Jun 2026 18:09:00 GMT"
-    },
-    {
       "id": "99fa19042bcdc1e2",
       "kind": "academic",
       "tier": 3,
@@ -2096,17 +2096,6 @@
       "published": "Fri, 29 May 2026 09:32:00 GMT"
     },
     {
-      "id": "e8bfca5280b121b3",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity - Avian Flu Diary",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVRkYUdab2JoZ0h1UmI1SmZick4tbENKbVNkNG5mV0Z3M3duc01ibXZ4NDZhWXFZS202TDhnbmdIbE1tWWk1SmZ2OTJ5X1JHekY0MTdMM1N3bm5WTkhseUFzQ3FWMU12VHV0dFMwckhvSjM2dUN3RDBmS3pSUW9PUElwczRUZw?oc=5",
-      "snippet": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity Avian Flu Diary",
-      "published": "Tue, 05 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "3a7705a3c45b1d4e",
       "kind": "academic",
       "tier": 3,
@@ -2127,6 +2116,17 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNTU1SDU0cHoxNHFWQUFTdTYzazlLNlByVXdnMUp1N2JtOVBFNVJob1Nmc2RWY0VzaHJwNDBXUWNlQXJrbWROWGdLeVdoR25yVUI0ZWhlM2dyb1RnZmFfVjN3eHlVVVJpX2lpQmRvVkdxNXBjZkpCY25nbkc3dWNESg?oc=5",
       "snippet": "ECDC: Rapid Scientific Advice on Management of Hantavirus Exposed Passengers Avian Flu Diary",
       "published": "Sat, 09 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "e8bfca5280b121b3",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Avian Flu Diary",
+      "title": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity - Avian Flu Diary",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVRkYUdab2JoZ0h1UmI1SmZick4tbENKbVNkNG5mV0Z3M3duc01ibXZ4NDZhWXFZS202TDhnbmdIbE1tWWk1SmZ2OTJ5X1JHekY0MTdMM1N3bm5WTkhseUFzQ3FWMU12VHV0dFMwckhvSjM2dUN3RDBmS3pSUW9PUElwczRUZw?oc=5",
+      "snippet": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity Avian Flu Diary",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
     },
     {
       "id": "4095e7822eb499fb",
@@ -2305,6 +2305,17 @@
       "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
+      "id": "c24251fa994e3ad7",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "CIDRAP",
+      "title": "Quick takes: Hantavirus quarantine update, new postexposure antiviral for COVID, combination flu/COVID vaccine study - CIDRAP",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzdOd3EybWk2V3NXeEIycU1SZ2RoZ3djc0I0d05fMngyY01yVktnRms3OVVfNUtXeGZZR3FwYTEyalQ1alhkRzJYWThGVzBxOVBuTXNBNjEwaEI3dWE0azBacjlnUXZvRVN4RFpfdzVPMTFXdklGM2I4Y0RFeFZrWFdOeHpITDhoOEpRZHFSZWdERjJ6Um5OUjVZNHE3NUFxRXhzcnZLc2pCZzNHVVNkVVQ2UFhBcFNQUC1GM3BB?oc=5",
+      "snippet": "Quick takes: Hantavirus quarantine update, new postexposure antiviral for COVID, combination flu/COVID vaccine study CIDRAP",
+      "published": "Mon, 01 Jun 2026 18:09:00 GMT"
+    },
+    {
       "id": "fd2a577836dcbdc6",
       "kind": "academic",
       "tier": 3,
@@ -2391,17 +2402,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OM0VuYTFkTkptOWpRR043allESFdVNmJxNDZFLVRwZzk2aWU2YjJIY3Rxdm0yU3B3NlFobFVZZzM5U2k3ZmFoakJCSVdURTI4dFpBOW5XdWs1Sm8?oc=5",
       "snippet": "Medical news in brief: Antiviral drug for hantavirus, patient data concerns, rules on GP harassment, and other stories The BMJ",
       "published": "Thu, 28 May 2026 06:58:12 GMT"
-    },
-    {
-      "id": "b9dd8413e453ff20",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "CIDRAP",
-      "title": "Quick takes: Hantavirus quarantine, new COVID postexposure antiviral, combo flu-COVID vaccine study - CIDRAP",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWMzYjFiQ1lIc3Z4Nk1FdmJQRW1kM0J2eGdyZUVRVEdzOFI4SW5pWDJDczFmSnNJa3BxR095NmhkM1BSZEVKZTVIeDNRenkzYWtZamFUb3RtaUdjWXVTc0RfeGtuUTZJRVFwRmtxZDZKMkZhUlctQkZacktWTE51RklNd042aktoaXpFZWJUazhET0Ffdk14eFd3bWZiMXZZZUpTdGxtN3pkZHRybHdMTlMtYThpczNoSUtoY0NvQy10VEY5?oc=5",
-      "snippet": "Quick takes: Hantavirus quarantine, new COVID postexposure antiviral, combo flu-COVID vaccine study CIDRAP",
-      "published": "Mon, 01 Jun 2026 18:09:00 GMT"
     },
     {
       "id": "1a9bc5fae874293a",
