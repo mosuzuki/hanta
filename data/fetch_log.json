@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T10:29:08.518848+00:00",
-  "generated_at_jst": "2026-07-23 19:29 JST",
+  "generated_at": "2026-07-23T12:27:28.489033+00:00",
+  "generated_at_jst": "2026-07-23 21:27 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -345,17 +345,6 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "36e6afdf5a63e303",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
-      "title": "WHO declares cruise ship hantavirus outbreak over - France 24",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZlNOdW1VYkVRV25QbXRZdWMwSTE1Y01LclYyWEw2dHU4U2hYMTlmQ0xuZHpQT0FfOEtOX25YRnlkVm91R1NOcmtabXdGMm0xVU9uNFM4c1R3ZHhHelNfOEpwbnVJc0YyUmdrNEJlV21VOUI3bEtuTXNRQVZTRkdtcE5Hb0p4YkRKVGNOUXFwb01jS2RCR0F4R19NZEE?oc=5",
-      "snippet": "WHO declares cruise ship hantavirus outbreak over France 24",
-      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
-    },
-    {
       "id": "ab377c30b748edf4",
       "kind": "media",
       "tier": 2,
@@ -365,6 +354,17 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeU05RGd3ampyYVBoTWUtZGxpUFFCSGEwdU9LR3BSSldYX29iUzk1dmVvTEw1UnF5OUtBcjFha3VoOVQyTmMxWjdPeHNHS29Cdml4WFVVT3RLODhocVg5QUJsejVkdGZaVXQ5WWZlSHp2MW5ZcTdqOGpwbGZhczFiak9GQ2hMcTc2VWV2T2JyRGNGNmpRcHhiYnVlaHpFYkI4djFoVkJWTXJDMy0tQ1lHc1FlQ2xkNUVnN0JDa2hOUnRMVk9vUFdTMUVkQVBuTnRkLTR4OFllc2M?oc=5",
       "snippet": "CDPH Aware of California Passengers Exposed to Andes Hantavirus Outbreak on International Cruise Ship independent.com",
       "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "36e6afdf5a63e303",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
+      "title": "WHO declares cruise ship hantavirus outbreak over - France 24",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZlNOdW1VYkVRV25QbXRZdWMwSTE1Y01LclYyWEw2dHU4U2hYMTlmQ0xuZHpQT0FfOEtOX25YRnlkVm91R1NOcmtabXdGMm0xVU9uNFM4c1R3ZHhHelNfOEpwbnVJc0YyUmdrNEJlV21VOUI3bEtuTXNRQVZTRkdtcE5Hb0p4YkRKVGNOUXFwb01jS2RCR0F4R19NZEE?oc=5",
+      "snippet": "WHO declares cruise ship hantavirus outbreak over France 24",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
     },
     {
       "id": "aeab9641c5b6d014",
@@ -499,17 +499,6 @@
       "published": "Wed, 22 Jul 2026 14:59:00 GMT"
     },
     {
-      "id": "bf6441d09f3184b5",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "WHO declares hantavirus outbreak linked to cruise ship over - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pMlF2eE91cTdnaWVmYU9Kd2ctTlN4M2RpSm9KaXNSLVdta2NxampvMW40ZGx1TVd5UjFqNVU3bTFObjd2SFN3S1d6ZGdhUnVpTllQVzFSWGNYZ2xUZTdzMnItTVBneUlsTFBwbGhRa0ZfcXc?oc=5",
-      "snippet": "WHO declares hantavirus outbreak linked to cruise ship over The Guardian",
-      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
-    },
-    {
       "id": "9225f79a8878de6e",
       "kind": "media",
       "tier": 2,
@@ -529,7 +518,7 @@
       "title": "Hantavirus outbreak linked to cruise ship over after last contact completes quarantine: WHO - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZTN1RTFnU01oRUVVQVltcVlBWlF0aWZPVkg5LWotRUFNT2NzNmdNVDFCdEJXZXNLZ01YV25oZl94OXMzdnlIS0FNT2NhRnkzVzB5N2dpQ0FZZkJDQWc0eU5HVS1Bc09EMlZCOTRhc0lwel9DZ0dlNlhSY0J4ZkRjV3RuMER5MEowckg4RERRMFBETzdYX3pFTnhDNWRHTDQzX1dCM2FxcVZlSklq0gGyAUFVX3lxTE9MVml0cFJHQlB5UHNJYXFLekhmVUFES0lzdVZVSnJndUNRWkpKSC1DU2NXX1hpU2kyRnlLcXZsNkpZV1A5OGEzV1UxdlBJdnlVWHRGRTVFVnR4cGZSN3cwWi0tcjJFVnp1UlIwNzczMmhqMjZrbkdZVkdXMFktbnAwRFZvUkFJUnpzcmQ4WU95N1EzODBxdGoxY2xiZGlYNDA4bGpfWUVWaUFVMnVYa2xFQXc?oc=5",
       "snippet": "Hantavirus outbreak linked to cruise ship over after last contact completes quarantine: WHO ABC News - Breaking News, Latest News and Videos",
-      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+      "published": "Thu, 02 Jul 2026 15:46:03 GMT"
     },
     {
       "id": "6dc0cf590505c5b0",
@@ -620,6 +609,17 @@
       "published": "Wed, 22 Jul 2026 04:21:52 GMT"
     },
     {
+      "id": "d2668698cbba6f8a",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
+      "title": "WHO declares cruise ship hantavirus outbreak over - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcnZEcVVCX0J2bzQ0S3Vlc1V4OWxPbGx4cXp0Y1d1R2lfVGY3anZWb1k3NEt0anFPSmhSSnlMbWRKcWt5QVJQU09YV2xPWXRnT2RMaDQ2UGEwOU5wMV9wTFpOalAzYlZxZmE4Z3FoU1VmZnppTlVxRFNCWU5COUZKSF9DRmZ1bTdwYzNfVS1OYUplRFgwOUFWdWxJUGdDQWkw?oc=5",
+      "snippet": "WHO declares cruise ship hantavirus outbreak over Yahoo",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+    },
+    {
       "id": "42672dd6dd0280df",
       "kind": "media",
       "tier": 2,
@@ -642,15 +642,15 @@
       "published": "Wed, 20 May 2026 07:00:00 GMT"
     },
     {
-      "id": "d2668698cbba6f8a",
+      "id": "d6234b085b1b9fe5",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "WHO declares cruise ship hantavirus outbreak over - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcnZEcVVCX0J2bzQ0S3Vlc1V4OWxPbGx4cXp0Y1d1R2lfVGY3anZWb1k3NEt0anFPSmhSSnlMbWRKcWt5QVJQU09YV2xPWXRnT2RMaDQ2UGEwOU5wMV9wTFpOalAzYlZxZmE4Z3FoU1VmZnppTlVxRFNCWU5COUZKSF9DRmZ1bTdwYzNfVS1OYUplRFgwOUFWdWxJUGdDQWkw?oc=5",
-      "snippet": "WHO declares cruise ship hantavirus outbreak over Yahoo",
-      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+      "title": "American cruise ship passenger tests positive for hantavirus after evacuation - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzlnN2lpZ2RyTVRjNXp4UGRyZmdCbVNwaHdsUlBUM3VOT2oybzZtNmI2REF4U0YzeGVVb1BPNTRmdG1WazhLZVV1WlJrakxIYjRnX2hOVmpIZkRIekVhWm9sN3RXVVdqZTVsRHllU3loOUdfSkNyRVBKZmkwZ1o0WDYzRWhkcm51bzRXRW9SbWFrOU1HcXptOXNYNGdpVFRCcHUyWFFBSHFqQW95Z2hhNmhydw?oc=5",
+      "snippet": "American cruise ship passenger tests positive for hantavirus after evacuation PBS",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "c688504c3ca58800",
@@ -1557,17 +1557,6 @@
       "published": "Thu, 07 May 2026 20:00:02 GMT"
     },
     {
-      "id": "9d33267b284f4fb0",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "Why we shouldn't rule out airborne spread of hantavirus - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnBIQ25IbkZUcUcwdGlJOHlVVVdsMmV5YVJPT1pYcmdQaFBaXzFQM2dyMHl4dmtBZXQ5WTQ2THhmQjhPdXNwZWFNMFJhM09sOWNLdXllb1hqSnRMZDdXSjhVNzlDaHpGQXYwUnJyNF94MjRlVVJEV1BTOGMwZk5MVVpPVVdGTnRxUU9yVXlVMDJOMW1SYVJJZll6VDk2aFVlMGdxNVZKTW92dw?oc=5",
-      "snippet": "Why we shouldn't rule out airborne spread of hantavirus Scientific American",
-      "published": "Wed, 13 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "5debeafa4b8bde0e",
       "kind": "academic",
       "tier": 3,
@@ -1579,15 +1568,48 @@
       "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
-      "id": "b747e2bddfa31c66",
+      "id": "1f31b562126e3598",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "Scientific American",
-      "title": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
-      "snippet": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami Scientific American",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
+      "title": "Hantavirus takes a long time to show symptoms. Experts say more cases could appear - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON3hLRmc1TnpMY3VocHBUNEViSEt2WFZabWtpX0xpbTU1ZkhhOGNIU1hwOXljeV81c2J3QTFYZHFFQThrNXR4Q0R6blMwRllqaDB6c1BzYldkWE1KUWlRRjlkV0c4N2I0Z2hBbUNUN0J1ekY5NG1PVUJfcllwb0cwTGVXb25JYUMxX0hpd0VwWUdaNC05UVpwYlVaRkV0X0ZBS2FON0gyRXlTMlVDTlB0aGctRzRhQlBEc1U2aTI1NnB4X00?oc=5",
+      "snippet": "Hantavirus takes a long time to show symptoms. Experts say more cases could appear Scientific American",
+      "published": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "d8f9d3d718543192",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "What you need to know about hantavirus, the infection at the center of a deadly cruise ship outbreak - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdXdNaGpaejcxMjRSUmJ0c2NVYWtsb19IQ2FsSWREZU52SjA1OXppY3RHbC1aTkFkb1VSazZ6VWM3QTZoQ3QtS2VsNmVBNU9QT0hmTXYyVjZjMDRIU1hRMDhiakJJWWUza3Y5S2VXRlZSRk5lSWVMeHAtNkZOY1l4YUhjWGJtZnBkUVBISVVDT05sWE9ocEt0cUtFMWo5aGVtLTVBbG9DYmMyamRCUGQwb3JCbkZFRVRCSXhRVEhCb2UwSnB2anV1OFhMdlB0VUxNMEIycG5wbVhGSms?oc=5",
+      "snippet": "What you need to know about hantavirus, the infection at the center of a deadly cruise ship outbreak Scientific American",
+      "published": "Mon, 04 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "a54f71abfbbdf5d0",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "Hantavirus found in shocking number of Pacific Northwest rodents - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkZ1aVVyV19ialdQdnRYZzNsTmFrNUE5eEx0RlZKX3J2SF9TbnFzRmstSkFZMjNQMTJCYklJNUVWNkRoZWxrSEl2QkV3VWFSaFA5dkFZR3QzTjNmZnhkdk9yak1vUWRibGF3dDBPOVJvUGVnQnZKVVN3eXV1Q1dudlJHR3FhUC1VVVZ0SGJnVXlxT18yTUZLVk5sWi1xaVJxNG5TN3dXMERRU0pL?oc=5",
+      "snippet": "Hantavirus found in shocking number of Pacific Northwest rodents Scientific American",
+      "published": "Thu, 21 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "a1728c438722c3ff",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "How to arm yourself against hantavirus misinformation - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdWlBdEtvUlJzcWU0Mk0zN2IzaGhRMVlpUmNKTTlZeVRaeUZsbDBNOGF3d1c0MHJfZHZUNHBOVWxSanRKd0dGRHJTZVFSVlBodk5qNGJiYy1WR050UWRYUVZ5OGkxNGY0WFZjZGJOSE5PNXUzNDdDSUt6ZXNUN25aQ09WWE5ac1Q1amhtX1RwVG5CREJBSWp3aXlMV0JVZw?oc=5",
+      "snippet": "How to arm yourself against hantavirus misinformation Scientific American",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
       "id": "5fae06a1e689c554",
@@ -2206,6 +2228,28 @@
       "published": "Wed, 16 Mar 2022 07:00:00 GMT"
     },
     {
+      "id": "9d33267b284f4fb0",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "Why we shouldn't rule out airborne spread of hantavirus - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnBIQ25IbkZUcUcwdGlJOHlVVVdsMmV5YVJPT1pYcmdQaFBaXzFQM2dyMHl4dmtBZXQ5WTQ2THhmQjhPdXNwZWFNMFJhM09sOWNLdXllb1hqSnRMZDdXSjhVNzlDaHpGQXYwUnJyNF94MjRlVVJEV1BTOGMwZk5MVVpPVVdGTnRxUU9yVXlVMDJOMW1SYVJJZll6VDk2aFVlMGdxNVZKTW92dw?oc=5",
+      "snippet": "Why we shouldn't rule out airborne spread of hantavirus Scientific American",
+      "published": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "b747e2bddfa31c66",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
+      "snippet": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami Scientific American",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "28b575cd1f1c61cf",
       "kind": "academic",
       "tier": 3,
@@ -2250,17 +2294,6 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT"
     },
     {
-      "id": "a1728c438722c3ff",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "How to arm yourself against hantavirus misinformation - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdWlBdEtvUlJzcWU0Mk0zN2IzaGhRMVlpUmNKTTlZeVRaeUZsbDBNOGF3d1c0MHJfZHZUNHBOVWxSanRKd0dGRHJTZVFSVlBodk5qNGJiYy1WR050UWRYUVZ5OGkxNGY0WFZjZGJOSE5PNXUzNDdDSUt6ZXNUN25aQ09WWE5ac1Q1amhtX1RwVG5CREJBSWp3aXlMV0JVZw?oc=5",
-      "snippet": "How to arm yourself against hantavirus misinformation Scientific American",
-      "published": "Fri, 15 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "84d0def06b738b56",
       "kind": "academic",
       "tier": 3,
@@ -2281,17 +2314,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01YlZacXdVbkJySGkwTGg4QmllVlFfWkJ5NEItM1kwU2ZMdUVmVDRGQ2k5QjRraXVoUVVVYVZGaWZiXzZMU042Zi1SdjNqWW13WHhhbnY5WXJ4Q1hCVHVUYXlHdVUwaGM?oc=5",
       "snippet": "Hantavirus cardiopulmonary syndrome - References BMJ Best Practice",
       "published": "Tue, 30 Jan 2018 07:08:46 GMT"
-    },
-    {
-      "id": "1f31b562126e3598",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "Hantavirus takes a long time to show symptoms. Experts say more cases could appear - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON3hLRmc1TnpMY3VocHBUNEViSEt2WFZabWtpX0xpbTU1ZkhhOGNIU1hwOXljeV81c2J3QTFYZHFFQThrNXR4Q0R6blMwRllqaDB6c1BzYldkWE1KUWlRRjlkV0c4N2I0Z2hBbUNUN0J1ekY5NG1PVUJfcllwb0cwTGVXb25JYUMxX0hpd0VwWUdaNC05UVpwYlVaRkV0X0ZBS2FON0gyRXlTMlVDTlB0aGctRzRhQlBEc1U2aTI1NnB4X00?oc=5",
-      "snippet": "Hantavirus takes a long time to show symptoms. Experts say more cases could appear Scientific American",
-      "published": "Wed, 13 May 2026 07:00:00 GMT"
     },
     {
       "id": "58693e4da90a5d2f",
@@ -2415,17 +2437,6 @@
       "published": "Tue, 12 May 2026 15:14:40 GMT"
     },
     {
-      "id": "d8f9d3d718543192",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "What you need to know about hantavirus, the infection at the center of a deadly cruise ship outbreak - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdXdNaGpaejcxMjRSUmJ0c2NVYWtsb19IQ2FsSWREZU52SjA1OXppY3RHbC1aTkFkb1VSazZ6VWM3QTZoQ3QtS2VsNmVBNU9QT0hmTXYyVjZjMDRIU1hRMDhiakJJWWUza3Y5S2VXRlZSRk5lSWVMeHAtNkZOY1l4YUhjWGJtZnBkUVBISVVDT05sWE9ocEt0cUtFMWo5aGVtLTVBbG9DYmMyamRCUGQwb3JCbkZFRVRCSXhRVEhCb2UwSnB2anV1OFhMdlB0VUxNMEIycG5wbVhGSms?oc=5",
-      "snippet": "What you need to know about hantavirus, the infection at the center of a deadly cruise ship outbreak Scientific American",
-      "published": "Mon, 04 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "ef5b746571ef0461",
       "kind": "academic",
       "tier": 3,
@@ -2435,17 +2446,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUk1UR3BjQUozQ3A4SXpWTEVNNW5QOVNZQks2WFRwZ0ppd2d1bWVLa0ZLUEF4WmplanJ5N0NJV1liVG1kUkdUQVJOQnZ4MDNyQU5ybG1kZ2xVOFlXQmZVU1RxUksyS082NGtZXzE0VzNrUHlmbVRBdWo2MnFKQ0dRdXlHZ3BqdDJZcUkwVjJYQ2Uwb1k?oc=5",
       "snippet": "What do you want to know about hantavirus? Scientific American",
       "published": "Mon, 18 May 2026 17:49:08 GMT"
-    },
-    {
-      "id": "a54f71abfbbdf5d0",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "Hantavirus found in shocking number of Pacific Northwest rodents - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkZ1aVVyV19ialdQdnRYZzNsTmFrNUE5eEx0RlZKX3J2SF9TbnFzRmstSkFZMjNQMTJCYklJNUVWNkRoZWxrSEl2QkV3VWFSaFA5dkFZR3QzTjNmZnhkdk9yak1vUWRibGF3dDBPOVJvUGVnQnZKVVN3eXV1Q1dudlJHR3FhUC1VVVZ0SGJnVXlxT18yTUZLVk5sWi1xaVJxNG5TN3dXMERRU0pL?oc=5",
-      "snippet": "Hantavirus found in shocking number of Pacific Northwest rodents Scientific American",
-      "published": "Thu, 21 May 2026 07:00:00 GMT"
     },
     {
       "id": "7a9fb0ef6e3987ea",
