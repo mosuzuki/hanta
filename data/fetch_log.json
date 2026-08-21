@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T04:45:17.736624+00:00",
-  "generated_at_jst": "2026-08-21 13:45 JST",
+  "generated_at": "2026-08-21T05:37:49.024601+00:00",
+  "generated_at_jst": "2026-08-21 14:37 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -81,14 +81,14 @@
       "published": "Wed, 24 Jun 2026 07:00:00 GMT"
     },
     {
-      "id": "d9c13156ae2b1122",
+      "id": "d4ca1983c7c54842",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "MV Hondius docks in Rotterdam after hantavirus ordeal - dw.com",
+      "title": "MV Hondius docks in Rotterdam after hantavirus ordeal - DW.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYnNya25ZYzU3YVNCSy15Tnl6UFVOdkRaaGJ3cE1JMjlvRXdFUG1tQzBrSkJUSnJiQ002RDlHRnFnUlJwY3RsU0ViTUdPbHNRRkgwbWxGV1RGeWltWGdQVm1oVFowUjgwakNFdTVHSU9ZOW9nRGRPSzZkS2FnMzgzLWEtM0hjU1R6c011amxGMNIBjwFBVV95cUxQWXpvVW9VeFBFVnU2QkwzMGdINWZCeTVsQndRakkwUmNPQTdhSVNqd0VHT3g4LTFXTWdoUUp4dnVxS2NDTlNmdVdDbmFVOEhkTU9tS1M4X1pDXzluT2Q0cjdlWlYzWlMzVm1VTUxLYlVEdWlEeU5BR1BaWk03NFIyeURBaG55S0JnUGNOYVFvRQ?oc=5",
-      "snippet": "MV Hondius docks in Rotterdam after hantavirus ordeal dw.com",
+      "snippet": "MV Hondius docks in Rotterdam after hantavirus ordeal DW.com",
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
@@ -411,17 +411,6 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT"
     },
     {
-      "id": "44e58b48d6577141",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
-      "title": "The Andes hantavirus ship outbreak: Lessons from a dress rehearsal - Bulletin of the Atomic Scientists",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT016NnpXdHpOcmVxRllIOUtES1cyeGlwaWtlNEt4Vm9MenZwTWdQSnlwY3ByeFZaWkVyVmFXRGU2aVlCaURyTFBnY05NZzJQbndLenYzR1NBZU5BZVdJUEV1dDVvV0VQZzZQQmlTSHM1eURxc1JFRVNab0V6azNPNDMyMXRNUzA1N2ZOWWRfY3NJUm4yX2ZyM1VNNUx5b0E?oc=5",
-      "snippet": "The Andes hantavirus ship outbreak: Lessons from a dress rehearsal Bulletin of the Atomic Scientists",
-      "published": "Fri, 15 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "f690e2e1f511485f",
       "kind": "media",
       "tier": 2,
@@ -441,6 +430,17 @@
       "title": "Hantavirus outbreak reduced to 10 cases as ship passengers return to home countries - CIDRAP",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcEdKeXJKbUI1RVRQYURod2k2U3ZackRXTnAzQUdjSTR1d1ZQcExWZ3NCdmNaaEpqRENkMEx0WE5VS3RtMWMySjJRRjR5dW5KWU1CVnFhUmF6SWo3Ti0wVGFhRG1TUnc4RkRqOGtyYWtWN053RTVSMklpN2p2eUhQOUMyZXc4eTNXcWZORTBLMjBlMW45Q0NxRWtNaGRhUGJubHRXaHJhdDdKMUtYV1JQelJn?oc=5",
       "snippet": "Hantavirus outbreak reduced to 10 cases as ship passengers return to home countries CIDRAP",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "44e58b48d6577141",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
+      "title": "The Andes hantavirus ship outbreak: Lessons from a dress rehearsal - Bulletin of the Atomic Scientists",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT016NnpXdHpOcmVxRllIOUtES1cyeGlwaWtlNEt4Vm9MenZwTWdQSnlwY3ByeFZaWkVyVmFXRGU2aVlCaURyTFBnY05NZzJQbndLenYzR1NBZU5BZVdJUEV1dDVvV0VQZzZQQmlTSHM1eURxc1JFRVNab0V6azNPNDMyMXRNUzA1N2ZOWWRfY3NJUm4yX2ZyM1VNNUx5b0E?oc=5",
+      "snippet": "The Andes hantavirus ship outbreak: Lessons from a dress rehearsal Bulletin of the Atomic Scientists",
       "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
@@ -1082,17 +1082,6 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "04ccb3899682a61b",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeklhUG91ZzdDNFI1M29QSVJwSjBjbkNPZlpZRFNISkZnN0xqMHBpMnA0SnZvdFFpcG9NTHdoMXdmVVItcm54NXBZRlhHdUlHaDRFWGF0UU9UdUZyaThPT1BDMXh0ZklIZ1ZMdUlzQUVjdHlaaVdmbmp1bGNDWlJPNDlSNU9JTFMtZkNj0gGQAUFVX3lxTFBzYXlmSjEyR2tzZS1xajhNMndpcUxDYWMxV0dXXy1taVpXcmE3djcwM0FFcmNuaFhTT3YzQWZ2OG1sbGJBT0VIUUtMRTR5TTJyY0JHT0VhRVVHalptdkNiWUNhMGc2MXdUcUpsRzVmWHpiaEVFVDItNEpvTEE3WjJuRHctNTRGUVBTdzBab0t0Sg?oc=5",
-      "snippet": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup NewsNation",
-      "published": "Wed, 13 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "91e6d4e8bd04d179",
       "kind": "media",
       "tier": 2,
@@ -1102,6 +1091,17 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdUFnYi0wRVJOd2VheUxFWU5QVkJWRHljYUpMV1R2UFh2eHdhSml5empZbTlOUVRpRHBUYlFoa3ZxZGNWZmN6cmh0SUJKdVFuQjRlUzNNSmhyTVJEMEFpclJnLXRqbTduMlgyazJjSU1IQUhvV2NfWFRna1p6NjE1cy10c2hKSjJRVFR4VmNpWmdYQ2V2MHRVZ2dVejg1MEM1VVhr?oc=5",
       "snippet": "What we don’t know about the hantavirus outbreak as the cruise ship nears Spanish territory AP News",
       "published": "Fri, 08 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "04ccb3899682a61b",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeklhUG91ZzdDNFI1M29QSVJwSjBjbkNPZlpZRFNISkZnN0xqMHBpMnA0SnZvdFFpcG9NTHdoMXdmVVItcm54NXBZRlhHdUlHaDRFWGF0UU9UdUZyaThPT1BDMXh0ZklIZ1ZMdUlzQUVjdHlaaVdmbmp1bGNDWlJPNDlSNU9JTFMtZkNj0gGQAUFVX3lxTFBzYXlmSjEyR2tzZS1xajhNMndpcUxDYWMxV0dXXy1taVpXcmE3djcwM0FFcmNuaFhTT3YzQWZ2OG1sbGJBT0VIUUtMRTR5TTJyY0JHT0VhRVVHalptdkNiWUNhMGc2MXdUcUpsRzVmWHpiaEVFVDItNEpvTEE3WjJuRHctNTRGUVBTdzBab0t0Sg?oc=5",
+      "snippet": "Can this cruise ship ever be safe again? Inside the hantavirus cleanup NewsNation",
+      "published": "Wed, 13 May 2026 07:00:00 GMT"
     },
     {
       "id": "c861686f2835081e",
@@ -2272,17 +2272,6 @@
       "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
-      "id": "690334853b961ef2",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "STAT",
-      "title": "I’m fighting misinformation online. False hantavirus claims follow a now-familiar playbook - STAT",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3UyekJMclQ5T1YyUjhVc0FreHdIQ21MVWFvcndSUGdxSmpvQ1ROWV9kSFByUGVrYVk4QlBaUWZpQVZJSlEzNXFGOXRGdVlKTTJzZjV4RVRDTUwxMVR2cFYtZW94OHQwVFpVYy02V2NjS1p2NkR0WHVuUHF4UHBRVVJnTVFTN3NjSk5UNmM0eTJXSm96OENtUTVPYXJqQQ?oc=5",
-      "snippet": "I’m fighting misinformation online. False hantavirus claims follow a now-familiar playbook STAT",
-      "published": "Fri, 08 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "1e9ba1aeee47811c",
       "kind": "academic",
       "tier": 3,
@@ -2292,6 +2281,17 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYUNod3JGSnZIOTB0UlJNR3BBbmxWNXdqTS1QY25MbkVkek9FbjdvWnpkQmo3ZVhRdndDM3U0MUdwR1dPeDBrZTcta01MQXFMSmU1YWE5MmJwcFBCWkZlQ3hrYWdTYlNwYjhRRE5nLXk1dXk1Snp4V3BpajlPemRvempEZTlncjFDX0RPeDZBSFFWN3RxbU9fVmRlT0tLanp2YjNZ?oc=5",
       "snippet": "The hantavirus is a wake-up call. Will the Trump administration answer it? STAT",
       "published": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "690334853b961ef2",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "STAT",
+      "title": "I’m fighting misinformation online. False hantavirus claims follow a now-familiar playbook - STAT",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3UyekJMclQ5T1YyUjhVc0FreHdIQ21MVWFvcndSUGdxSmpvQ1ROWV9kSFByUGVrYVk4QlBaUWZpQVZJSlEzNXFGOXRGdVlKTTJzZjV4RVRDTUwxMVR2cFYtZW94OHQwVFpVYy02V2NjS1p2NkR0WHVuUHF4UHBRVVJnTVFTN3NjSk5UNmM0eTJXSm96OENtUTVPYXJqQQ?oc=5",
+      "snippet": "I’m fighting misinformation online. False hantavirus claims follow a now-familiar playbook STAT",
+      "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
       "id": "25a5b2f3d1b0d03d",
