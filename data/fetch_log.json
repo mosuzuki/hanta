@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T08:36:52.078200+00:00",
-  "generated_at_jst": "2026-08-23 17:36 JST",
+  "generated_at": "2026-08-23T09:33:25.583115+00:00",
+  "generated_at_jst": "2026-08-23 18:33 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -796,17 +796,6 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
-      "id": "c81fc02c981a113b",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
-      "title": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus - Pasteur.fr",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYXZTRnMtREtaRk5zalZOT1ZJR3o3MnhST25wT0F2LU9mQ3VTSkpfcEZUZTVhSExmYmw2TF9HLXlOYTV6bzRwbTZpbXUxaXRVckpCcGF1U3BLcnNfa29FZXdMWE9feDZzMVdXWXV4bm5ZZU02eEpIY0dadWFGbko4MHFCMDdJSDFFWEM1SnQwbE9Ndm91b0xNYUJ0c2Z2dzhGMGc5ejlRWjNvUXBSZlNJdU5YUmZ5blo4aXNxQnB6QlZEaXU5eUNNYVRyZHA3NldWRFBLNGkxY0lmcDYt?oc=5",
-      "snippet": "Andes virus on the MV Hondius cruise ship: what we know about this rare and potentially fatal hantavirus Pasteur.fr",
-      "published": "Fri, 22 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "799cc13c6e6e61cc",
       "kind": "media",
       "tier": 2,
@@ -881,6 +870,17 @@
       "title": "Inside America’s Only Federal Quarantine Unit for Hantavirus Cruise Passengers - Time Magazine",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVp0cjQ1aWJ6OVg0OXAzMlcxSFZXbHlocFdLcXdsZUNMRXhoQ25ZTjBtMno1YWltLVRHUHlCTUVBanQ0aDgtc0N5bkg4Sk5jdDg3WkthS0hmS1hkZkJ5Q0lDbWZIamRabFBGRE9LNkVyeERjZWNvblJ0XzRvekJrZGtlbTNkNDhKWTZWSXkwbDVaeDdhNGlTSmhvTHA?oc=5",
       "snippet": "Inside America’s Only Federal Quarantine Unit for Hantavirus Cruise Passengers Time Magazine",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "35c2a4a8c7d34e54",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
+      "title": "Andes Hantavirus Cluster Spreads Beyond Cruise Ship as First U.S. Case Confirmed - Global Biodefense",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVdsSER0Qng4eFNhLTJhRGZVSy04WE9CZGl3c3lpSFZrX25TM0I2ZW9IN291Q29fMW9wUFdtX2tGU0dTMV93bFowcGI5UXU3THAtNDhOV3BKWEtwVVA2bFNLejhZWklHUDRqbmlkTHczLTd2ZTlERzA1LU94NjNRVWVRXzhZTHlJOUJxXzlQTUN4QjVZV2c?oc=5",
+      "snippet": "Andes Hantavirus Cluster Spreads Beyond Cruise Ship as First U.S. Case Confirmed Global Biodefense",
       "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
@@ -1335,17 +1335,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XakZtZjZNcnFPR1JNTHRSNXBjQ003My1GVF9rRGJ3cTRKeUVoN2xOTkFOakpCbDRPOUk1ckp1ZGhOemszbjYyaEdHUGJjbnhoM3c?oc=5",
       "snippet": "Hantavirus: French and US nationals test positive as cruise ship docks in Canary Islands The BMJ",
       "published": "Mon, 11 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "91fd48a0063e55ca",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Hantavirus outbreak on a cruise ship: Risk analysis and public health issues - The BMJ",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IYU81N25ndEZEWEc1Z3RmM0VWaDYxNThlaUNyTkQ4T08wRkxzUGZfRm9TVVJab3QyYTFHcTV3YUxSbEw4MXpqWFpWN09JYzVRWHgzX2JYYzM?oc=5",
-      "snippet": "Hantavirus outbreak on a cruise ship: Risk analysis and public health issues The BMJ",
-      "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
       "id": "5d2b63eccdfa307c",
@@ -1997,113 +1986,113 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT"
     },
     {
-      "id": "80b1bac456fb286e",
+      "id": "f64102372a0ab38d",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Argentina: 2026 Hantavirus - flutrackers.com",
+      "title": "Argentina: 2026 Hantavirus - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSW1rQ0J1T2YtQW1fcU4yd3dVVWxmdlFubFZWOE9td29fUTZFY3NreUdWcUx6U1Z2QzFzZUs2RjdENURXMnljWHhKc21NNkRuMjIwdS1ZLURnRHZXclNiSS1QVFJPdGtHZE8zS3psUkw0RnJSMkcxRHZLdkI4eEtRcjBmQVRTUnlsbzM5cGg1SG5MdV9CM3Utck13cHNGVkp1d1VLRmEweEZqUHpSdE5qSmFIRkt5eVlGQjJHZ2ZibXNpZTR6bk1NdHo4WkFUc0pfdWgweDRmaHk?oc=5",
-      "snippet": "Argentina: 2026 Hantavirus flutrackers.com",
+      "snippet": "Argentina: 2026 Hantavirus FluTrackers",
       "published": "Mon, 04 May 2026 03:15:19 GMT"
     },
     {
-      "id": "2d0424a648f08248",
+      "id": "294beb641a5d7a8c",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNRW1vNjd0cVJ4WUJHTjQxNld0OE5aeDJWX3JLOUNZZ2F2Ri1qT0xoX3pvV3NfS00wRmdoSWp4WUNvTjFqTU9FMldBcHVodWpaZ0N0aEIta3E2dk5ndzZSWWFsRjV6OVYxWERKRHVoTS1GTHllZUJlZnJRR2VCZzdnakRXVGVhLU9ZQkR2M3pKRi1TeXdGZ25xVXdKXzVjalVKSDJweGlPOG13MWJhNUpaZUxiUTMyUW5selBoVFFaRXVkRVdWVzlzS25JLWItVVFiQ3RZNWEyNjlNYllvYjBPY2tRRG1RT25SNUNBNnBJVFl3Wk9xOGxRdnhsMThHX2ZYT1h0b2o3Y2VpajlodlVudUZoLW9wSXpfdGFzQXd6d3NNemF4WmJYNXF3U3hRdFAtTTZyUERMTXp2ZGpQbllVQVhRTWU3cnlpTXo4Y20yOTV4dFh5dEdCVVVUeGJ3UFhoSFFR?oc=5",
-      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) FluTrackers",
       "published": "Thu, 02 Jul 2026 07:00:00 GMT"
     },
     {
-      "id": "eebf08ba235b0491",
+      "id": "cf170fef74de9b31",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - flutrackers.com",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPNnJhS2xwUDgwMnNJLTh5Zk5kSXZDNElhSGJVUHpvcFdhbjFMcm94YWV2aXRsSFhjVjBZNEgwdWczOU84V0RfYlotZFl6UVl4aGNwZkNTX3RKYm1QcTZDaml0T3FGODF0aEZwbTVxcHVieXF3Wlpqd29fQ3p5dFJmcFptcV9xOVI0U0JKS05La0xMcHFfY05MSW9tQU9aS0FhWmYyTktGZ1daX2hKR1NlTlA5MlNQNnc2TTNrYURhUnU5dEhPendJaHlJamF4amw4QnRpQ01lV2V2WEZ1QjY4N1VQZmRxREdPYWc4bmVuSlFnTGFXeTNHVGVDQl9Gai1TdkhZRlJsaGFPRm0wd1pEMVRLM242dXhwMndUak4teHNNNU5xak5sRi1n?oc=5",
-      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths flutrackers.com",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths FluTrackers",
       "published": "Tue, 19 May 2026 07:00:00 GMT"
     },
     {
-      "id": "1a5068d9da9aa93c",
+      "id": "7fcd5e718897ab5d",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Sequence information on Andes type hantavirus outbreak - May 2026 - flutrackers.com",
+      "title": "Sequence information on Andes type hantavirus outbreak - May 2026 - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLW5MNDJSNjV3RzJ4N2JfOF9XTTFzajVTZWtEd0UyeGIydldqUnZIRFJOeDU3OWxraGN5RkRjeTFtMmw3SldldWFqYWJjUktGTUhoUjlTcDBncXJvbElSTnZoM1pFbXpLR1E0TVljVFFXd0ZsdExfSHpnSzR3ZzQ3cnNwb1dzbktXNk5HaW5MMl9EdTNHY1llbTVUV2s0UUU0WFBkc01LUmRpcG14cklfUFRZdTVCUFhtelk5VUUxQzRpcHlNLW45RU9wU0huOTlRVzRv?oc=5",
-      "snippet": "Sequence information on Andes type hantavirus outbreak - May 2026 flutrackers.com",
+      "snippet": "Sequence information on Andes type hantavirus outbreak - May 2026 FluTrackers",
       "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
-      "id": "858f365f02d7a72c",
+      "id": "d09abbc969a7d494",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed - flutrackers.com",
+      "title": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNcnphWmpTaklVM3hqWFFJaFVmWUF1LXFkT3hUWmNqTnktU2NaenJ3S2RsT3BodEU3MmFMWFlGUjEyRmhXRVFqYjhGTHE1ZjhZaDFjXzk0RUV4R096azNCZ2l0SEd6S3ZnV0xMUkwwNlZIeC1vNXAxNUduRmhfWW13SzlFSW9FcHlqZGExVkNqbEZWQjN0bTdIOUdJOFlKRVR5eGttWm4wbF9oUW05eVdvb1ZUeC1MVm9zYkh2T0ZxQjNxOThvRnhoVHRYbWNBSk50dzZXbXlyOUVFdnJjZTdsam1MRUtVY19jVWJyQmJpUjdTYWxPdHBET3l2dExMWXkxZ2MxQzZJWG5ZQQ?oc=5",
-      "snippet": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed flutrackers.com",
+      "snippet": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed FluTrackers",
       "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
-      "id": "337f3b82ca5b4d61",
+      "id": "ff5b821e98b8387f",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ - flutrackers.com",
+      "title": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNUHBKRWt6M1k1Mm40d21ZZjRTbXRxdVFEMEFhZmRVWGZHeng2MkNYSC1PWXJWOU1GcnQ0RERjQkRUMXBHQTdTUkJjbmFxY2pybmkweDR0M3kxRndGc2NMN0ZaZmN2SDFKSmQzLXBtb1VVV09JOXBkVkhscEd3TkF1bGVlN2ZvVERwNFJ3cEdtbUJxRUpvTHpScTdVZ0FVRzNRamtQNVRYYU1kN295enUyR3VMUE1ZWi1SbkNKejlqT0RmdGVKSUV5OE5xLXZwdXBBR0dOYmd2a19YaWc5SUNQQ0U0OXlfVU9NMmk0WTlPdHFsR3c2YnhOLUFIWHhxaHFzdU1scnJYVld1YkhsQ1RRb0UtSW9PYmpSemVyeG84emdiQ2FLYXdIb3Fpdl9ydw?oc=5",
-      "snippet": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ flutrackers.com",
+      "snippet": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ FluTrackers",
       "published": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
-      "id": "2b71d8ae56defd7e",
+      "id": "675b18128dec64ed",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOVmxjcmFzd2hpTnVvM283RldaN0UzRU5PMEo2YV90LUFfbFp0czk2X25RdFJoVnJKWjRMR19RcU1wWlBfVHZRZGhheFFsNFRyV2F2SjRfcWd2d18tTkVRT1VfVXY3STFlWVpMY2JHSkRsOVFta2E5b1JocGRjXzhuUFhYUzBCMHdzcEtyRlBlWnYyeUZpUGNUazBzY3haemh3d0RGcVROTHYtMkVwRERodW5qOTI3ZkNjWm9MSGJrNXBJcnhxZ1ZiSldCOUE1eFZJYTd1NXphLUt5SmtVUmhrclZhQWJoc3ZyejJGWDZfczRrV0lCOTVSUHkzRldHT1ZnVHd2czhQOGRzUTl5SmJZa3RTMFJsVHpJN3FRanUwWTU3ZTdnOUE1VFRnZWVqbXdlZU9sME5NMkMyUXBLUk1CSlVfc3ZVMEVVQkZsLXh0QzhnSS1aZDdDWTN1aTBtYTlGbnRR?oc=5",
-      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) FluTrackers",
       "published": "Thu, 02 Jul 2026 07:00:00 GMT"
     },
     {
-      "id": "0a7582886658a9dc",
+      "id": "dffdaaed2cabb91f",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 - flutrackers.com",
+      "title": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNUEdlbkN5U3ZwUEljQlNXaVlBVkNVRGlUUVNBN0tuc09IS0JNR212aUllMG84dzRSa0ZxZVFIMHFlTjU1VGVWdFNRa24wTEdqdW1FRkhOdjdqNWtoZFBFTmY3elRXa2Z2Ym9ubFVlTVBWU2cyazZZZnNTdVRBV3BzVVBQRWk5NE44TkJBSEwyWFA0eVhZOUFZOVRLdUh1TnBMM01UTzYtejRFc19Dbkw1bS1iLWx4bFUtNTB4VGZPcGFxWloxSHM4UHZ5QWJkOHlYN1FTNDRYejk1aGU1YVFtQlJPVmdxTXFOdlZod2dUMWFpZUhNcmNHaG1LSERTZXZwTm15MnVKTk5xNFJJVEw4cjlYUklJMll3SWFLMDd2djV1aTFhSEhhc3R3X3h3QXNUeWxPNlNnMV9ldw?oc=5",
-      "snippet": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 flutrackers.com",
+      "snippet": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 FluTrackers",
       "published": "Fri, 08 May 2026 22:21:54 GMT"
     },
     {
-      "id": "be95668a002c919e",
+      "id": "06ea929378b85f27",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Discussion: Cruise ship hantavirus situation - May 2026 - flutrackers.com",
+      "title": "Discussion: Cruise ship hantavirus situation - May 2026 - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlpJYnBuR3FZWFhQdUF5QllsWS14cDVLOFhrNGlOUGZtUHVvRlpHR0Flc1JlUWp2ZE1mM1lrdmwyejZTaU5TcW1KNElSMjNLSDBhQ0ppWVhuSEhjeURpcEw1N3FoZkdOeDBGbU5pQXYtc01vQzdrUG5hN3Y4LWVjWU5ycGw0cTdmMjN2MTBNRi1ZaDRjLTF3MXoxODRFR2x3TmpTRl9yVE9sWWZCOWZvcFotVHprc0tjTmlNOU01VXI2ano4?oc=5",
-      "snippet": "Discussion: Cruise ship hantavirus situation - May 2026 flutrackers.com",
+      "snippet": "Discussion: Cruise ship hantavirus situation - May 2026 FluTrackers",
       "published": "Tue, 05 May 2026 19:57:09 GMT"
     },
     {
-      "id": "5c7886ca703acd26",
+      "id": "d4642704d19d1032",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "FluTrackers",
-      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - FluTrackers",
       "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxObTJ6SldqTmw5U1p1cHR1ejhpOTdIX1NNN3lPYzl3NkJXWlZuaEI2X2IydEdzQnBrMUd6Qjg2MktXejlqQmxGNFR2QXJkUVQyTTkySjI0VG92eGZ3dWllME1WaXVzM0ZSMWcySVlMYklnak5XMG5PcWFGUEZvSzRMOXpOcEhaN2hOSTE4cFkybjlWLWR2SDFOekNQZmNMVjlTRGdoNHFmNl9BalhISnpNa3BMM0gwSV94TEM0NHNPUUpjWmltM0tGQmlNZEVGVjlvcVBkU2VIN015bzlrYm1sQUVZa1IxTWhKMGg3ZHhGRUx3eG9xekU1SDZwRnZuYUJHUFZWc3lMRTg1Z1dXd3ZSOFVYN0ZQeTVTMnFnMFBncWJ1XzNuZEpvZG5EOVRvUHRHZC1Wd1pIQ1pLcEZ6NkhKQmJvNVJVUzJJNDE3OUpaXzd4bUNNd0tSbGR5cUhqb0Q1Qk1R?oc=5",
-      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) FluTrackers",
       "published": "Thu, 02 Jul 2026 07:00:00 GMT"
     },
     {
@@ -2415,6 +2404,127 @@
       "published": "Wed, 16 Mar 2022 07:00:00 GMT"
     },
     {
+      "id": "91fd48a0063e55ca",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "BMJ News",
+      "title": "Hantavirus outbreak on a cruise ship: Risk analysis and public health issues - The BMJ",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IYU81N25ndEZEWEc1Z3RmM0VWaDYxNThlaUNyTkQ4T08wRkxzUGZfRm9TVVJab3QyYTFHcTV3YUxSbEw4MXpqWFpWN09JYzVRWHgzX2JYYzM?oc=5",
+      "snippet": "Hantavirus outbreak on a cruise ship: Risk analysis and public health issues The BMJ",
+      "published": "Tue, 12 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "80b1bac456fb286e",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Argentina: 2026 Hantavirus - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSW1rQ0J1T2YtQW1fcU4yd3dVVWxmdlFubFZWOE9td29fUTZFY3NreUdWcUx6U1Z2QzFzZUs2RjdENURXMnljWHhKc21NNkRuMjIwdS1ZLURnRHZXclNiSS1QVFJPdGtHZE8zS3psUkw0RnJSMkcxRHZLdkI4eEtRcjBmQVRTUnlsbzM5cGg1SG5MdV9CM3Utck13cHNGVkp1d1VLRmEweEZqUHpSdE5qSmFIRkt5eVlGQjJHZ2ZibXNpZTR6bk1NdHo4WkFUc0pfdWgweDRmaHk?oc=5",
+      "snippet": "Argentina: 2026 Hantavirus flutrackers.com",
+      "published": "Mon, 04 May 2026 03:15:19 GMT"
+    },
+    {
+      "id": "2d0424a648f08248",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNRW1vNjd0cVJ4WUJHTjQxNld0OE5aeDJWX3JLOUNZZ2F2Ri1qT0xoX3pvV3NfS00wRmdoSWp4WUNvTjFqTU9FMldBcHVodWpaZ0N0aEIta3E2dk5ndzZSWWFsRjV6OVYxWERKRHVoTS1GTHllZUJlZnJRR2VCZzdnakRXVGVhLU9ZQkR2M3pKRi1TeXdGZ25xVXdKXzVjalVKSDJweGlPOG13MWJhNUpaZUxiUTMyUW5selBoVFFaRXVkRVdWVzlzS25JLWItVVFiQ3RZNWEyNjlNYllvYjBPY2tRRG1RT25SNUNBNnBJVFl3Wk9xOGxRdnhsMThHX2ZYT1h0b2o3Y2VpajlodlVudUZoLW9wSXpfdGFzQXd6d3NNemF4WmJYNXF3U3hRdFAtTTZyUERMTXp2ZGpQbllVQVhRTWU3cnlpTXo4Y20yOTV4dFh5dEdCVVVUeGJ3UFhoSFFR?oc=5",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "id": "eebf08ba235b0491",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPNnJhS2xwUDgwMnNJLTh5Zk5kSXZDNElhSGJVUHpvcFdhbjFMcm94YWV2aXRsSFhjVjBZNEgwdWczOU84V0RfYlotZFl6UVl4aGNwZkNTX3RKYm1QcTZDaml0T3FGODF0aEZwbTVxcHVieXF3Wlpqd29fQ3p5dFJmcFptcV9xOVI0U0JKS05La0xMcHFfY05MSW9tQU9aS0FhWmYyTktGZ1daX2hKR1NlTlA5MlNQNnc2TTNrYURhUnU5dEhPendJaHlJamF4amw4QnRpQ01lV2V2WEZ1QjY4N1VQZmRxREdPYWc4bmVuSlFnTGFXeTNHVGVDQl9Gai1TdkhZRlJsaGFPRm0wd1pEMVRLM242dXhwMndUak4teHNNNU5xak5sRi1n?oc=5",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths flutrackers.com",
+      "published": "Tue, 19 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "1a5068d9da9aa93c",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Sequence information on Andes type hantavirus outbreak - May 2026 - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLW5MNDJSNjV3RzJ4N2JfOF9XTTFzajVTZWtEd0UyeGIydldqUnZIRFJOeDU3OWxraGN5RkRjeTFtMmw3SldldWFqYWJjUktGTUhoUjlTcDBncXJvbElSTnZoM1pFbXpLR1E0TVljVFFXd0ZsdExfSHpnSzR3ZzQ3cnNwb1dzbktXNk5HaW5MMl9EdTNHY1llbTVUV2s0UUU0WFBkc01LUmRpcG14cklfUFRZdTVCUFhtelk5VUUxQzRpcHlNLW45RU9wU0huOTlRVzRv?oc=5",
+      "snippet": "Sequence information on Andes type hantavirus outbreak - May 2026 flutrackers.com",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "858f365f02d7a72c",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNcnphWmpTaklVM3hqWFFJaFVmWUF1LXFkT3hUWmNqTnktU2NaenJ3S2RsT3BodEU3MmFMWFlGUjEyRmhXRVFqYjhGTHE1ZjhZaDFjXzk0RUV4R096azNCZ2l0SEd6S3ZnV0xMUkwwNlZIeC1vNXAxNUduRmhfWW13SzlFSW9FcHlqZGExVkNqbEZWQjN0bTdIOUdJOFlKRVR5eGttWm4wbF9oUW05eVdvb1ZUeC1MVm9zYkh2T0ZxQjNxOThvRnhoVHRYbWNBSk50dzZXbXlyOUVFdnJjZTdsam1MRUtVY19jVWJyQmJpUjdTYWxPdHBET3l2dExMWXkxZ2MxQzZJWG5ZQQ?oc=5",
+      "snippet": "CIDRAP- At least 8 sickened in suspected hantavirus outbreak; Andes strain confirmed flutrackers.com",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "337f3b82ca5b4d61",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNUHBKRWt6M1k1Mm40d21ZZjRTbXRxdVFEMEFhZmRVWGZHeng2MkNYSC1PWXJWOU1GcnQ0RERjQkRUMXBHQTdTUkJjbmFxY2pybmkweDR0M3kxRndGc2NMN0ZaZmN2SDFKSmQzLXBtb1VVV09JOXBkVkhscEd3TkF1bGVlN2ZvVERwNFJ3cEdtbUJxRUpvTHpScTdVZ0FVRzNRamtQNVRYYU1kN295enUyR3VMUE1ZWi1SbkNKejlqT0RmdGVKSUV5OE5xLXZwdXBBR0dOYmd2a19YaWc5SUNQQ0U0OXlfVU9NMmk0WTlPdHFsR3c2YnhOLUFIWHhxaHFzdU1scnJYVld1YkhsQ1RRb0UtSW9PYmpSemVyeG84emdiQ2FLYXdIb3Fpdl9ydw?oc=5",
+      "snippet": "CIDRAP- WHO officials on hantavirus cases: ‘This is an outbreak on a ship, not another COVID-19’ flutrackers.com",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "2b71d8ae56defd7e",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOVmxjcmFzd2hpTnVvM283RldaN0UzRU5PMEo2YV90LUFfbFp0czk2X25RdFJoVnJKWjRMR19RcU1wWlBfVHZRZGhheFFsNFRyV2F2SjRfcWd2d18tTkVRT1VfVXY3STFlWVpMY2JHSkRsOVFta2E5b1JocGRjXzhuUFhYUzBCMHdzcEtyRlBlWnYyeUZpUGNUazBzY3haemh3d0RGcVROTHYtMkVwRERodW5qOTI3ZkNjWm9MSGJrNXBJcnhxZ1ZiSldCOUE1eFZJYTd1NXphLUt5SmtVUmhrclZhQWJoc3ZyejJGWDZfczRrV0lCOTVSUHkzRldHT1ZnVHd2czhQOGRzUTl5SmJZa3RTMFJsVHpJN3FRanUwWTU3ZTdnOUE1VFRnZWVqbXdlZU9sME5NMkMyUXBLUk1CSlVfc3ZVMEVVQkZsLXh0QzhnSS1aZDdDWTN1aTBtYTlGbnRR?oc=5",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "id": "0a7582886658a9dc",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNUEdlbkN5U3ZwUEljQlNXaVlBVkNVRGlUUVNBN0tuc09IS0JNR212aUllMG84dzRSa0ZxZVFIMHFlTjU1VGVWdFNRa24wTEdqdW1FRkhOdjdqNWtoZFBFTmY3elRXa2Z2Ym9ubFVlTVBWU2cyazZZZnNTdVRBV3BzVVBQRWk5NE44TkJBSEwyWFA0eVhZOUFZOVRLdUh1TnBMM01UTzYtejRFc19Dbkw1bS1iLWx4bFUtNTB4VGZPcGFxWloxSHM4UHZ5QWJkOHlYN1FTNDRYejk1aGU1YVFtQlJPVmdxTXFOdlZod2dUMWFpZUhNcmNHaG1LSERTZXZwTm15MnVKTk5xNFJJVEw4cjlYUklJMll3SWFLMDd2djV1aTFhSEhhc3R3X3h3QXNUeWxPNlNnMV9ldw?oc=5",
+      "snippet": "First case of hantavirus diagnosed in Israel after patient's visit to Eastern Europe - December 2025 flutrackers.com",
+      "published": "Fri, 08 May 2026 22:21:54 GMT"
+    },
+    {
+      "id": "be95668a002c919e",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Discussion: Cruise ship hantavirus situation - May 2026 - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlpJYnBuR3FZWFhQdUF5QllsWS14cDVLOFhrNGlOUGZtUHVvRlpHR0Flc1JlUWp2ZE1mM1lrdmwyejZTaU5TcW1KNElSMjNLSDBhQ0ppWVhuSEhjeURpcEw1N3FoZkdOeDBGbU5pQXYtc01vQzdrUG5hN3Y4LWVjWU5ycGw0cTdmMjN2MTBNRi1ZaDRjLTF3MXoxODRFR2x3TmpTRl9yVE9sWWZCOWZvcFotVHprc0tjTmlNOU01VXI2ano4?oc=5",
+      "snippet": "Discussion: Cruise ship hantavirus situation - May 2026 flutrackers.com",
+      "published": "Tue, 05 May 2026 19:57:09 GMT"
+    },
+    {
+      "id": "5c7886ca703acd26",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "FluTrackers",
+      "title": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) - flutrackers.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxObTJ6SldqTmw5U1p1cHR1ejhpOTdIX1NNN3lPYzl3NkJXWlZuaEI2X2IydEdzQnBrMUd6Qjg2MktXejlqQmxGNFR2QXJkUVQyTTkySjI0VG92eGZ3dWllME1WaXVzM0ZSMWcySVlMYklnak5XMG5PcWFGUEZvSzRMOXpOcEhaN2hOSTE4cFkybjlWLWR2SDFOekNQZmNMVjlTRGdoNHFmNl9BalhISnpNa3BMM0gwSV94TEM0NHNPUUpjWmltM0tGQmlNZEVGVjlvcVBkU2VIN015bzlrYm1sQUVZa1IxTWhKMGg3ZHhGRUx3eG9xekU1SDZwRnZuYUJHUFZWc3lMRTg1Z1dXd3ZSOFVYN0ZQeTVTMnFnMFBncWJ1XzNuZEpvZG5EOVRvUHRHZC1Wd1pIQ1pLcEZ6NkhKQmJvNVJVUzJJNDE3OUpaXzd4bUNNd0tSbGR5cUhqb0Q1Qk1R?oc=5",
+      "snippet": "Cruise ship - Hantavirus - May 3+ - As of May 22 per WHO: 13 total cases, 3 total deaths - WHO considers the outbreak over (July 2, 2026) flutrackers.com",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+    },
+    {
       "id": "0ccfb502a09ce9bf",
       "kind": "academic",
       "tier": 3,
@@ -2534,116 +2644,6 @@
       "url": "https://news.google.com/rss/search?q=site%3Astatnews.com+hantavirus+cruise+ship+Andes&hl=en-US&gl=US&ceid=US:en",
       "snippet": "",
       "published": "2026-08-22 22:38 JST"
-    },
-    {
-      "id": "224183d7c8b506fe",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "fetch-error",
-      "source": "Nature News",
-      "title": "Fetch failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Anature.com+hantavirus+Andes+cruise+ship&hl=en-US&gl=US&ceid=US:en",
-      "url": "https://news.google.com/rss/search?q=site%3Anature.com+hantavirus+Andes+cruise+ship&hl=en-US&gl=US&ceid=US:en",
-      "snippet": "",
-      "published": "2026-08-22 22:38 JST"
-    },
-    {
-      "id": "3c18f2e027f23198",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "fetch-error",
-      "source": "Science",
-      "title": "Fetch failed: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Ascience.org+hantavirus+Andes+cruise+ship&hl=en-US&gl=US&ceid=US:en",
-      "url": "https://news.google.com/rss/search?q=site%3Ascience.org+hantavirus+Andes+cruise+ship&hl=en-US&gl=US&ceid=US:en",
-      "snippet": "",
-      "published": "2026-08-22 22:38 JST"
-    },
-    {
-      "id": "2ced8b40a3ea8e5a",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Science News",
-      "title": "What to know about a rare hantavirus outbreak at sea - sciencenews.org",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HV3hKZ0pyenJOaGF2a2V6bDJIT05pMEMwYWV1Q09SRFpJZ1V1czZrWHVKSm9YUlRZUDV2STRsbFlyS3B6SV9TcF9ub3N2SThXZnJQQy1jMXRoa19SN2ZPSG9CQWg3azBNWVk2bWVBdFZMNnNma2VWNXdYT0NPRUE?oc=5",
-      "snippet": "What to know about a rare hantavirus outbreak at sea sciencenews.org",
-      "published": "Tue, 05 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "dfe8c2de89b0df9b",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Science News",
-      "title": "Hantavirus questions grow in the wake of a cruise ship outbreak - sciencenews.org",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3ZEU2LTUtYmdSV1FmQ1p5XzNrSWcwakFNU2FDeW0yRTExYmR1WkUyRlI1MlJFLTl1c28zc3BhOHJnUmRqQzBPWkl0YlMtdXVmVDRpaGd5cGpYZ0VxSWhUaEdmdkxfMHp1WDBIb0R4ZWVsN1VJYVhKc0F4SVNsdw?oc=5",
-      "snippet": "Hantavirus questions grow in the wake of a cruise ship outbreak sciencenews.org",
-      "published": "Wed, 13 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "97542061fe293e0a",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Science News",
-      "title": "Why is hantavirus so deadly? It’s not what you may think - sciencenews.org",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YcU5LRG9pTzJuYVptVm40dlR0UDJ2ZFBtcHlZQkpMclpORF9fdEczOHF6LXZSdUF5cEM5X0ZIdTNVYXR2UkJJcVFiRkFTMDRlQjlWeHZpc1lydERXd21kVFNUU0x2WXozMkt0NmwxN19nNFJyMWtrRkpWSnRVUQ?oc=5",
-      "snippet": "Why is hantavirus so deadly? It’s not what you may think sciencenews.org",
-      "published": "Tue, 26 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "9a8ccc7ac726378b",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius - jmepb.bmj.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kTTc3R1Q2bGY5Wi1od2FVLV9FWkEybjhLd3dIRXVBQVRuMExGTkI5amZ2dHAxLTEyc3I4aUNVdm9HNmRjdi13RWlwazhPLTFLZFhB?oc=5",
-      "snippet": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius jmepb.bmj.com",
-      "published": "Tue, 16 Jun 2026 13:54:04 GMT"
-    },
-    {
-      "id": "de291c131bf29643",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "UKHSA Update On Hantavirus: 2 Nonsymptomatic Passengers Self-Isolating at Home - afludiary.blogspot.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IVHU0eWNZUTBLYl9OTm9raWRMbEdoTUN5Sl9BSUZtcW1XM01nRGRRcDljM2Z3OTMxNWlYUTBwcUlvbXZScEZ6eFozMmdvR0tuRWdPTmhIcEUzMU5kUGRCeGNxdEZYNmMyMWFtYWVsei1saFlXRXM0VjI5dnc?oc=5",
-      "snippet": "UKHSA Update On Hantavirus: 2 Nonsymptomatic Passengers Self-Isolating at Home afludiary.blogspot.com",
-      "published": "Wed, 06 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "55f9143109f4ddcc",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver - afludiary.blogspot.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPelRYdmE5LWV2U1dQNUx1LTMyY1BuOU00VGNYNzJwTkhxMmNFS21qWEZKaS1KOVJVOVFfWnpWam5rSTduMUNBdDdhRmRQU2ViSl9SOXpWdTNZOE45MGpGSXROaWNIWWQ1d2Vud2ZxX1ZmcnM2YjMyY0ZYdjM0WDB2blBVVQ?oc=5",
-      "snippet": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver afludiary.blogspot.com",
-      "published": "Sun, 17 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "b2e77108e81484cf",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity - afludiary.blogspot.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVRkYUdab2JoZ0h1UmI1SmZick4tbENKbVNkNG5mV0Z3M3duc01ibXZ4NDZhWXFZS202TDhnbmdIbE1tWWk1SmZ2OTJ5X1JHekY0MTdMM1N3bm5WTkhseUFzQ3FWMU12VHV0dFMwckhvSjM2dUN3RDBmS3pSUW9PUElwczRUZw?oc=5",
-      "snippet": "Argentina MOH: Statement and Special Report On Recent Hantavirus Activity afludiary.blogspot.com",
-      "published": "Tue, 05 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "8bc3498e17da786d",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "WHO DON Update: Hantavirus outbreak linked to cruise ship travel, Multi-locations - afludiary.blogspot.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0pWVGw5X2l1N2RKQjlFbmZqaGVzc0RvTzZubW1nU0NHcVROQWNoMGxzNC1ia1BIcGJyU1Q1aVN5VWhEbkpXc0VVZHZ2Mm1XeFZvYndvMVNqZmo0dmxndTdSM0E3aWRXZGszVmQyOFRjbjJ1ZTY2eGZxcVc4a2ZnV2ptM2w?oc=5",
-      "snippet": "WHO DON Update: Hantavirus outbreak linked to cruise ship travel, Multi-locations afludiary.blogspot.com",
-      "published": "Fri, 29 May 2026 07:00:00 GMT"
     }
   ],
   "notes": [
