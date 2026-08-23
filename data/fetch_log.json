@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T20:29:42.605565+00:00",
-  "generated_at_jst": "2026-08-24 05:29 JST",
+  "generated_at": "2026-08-23T21:26:57.187156+00:00",
+  "generated_at_jst": "2026-08-24 06:26 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -1370,17 +1370,6 @@
       "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
-      "id": "6bb5d719952cea9d",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Hantavirus, is it all we need to know? - The BMJ",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40N1Y1VF80VXRBR2xUZThUOW53bmljLWstNmdfY3RsemVvNXJYeWRhemZWeGJvT0U2TEN5NU1KelN3YThHdzR4V2tpZzFyR19zejlENGNHUW0?oc=5",
-      "snippet": "Hantavirus, is it all we need to know? The BMJ",
-      "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "41242223b8f0c137",
       "kind": "academic",
       "tier": 3,
@@ -2413,6 +2402,17 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZmgyUFY2S2M3ZDdzeGl4Ylluc3dpdC0wWFJKMXItdTdvMVpVTWd5Nk1zOG1kY0o3WVUwOWl5czdWQ1d2UFNZWERwMHVZY09DTHM5d3V0ZzhRVlBwaG5yMklNUkc1LW8?oc=5",
       "snippet": "Human antibody recognizing a quaternary epitope in the Puumala virus glycoprotein provides broad protection against orthohantaviruses Science | AAAS",
       "published": "Wed, 16 Mar 2022 07:00:00 GMT"
+    },
+    {
+      "id": "6bb5d719952cea9d",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "BMJ News",
+      "title": "Hantavirus, is it all we need to know? - The BMJ",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40N1Y1VF80VXRBR2xUZThUOW53bmljLWstNmdfY3RsemVvNXJYeWRhemZWeGJvT0U2TEN5NU1KelN3YThHdzR4V2tpZzFyR19zejlENGNHUW0?oc=5",
+      "snippet": "Hantavirus, is it all we need to know? The BMJ",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
       "id": "91fd48a0063e55ca",
