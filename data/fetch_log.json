@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T14:25:02.104292+00:00",
-  "generated_at_jst": "2026-10-18 23:25 JST",
+  "generated_at": "2026-10-18T17:56:41.803422+00:00",
+  "generated_at_jst": "2026-10-19 02:56 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -114,17 +114,6 @@
       "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
-      "id": "bc5c4ca8481ec800",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness - Florida Hospital News and Healthcare Report",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUFsX1Z0bXE1NmNJRjBLa0NzUGREUjJiREw2UTlCYjNoWlNkVHdzRnFBdnU2bWJSXzdhT0YwN2N1ZlZUb2lGbjlpUEhtODVDdXZpZXZzdUVabDJsY0FJUEFKTUFhUUZRazJZM0trUnUwNjBZYmF0ek9YRGpRZGxwYV9scmQ5bUktUzVOUE5TcUxGbWdTQlNQQ2w2WDFQc0o1UWhORXFDaWpza0dvYjlfeWtKQ1Nmdm5f?oc=5",
-      "snippet": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness Florida Hospital News and Healthcare Report",
-      "published": "Tue, 26 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "94993a62bd555190",
       "kind": "media",
       "tier": 2,
@@ -134,6 +123,17 @@
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTUdrU1VRNExzb1FDLXIteUJoYXFmOGtEdHVxTFFWcGRwTEFERW9DcElpcDhwaFR5RzhEQ09Rb1FaZ3JyY0lxNmxDNnpGY1Nyb1dlMzlKWVRkeHZCdmdXS0ZqVFh0Mk9TT21oVVdxQnpOSXMtb0NYU0p5U001ZS1JcjE0Z2ZYQmpaLXpJdFFzRjVQdDBsSHhWdW5iRkhlNzRGNFhiOUpoX3RqWDRkeExRVnkzekhOekJGVHJNWjF4TmlKbEJfYUxtU252UDU3QnlKdDE1R1phdzBjdTZxdDVZcm1NZ2VJRnJ60gH8AUFVX3lxTFBIUFgwTlJSM2tpR2dKMkFnWl80NWQ1S1d0UDlGM0JqSTNPMExLNFd6d21pcmZyaDRfLTRQTHZsQzY1UkphRWJXQTR2a0tzNk9kbnU2V2NEQzNhVFNhM3F3TzR3MEVFSUFFRjhvTWJia2k4NjZjOFVHaktic0g1MlpMalo5R1g2b0xoSG1YWFJ2eHVMYXU3YlRPNTMtV3g0Z0RZTG5tYVdVMWRZVjg3a0N1ZzJ5SF9XMllDLVJISHZNYm5MbTMtZGlPWGVPbFBCaThjR2dIOFhDa2ljNFIzdGxNVm8wbExzcmRYZlBpRUFHYTJzaGVGRHdqbm5qZw?oc=5",
       "snippet": "Logbook of the ‘MV Hondius’: From Ushuaia to the Canary Islands, chronology of a hantavirus outbreak EL PAÍS English",
       "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "bc5c4ca8481ec800",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness - Florida Hospital News and Healthcare Report",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUFsX1Z0bXE1NmNJRjBLa0NzUGREUjJiREw2UTlCYjNoWlNkVHdzRnFBdnU2bWJSXzdhT0YwN2N1ZlZUb2lGbjlpUEhtODVDdXZpZXZzdUVabDJsY0FJUEFKTUFhUUZRazJZM0trUnUwNjBZYmF0ek9YRGpRZGxwYV9scmQ5bUktUzVOUE5TcUxGbWdTQlNQQ2w2WDFQc0o1UWhORXFDaWpza0dvYjlfeWtKQ1Nmdm5f?oc=5",
+      "snippet": "The MV Hondius Hantavirus Outbreak—Lessons for Pandemic Preparedness Florida Hospital News and Healthcare Report",
+      "published": "Tue, 26 May 2026 07:00:00 GMT"
     },
     {
       "id": "325c7ed62cb4f9c0",
@@ -1214,15 +1214,15 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
-      "id": "7c9c484566c4cfa0",
+      "id": "6c36edd22d31347e",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"RIVM\" \"Hondius\"",
-      "title": "Quarantine cabins set up in Rotterdam for crew of Hondius amid hantavirus outbreak - NL Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRGo3ZWpnRzdxRndfQTk4bzBzZGZCNTFDNl95eWZLd1RPMi1oTG4tM3UyZnNDbzRBSEhOMjJSOU1wSnhiTDVwa3ZFYkpXeElWTTUwRlBWMTg1Sk5nT1hERUNuOXd4MTI3TjVPOXc0UEVzZVNUN0cxLXg5eFFSNmZIQWZPUmN2LWoxUFZfSmlySUdxY2syS0RNY2tUSUtaTmJx?oc=5",
-      "snippet": "Quarantine cabins set up in Rotterdam for crew of Hondius amid hantavirus outbreak NL Times",
-      "published": "Fri, 15 May 2026 07:00:00 GMT"
+      "title": "Hondius passengers on 2nd, 3rd repatriation flights test negative for hantavirus - NL Times",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTRuemFENXBnN0lDc0cxbG45RTBnZzNJVlBEeXdfMTAxSjU2R2lxMVlfNGZRNkpyVEtFNGZ1a1l5WWNxOE5vZmNDcWswUXdnbUlzcXZHN3l0WXZZRVdrN1VfeTNTV2w2U0czbFMzYVhSa0d3TEtYeGk4SlV4OG5VUWFCWVVIa3VWdjBrbldPVzN0cFhSUU5kODRra3E4SmhYRHN2ag?oc=5",
+      "snippet": "Hondius passengers on 2nd, 3rd repatriation flights test negative for hantavirus NL Times",
+      "published": "Thu, 14 May 2026 07:00:00 GMT"
     },
     {
       "id": "1835222f05d0763a",
@@ -1236,15 +1236,15 @@
       "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
-      "id": "6c36edd22d31347e",
+      "id": "7c9c484566c4cfa0",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"RIVM\" \"Hondius\"",
-      "title": "Hondius passengers on 2nd, 3rd repatriation flights test negative for hantavirus - NL Times",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTRuemFENXBnN0lDc0cxbG45RTBnZzNJVlBEeXdfMTAxSjU2R2lxMVlfNGZRNkpyVEtFNGZ1a1l5WWNxOE5vZmNDcWswUXdnbUlzcXZHN3l0WXZZRVdrN1VfeTNTV2w2U0czbFMzYVhSa0d3TEtYeGk4SlV4OG5VUWFCWVVIa3VWdjBrbldPVzN0cFhSUU5kODRra3E4SmhYRHN2ag?oc=5",
-      "snippet": "Hondius passengers on 2nd, 3rd repatriation flights test negative for hantavirus NL Times",
-      "published": "Thu, 14 May 2026 07:00:00 GMT"
+      "title": "Quarantine cabins set up in Rotterdam for crew of Hondius amid hantavirus outbreak - NL Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRGo3ZWpnRzdxRndfQTk4bzBzZGZCNTFDNl95eWZLd1RPMi1oTG4tM3UyZnNDbzRBSEhOMjJSOU1wSnhiTDVwa3ZFYkpXeElWTTUwRlBWMTg1Sk5nT1hERUNuOXd4MTI3TjVPOXc0UEVzZVNUN0cxLXg5eFFSNmZIQWZPUmN2LWoxUFZfSmlySUdxY2syS0RNY2tUSUtaTmJx?oc=5",
+      "snippet": "Quarantine cabins set up in Rotterdam for crew of Hondius amid hantavirus outbreak NL Times",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
       "id": "9134d742589f5f48",
@@ -1337,17 +1337,6 @@
       "published": "Fri, 03 Jul 2026 07:00:00 GMT"
     },
     {
-      "id": "3d62e1bb3a7300fb",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Hantavirus: French and US nationals test positive as cruise ship docks in Canary Islands - The BMJ",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XakZtZjZNcnFPR1JNTHRSNXBjQ003My1GVF9rRGJ3cTRKeUVoN2xOTkFOakpCbDRPOUk1ckp1ZGhOemszbjYyaEdHUGJjbnhoM3c?oc=5",
-      "snippet": "Hantavirus: French and US nationals test positive as cruise ship docks in Canary Islands The BMJ",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "91fd48a0063e55ca",
       "kind": "academic",
       "tier": 3,
@@ -1359,15 +1348,15 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "01066a3928fc39fb",
+      "id": "3d62e1bb3a7300fb",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "BMJ News",
-      "title": "Hantavirus: Three dead in cruise ship outbreak as authorities investigate human-to-human transmission - The BMJ",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqeV9HY25yQnFNdG5QcUlCTkhKUktrcXJYdHNTbENqWHNFMjd1SldFNk5nOFpfUEdJZXdQdUU1M3RMN2FldU9WRXI2VU00Uk82SlE?oc=5",
-      "snippet": "Hantavirus: Three dead in cruise ship outbreak as authorities investigate human-to-human transmission The BMJ",
-      "published": "Wed, 06 May 2026 07:00:00 GMT"
+      "title": "Hantavirus: French and US nationals test positive as cruise ship docks in Canary Islands - The BMJ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XakZtZjZNcnFPR1JNTHRSNXBjQ003My1GVF9rRGJ3cTRKeUVoN2xOTkFOakpCbDRPOUk1ckp1ZGhOemszbjYyaEdHUGJjbnhoM3c?oc=5",
+      "snippet": "Hantavirus: French and US nationals test positive as cruise ship docks in Canary Islands The BMJ",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "8ad1647fc38b3a9e",
@@ -1379,6 +1368,17 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPS09EbWVNclI5X2l4T0w3Q2VVLXZacTRHcjhmSUJXaDA4NlFVS1loY19ocFJBUlFKZm13SG9JeWhLeTV1RWJfb1JZczVoR2dVREw4SWVuZE1RbDRnTmc?oc=5",
       "snippet": "Hantavirus: Third British national has suspected infection as WHO says this is “not the start of a pandemic” The BMJ",
       "published": "Fri, 08 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "01066a3928fc39fb",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "BMJ News",
+      "title": "Hantavirus: Three dead in cruise ship outbreak as authorities investigate human-to-human transmission - The BMJ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqeV9HY25yQnFNdG5QcUlCTkhKUktrcXJYdHNTbENqWHNFMjd1SldFNk5nOFpfUEdJZXdQdUU1M3RMN2FldU9WRXI2VU00Uk82SlE?oc=5",
+      "snippet": "Hantavirus: Three dead in cruise ship outbreak as authorities investigate human-to-human transmission The BMJ",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
       "id": "99c4904e9c5071e1",
@@ -1403,17 +1403,6 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
-      "id": "feb746c36e09c11c",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Hantavirus: What you need to know - The BMJ",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKR3gzV3FwX3k5QU5BMFo4SUxYZmZvb3lsV2t6eGNwMTNKVFRWek0tSU1zSE5zTU0tWllJdENpVUxFdEt1VW9LQWN2N25TVlRscFE?oc=5",
-      "snippet": "Hantavirus: What you need to know The BMJ",
-      "published": "Thu, 07 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "7f0e85fb9072f226",
       "kind": "academic",
       "tier": 3,
@@ -1423,6 +1412,17 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Cb3V2VTd2S21laU05QUlJN1ZKcEhaNEhKU21DekdRS1pkM2ZOQ05QV1BURVVIMS1xeEppLTBRTnh0UVFlU2U4UEJCUVlJWjFJdHVEOWJn?oc=5",
       "snippet": "Response to infectious diseases caused by hantaviruses in Japan The BMJ",
       "published": "Tue, 12 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "feb746c36e09c11c",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "BMJ News",
+      "title": "Hantavirus: What you need to know - The BMJ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKR3gzV3FwX3k5QU5BMFo4SUxYZmZvb3lsV2t6eGNwMTNKVFRWek0tSU1zSE5zTU0tWllJdENpVUxFdEt1VW9LQWN2N25TVlRscFE?oc=5",
+      "snippet": "Hantavirus: What you need to know The BMJ",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
     },
     {
       "id": "0233971e41a8818b",
@@ -1458,17 +1458,6 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT"
     },
     {
-      "id": "95a80b8d88a6c71a",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "BMJ News",
-      "title": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius - JME Practical Bioethics",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kTTc3R1Q2bGY5Wi1od2FVLV9FWkEybjhLd3dIRXVBQVRuMExGTkI5amZ2dHAxLTEyc3I4aUNVdm9HNmRjdi13RWlwazhPLTFLZFhB?oc=5",
-      "snippet": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius JME Practical Bioethics",
-      "published": "Tue, 16 Jun 2026 13:54:04 GMT"
-    },
-    {
       "id": "4df8c3cf32b984c7",
       "kind": "academic",
       "tier": 3,
@@ -1480,15 +1469,15 @@
       "published": "Fri, 17 Jul 2026 18:38:45 GMT"
     },
     {
-      "id": "e41da798f6a3ee9f",
+      "id": "95a80b8d88a6c71a",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "BMJ News",
-      "title": "Hantavirus cardiopulmonary syndrome - BMJ Best Practice",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nc1dObFBQdWxuVVdwQXZWVVhJTWZCb3ZzSllPQzY2c3lCaUVGdkEwVHI1emFjZFp2T1FGYU5KSHdLZi1NSUFqQklwaWJRaWl6Nm92V28xczM?oc=5",
-      "snippet": "Hantavirus cardiopulmonary syndrome BMJ Best Practice",
-      "published": "Sat, 25 Nov 2017 07:56:54 GMT"
+      "title": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius - JME Practical Bioethics",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kTTc3R1Q2bGY5Wi1od2FVLV9FWkEybjhLd3dIRXVBQVRuMExGTkI5amZ2dHAxLTEyc3I4aUNVdm9HNmRjdi13RWlwazhPLTFLZFhB?oc=5",
+      "snippet": "Quarantine at sea: bioethical lessons from a reported hantavirus cluster on MV Hondius JME Practical Bioethics",
+      "published": "Tue, 16 Jun 2026 13:54:04 GMT"
     },
     {
       "id": "aaadfe589827aca0",
@@ -1500,6 +1489,17 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wMTFSZ21Vcl96NzdmN0FXSWJLWmJNYW5USnhvaXR5Ukt0bUVKRm9JZ0VJem9yVmFWbFh3M0pRMVBERmpBMTlwS0MwYkMyUTFpX2lwS2d4Y3llVUlYMXc?oc=5",
       "snippet": "Hantavirus: Army drops in with medic and supplies to remote British island The BMJ",
       "published": "Wed, 13 May 2026 19:49:01 GMT"
+    },
+    {
+      "id": "e41da798f6a3ee9f",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "BMJ News",
+      "title": "Hantavirus cardiopulmonary syndrome - BMJ Best Practice",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nc1dObFBQdWxuVVdwQXZWVVhJTWZCb3ZzSllPQzY2c3lCaUVGdkEwVHI1emFjZFp2T1FGYU5KSHdLZi1NSUFqQklwaWJRaWl6Nm92V28xczM?oc=5",
+      "snippet": "Hantavirus cardiopulmonary syndrome BMJ Best Practice",
+      "published": "Sat, 25 Nov 2017 07:56:54 GMT"
     },
     {
       "id": "8babcf1e3080b011",
@@ -2195,15 +2195,26 @@
       "published": "Fri, 08 May 2026 07:00:00 GMT"
     },
     {
-      "id": "d6d6ecfba58342b2",
+      "id": "172224259afb9e6f",
       "kind": "academic",
       "tier": 3,
       "confidence": "expert-news",
       "source": "Nature News",
-      "title": "Hantavirus crops up on a cruise ship — what scientists are watching - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YeXhjeFJQUzBoOU5aNUo5SHFqYVp0RGFwNTlyOFFpTnlZcGpVc3RBd09MQ0FEdmEzLUkzSG1XX0NpdXdMSUl0ZlFSNkZ5bnBhOGNpYko0eC0wRjhhOHQw?oc=5",
-      "snippet": "Hantavirus crops up on a cruise ship — what scientists are watching Nature",
-      "published": "Mon, 04 May 2026 07:00:00 GMT"
+      "title": "Andes hantavirus – A primer - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjc2oyVG1YRUcyNVUwTkRhbTlTR2dhOXZza0gyWm00WjBldDNIdEFKZnQ0S0wzeUNxOTR3TXRPQmo4OUZYdkVHbkpRcm1fNWJsVzlRLWRwWXVZVmM2c0xv?oc=5",
+      "snippet": "Andes hantavirus – A primer Nature",
+      "published": "Fri, 05 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "id": "0065b420dfded557",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Nature News",
+      "title": "Hantavirus outbreak exposes uncertainty about how disease spreads - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzazlQT3A1YVRzUFRwLUJSTVZLa3dFMkxFb1RwVU9nVHJDOW4wRUl1X2gyVzQwMkpWUENjSEluVWRkUGNVUEVaQ2pnREozemotd2N4bE5HLUNqSUVVdWFR?oc=5",
+      "snippet": "Hantavirus outbreak exposes uncertainty about how disease spreads Nature",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "573ac972576f7faa",
@@ -2215,6 +2226,17 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0UHZqUHVHdGZ6QXNHS1dXMzRzUndGNnNHWlN4N21POUpJS1JFMmE0LU1DaGJwY2NNNl9PUm84TVExVHZHRWNSTVJFMkVkSldwbHlLRXJRSmNkZUoyQmdV?oc=5",
       "snippet": "Cruise-ship hantavirus cluster exposes a wider preparedness gap Nature",
       "published": "Tue, 12 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "d6d6ecfba58342b2",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Nature News",
+      "title": "Hantavirus crops up on a cruise ship — what scientists are watching - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YeXhjeFJQUzBoOU5aNUo5SHFqYVp0RGFwNTlyOFFpTnlZcGpVc3RBd09MQ0FEdmEzLUkzSG1XX0NpdXdMSUl0ZlFSNkZ5bnBhOGNpYko0eC0wRjhhOHQw?oc=5",
+      "snippet": "Hantavirus crops up on a cruise ship — what scientists are watching Nature",
+      "published": "Mon, 04 May 2026 07:00:00 GMT"
     },
     {
       "id": "0d5e0b3719059a5e",
@@ -2237,28 +2259,6 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sVTRNZ1NPclZYX0IyTlBtQ3d0MkZSZHNTZV82dVJzNGFzZ09QOWhQeGVtdmI2U3RyZnN4dmRiZVg2SGI4bUUta0FkS0s4ek9IRnNQMV92Q2NLV2xpcUlr?oc=5",
       "snippet": "Vaccines and therapeutics for Andes hantavirus Nature",
       "published": "Tue, 09 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "id": "172224259afb9e6f",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Nature News",
-      "title": "Andes hantavirus – A primer - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjc2oyVG1YRUcyNVUwTkRhbTlTR2dhOXZza0gyWm00WjBldDNIdEFKZnQ0S0wzeUNxOTR3TXRPQmo4OUZYdkVHbkpRcm1fNWJsVzlRLWRwWXVZVmM2c0xv?oc=5",
-      "snippet": "Andes hantavirus – A primer Nature",
-      "published": "Fri, 05 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "id": "0065b420dfded557",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Nature News",
-      "title": "Hantavirus outbreak exposes uncertainty about how disease spreads - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzazlQT3A1YVRzUFRwLUJSTVZLa3dFMkxFb1RwVU9nVHJDOW4wRUl1X2gyVzQwMkpWUENjSEluVWRkUGNVUEVaQ2pnREozemotd2N4bE5HLUNqSUVVdWFR?oc=5",
-      "snippet": "Hantavirus outbreak exposes uncertainty about how disease spreads Nature",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "350597fe3b68fdec",
