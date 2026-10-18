@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T22:06:42.708258+00:00",
-  "generated_at_jst": "2026-10-18 07:06 JST",
+  "generated_at": "2026-10-18T00:46:47.488098+00:00",
+  "generated_at_jst": "2026-10-18 09:46 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -103,17 +103,6 @@
       "published": "Sat, 09 May 2026 07:00:00 GMT"
     },
     {
-      "id": "325c7ed62cb4f9c0",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Five US passengers from hantavirus-hit ship return to home states - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWZhQURrMHJ6eXpCaGNucmdrczN6eHJZWUpFZmlwS0tQQXgxaUI3alR4cE5FUEM5U1VwOHl5bHNUclpHa2hmZHpBUFAwUFhiMXA3OVZuZVBKQzlYbnpONXhGdmJMaWh3RHFUU25keVF3cFJVU19TMkVHYW1vMnVIZWVaa0tWOExNM3FvVWZNUkllRzhlSi1XNkItQWo5dDhn?oc=5",
-      "snippet": "Five US passengers from hantavirus-hit ship return to home states Reuters",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT"
-    },
-    {
       "id": "b385b4fba3c57ff9",
       "kind": "media",
       "tier": 2,
@@ -145,6 +134,17 @@
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTUdrU1VRNExzb1FDLXIteUJoYXFmOGtEdHVxTFFWcGRwTEFERW9DcElpcDhwaFR5RzhEQ09Rb1FaZ3JyY0lxNmxDNnpGY1Nyb1dlMzlKWVRkeHZCdmdXS0ZqVFh0Mk9TT21oVVdxQnpOSXMtb0NYU0p5U001ZS1JcjE0Z2ZYQmpaLXpJdFFzRjVQdDBsSHhWdW5iRkhlNzRGNFhiOUpoX3RqWDRkeExRVnkzekhOekJGVHJNWjF4TmlKbEJfYUxtU252UDU3QnlKdDE1R1phdzBjdTZxdDVZcm1NZ2VJRnJ60gH8AUFVX3lxTFBIUFgwTlJSM2tpR2dKMkFnWl80NWQ1S1d0UDlGM0JqSTNPMExLNFd6d21pcmZyaDRfLTRQTHZsQzY1UkphRWJXQTR2a0tzNk9kbnU2V2NEQzNhVFNhM3F3TzR3MEVFSUFFRjhvTWJia2k4NjZjOFVHaktic0g1MlpMalo5R1g2b0xoSG1YWFJ2eHVMYXU3YlRPNTMtV3g0Z0RZTG5tYVdVMWRZVjg3a0N1ZzJ5SF9XMllDLVJISHZNYm5MbTMtZGlPWGVPbFBCaThjR2dIOFhDa2ljNFIzdGxNVm8wbExzcmRYZlBpRUFHYTJzaGVGRHdqbm5qZw?oc=5",
       "snippet": "Logbook of the ‘MV Hondius’: From Ushuaia to the Canary Islands, chronology of a hantavirus outbreak EL PAÍS English",
       "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "325c7ed62cb4f9c0",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "Five US passengers from hantavirus-hit ship return to home states - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWZhQURrMHJ6eXpCaGNucmdrczN6eHJZWUpFZmlwS0tQQXgxaUI3alR4cE5FUEM5U1VwOHl5bHNUclpHa2hmZHpBUFAwUFhiMXA3OVZuZVBKQzlYbnpONXhGdmJMaWh3RHFUU25keVF3cFJVU19TMkVHYW1vMnVIZWVaa0tWOExNM3FvVWZNUkllRzhlSi1XNkItQWo5dDhn?oc=5",
+      "snippet": "Five US passengers from hantavirus-hit ship return to home states Reuters",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT"
     },
     {
       "id": "9e3ffbadb38333f7",
@@ -345,6 +345,17 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT"
     },
     {
+      "id": "dc468450c05fd91b",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
+      "title": "Health officials track fourth King County resident tied to MV Hondius Andes hantavirus - KOMO",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUjJZbWpmbnhoVExYYkZRcmV4akpjd0NXZmpISlhNMl96Q1BfclNybFRoZXhXWTZNRC1oRzY3THJSNlQweDVNWUFjMzFDRFFSRU5xRUppSzd0cjc0cktocE1hXzk1eFpwdnU4Z2ZkemEycWltdklmTFpma2w4T2s1TVBCaFg3b19sV0NOWXF4eG9sVmVseUl4WmxFM2puOV9uSHVwZzhEbzFIczZ5QlI5Zzg0djRCSE9LemdfTlI0SWh3UXZOUGtuUlVLWE0wYngtdkhpRC13TWt4MUJqSmljakl2ZGU1eTRES0lBVk52YmlHbk1qdXNpYkVLNWluMnZLbERENklweGY?oc=5",
+      "snippet": "Health officials track fourth King County resident tied to MV Hondius Andes hantavirus KOMO",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "a3ffd9ba390dc67c",
       "kind": "media",
       "tier": 2,
@@ -365,17 +376,6 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcExRVkpLeU8wVlVjc2k3WlpoSEJFWkdnZkQ2bjB2aVdjd1FQTTIxLWNhMzFpbFhtS1R0S2pBTlFPX0JmMkhTdWVXOEtMV0hfNEllZG1pbGwtNmJqc3VxTHpmRGdsa1lMQXZiWV9leEVac3Z2d0xrZEM3b21NbnZrNnpHbDQ5YmFDSGxnS3VrUkg5cHp0cng1aFdHeFFycDUxci1pUkU2XzhXZ2ZFZUhsUWt5Q0NJZHB1d21YcDc3VENrTVdxbHEwQ3FBSll3S1E?oc=5",
       "snippet": "Three Kansans being monitored for hantavirus after contact with infected cruise ship passenger Kansas Reflector",
       "published": "Tue, 12 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "dc468450c05fd91b",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes virus\" \"MV Hondius\"",
-      "title": "Health officials track fourth King County resident tied to MV Hondius Andes hantavirus - KOMO",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUjJZbWpmbnhoVExYYkZRcmV4akpjd0NXZmpISlhNMl96Q1BfclNybFRoZXhXWTZNRC1oRzY3THJSNlQweDVNWUFjMzFDRFFSRU5xRUppSzd0cjc0cktocE1hXzk1eFpwdnU4Z2ZkemEycWltdklmTFpma2w4T2s1TVBCaFg3b19sV0NOWXF4eG9sVmVseUl4WmxFM2puOV9uSHVwZzhEbzFIczZ5QlI5Zzg0djRCSE9LemdfTlI0SWh3UXZOUGtuUlVLWE0wYngtdkhpRC13TWt4MUJqSmljakl2ZGU1eTRES0lBVk52YmlHbk1qdXNpYkVLNWluMnZLbERENklweGY?oc=5",
-      "snippet": "Health officials track fourth King County resident tied to MV Hondius Andes hantavirus KOMO",
-      "published": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
       "id": "7e71483408c59276",
@@ -862,17 +862,6 @@
       "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
-      "id": "d8312b49493e3be6",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
-      "title": "How our immune cells combat Andes hantavirus - La Jolla Institute",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc1NzS2l4UG5nZ3RtTUJNenpveHdVSmhtOV9rMVhQS0ZRU0xkZ2RPNnBaNXdpY3lwUENES04yelhHdDZWUlBUTjU5cmlUandEN3NKc3ZmUUxyRkRHMHdXdGUyT1VqMnh6VEpYYjluVVZYQUY3LVJrVV8yVmJEQzBjQy1DX0NYOGdpYmcwX2xNb3Q?oc=5",
-      "snippet": "How our immune cells combat Andes hantavirus La Jolla Institute",
-      "published": "Tue, 26 May 2026 21:23:02 GMT"
-    },
-    {
       "id": "bbaaf9c5cec1b452",
       "kind": "media",
       "tier": 2,
@@ -882,6 +871,17 @@
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUjJZbWpmbnhoVExYYkZRcmV4akpjd0NXZmpISlhNMl96Q1BfclNybFRoZXhXWTZNRC1oRzY3THJSNlQweDVNWUFjMzFDRFFSRU5xRUppSzd0cjc0cktocE1hXzk1eFpwdnU4Z2ZkemEycWltdklmTFpma2w4T2s1TVBCaFg3b19sV0NOWXF4eG9sVmVseUl4WmxFM2puOV9uSHVwZzhEbzFIczZ5QlI5Zzg0djRCSE9LemdfTlI0SWh3UXZOUGtuUlVLWE0wYngtdkhpRC13TWt4MUJqSmljakl2ZGU1eTRES0lBVk52YmlHbk1qdXNpYkVLNWluMnZLbERENklweGY?oc=5",
       "snippet": "Health officials track fourth King County resident tied to MV Hondius Andes hantavirus KOMO",
       "published": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "d8312b49493e3be6",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"Andes hantavirus\" \"cruise ship\"",
+      "title": "How our immune cells combat Andes hantavirus - La Jolla Institute",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc1NzS2l4UG5nZ3RtTUJNenpveHdVSmhtOV9rMVhQS0ZRU0xkZ2RPNnBaNXdpY3lwUENES04yelhHdDZWUlBUTjU5cmlUandEN3NKc3ZmUUxyRkRHMHdXdGUyT1VqMnh6VEpYYjluVVZYQUY3LVJrVV8yVmJEQzBjQy1DX0NYOGdpYmcwX2xNb3Q?oc=5",
+      "snippet": "How our immune cells combat Andes hantavirus La Jolla Institute",
+      "published": "Tue, 26 May 2026 21:23:02 GMT"
     },
     {
       "id": "48412e5b9e812dfc",
@@ -928,15 +928,15 @@
       "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
-      "id": "cb9f76ac4017968b",
+      "id": "08636913d1be2913",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Five US passengers from hantavirus-hit ship return to home states - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWZhQURrMHJ6eXpCaGNucmdrczN6eHJZWUpFZmlwS0tQQXgxaUI3alR4cE5FUEM5U1VwOHl5bHNUclpHa2hmZHpBUFAwUFhiMXA3OVZuZVBKQzlYbnpONXhGdmJMaWh3RHFUU25keVF3cFJVU19TMkVHYW1vMnVIZWVaa0tWOExNM3FvVWZNUkllRzhlSi1XNkItQWo5dDhn?oc=5",
-      "snippet": "Five US passengers from hantavirus-hit ship return to home states Reuters",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT"
+      "title": "Three more US passengers from hantavirus-hit ship return to home states - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1lLVWVPWDdfX3lFRWxSQXRqSkZXaXFXNE42TzkycUY3dUFLYzZkVnZ6MTBDVG56MXBfS3NDclN0MEI3enJSYzB3aVlHSFlLTXZCZ05iYVlRdy1KMXEzMVh5YzFKM1VoYW5OZFM1QzhJYVVHejBvemNidXFqQlRWV3JwSG1taUd1YVBLSE9uSTVJazZCeFYtd1BPR2p0T25GTGJwUHpVSkNEbWZNcDl3WFNmREVoSUE3Ulh0alhSS3FSNXZqbjc0NVFpOUVMT2tX?oc=5",
+      "snippet": "Three more US passengers from hantavirus-hit ship return to home states Reuters",
+      "published": "Tue, 09 Jun 2026 07:00:00 GMT"
     },
     {
       "id": "37703bef79ec0183",
@@ -950,15 +950,15 @@
       "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
-      "id": "08636913d1be2913",
+      "id": "cb9f76ac4017968b",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Three more US passengers from hantavirus-hit ship return to home states - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1lLVWVPWDdfX3lFRWxSQXRqSkZXaXFXNE42TzkycUY3dUFLYzZkVnZ6MTBDVG56MXBfS3NDclN0MEI3enJSYzB3aVlHSFlLTXZCZ05iYVlRdy1KMXEzMVh5YzFKM1VoYW5OZFM1QzhJYVVHejBvemNidXFqQlRWV3JwSG1taUd1YVBLSE9uSTVJazZCeFYtd1BPR2p0T25GTGJwUHpVSkNEbWZNcDl3WFNmREVoSUE3Ulh0alhSS3FSNXZqbjc0NVFpOUVMT2tX?oc=5",
-      "snippet": "Three more US passengers from hantavirus-hit ship return to home states Reuters",
-      "published": "Tue, 09 Jun 2026 07:00:00 GMT"
+      "title": "Five US passengers from hantavirus-hit ship return to home states - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWZhQURrMHJ6eXpCaGNucmdrczN6eHJZWUpFZmlwS0tQQXgxaUI3alR4cE5FUEM5U1VwOHl5bHNUclpHa2hmZHpBUFAwUFhiMXA3OVZuZVBKQzlYbnpONXhGdmJMaWh3RHFUU25keVF3cFJVU19TMkVHYW1vMnVIZWVaa0tWOExNM3FvVWZNUkllRzhlSi1XNkItQWo5dDhn?oc=5",
+      "snippet": "Five US passengers from hantavirus-hit ship return to home states Reuters",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT"
     },
     {
       "id": "f78f346cfbc9b544",
