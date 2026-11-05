@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T02:07:41.791330+00:00",
-  "generated_at_jst": "2026-11-05 11:07 JST",
+  "generated_at": "2026-11-05T10:38:33.407203+00:00",
+  "generated_at_jst": "2026-11-05 19:38 JST",
   "status": "ok",
   "latest_items": [
     {
@@ -57,6 +57,17 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xSzJQdm1QOTNvVXFfckdGcGNwU1p1cmFHb1FQR0RzSVFpRVFjTVo5ckI3UkxVWktmTHJTRmEzQVZISV9wa0o5c3ZNMW01MlJPSmVsTHRTUVd0VkRIUU04?oc=5",
       "snippet": "Andes Hantavirus Outbreak on a Cruise Ship, 2026 NEJM",
       "published": "Wed, 20 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "bddca860af67896d",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "Spanish passenger from the MV Hondius cruise ship tests positive for hantavirus - CBC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWRhSUJoQ0lTbnBQc2ZrMUN5dlE3OUF5WW9tSjVkWnFJOXY5ZktVb2xNOXZwQlVmN2hIbFlsYWgwYWU1OWZxOWVqNEZjWDY5ZWxXWi1KVTBIRDRsaGhJWk8wNFpOUXNtRjlaT3p0TzY0aHhzcjlSTDh6RnBCamNYLW10enlOM3hLWDc5dzZRVWdtNHprenFBTFBLaWYxQQ?oc=5",
+      "snippet": "Spanish passenger from the MV Hondius cruise ship tests positive for hantavirus CBC",
+      "published": "Mon, 25 May 2026 07:00:00 GMT"
     },
     {
       "id": "81f3414f0c56a6b1",
@@ -125,17 +136,6 @@
       "published": "Sat, 16 May 2026 07:00:00 GMT"
     },
     {
-      "id": "7315c7fb78355c2b",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus - CNN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUWlQaHNoaWNyYk5NYjBWRFQyQ3VjdGR5QjJCNnJhSnZOYldPS2pzQnVCa1d0ZzRmRVVYWE9GeGJiUjltNXlULUpKT3RLZ3ZVVEZTMFBUamdEX3lZNVZhUzlBbnRfaHBVQ0pmOWx4LUZMRGE2cGVHcmkxSHdINWZYTEFqeGpxTTg5M1VzRXpB?oc=5",
-      "snippet": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus CNN",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "c7e1eae196d5396c",
       "kind": "media",
       "tier": 2,
@@ -145,6 +145,17 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkdZc2lRVkRBeHBQLVdvYkR5S3VvLXVLZ0NmNTlIb25IX01xOTV3WnFackFhenlnNGxaUzdDQ2hfdkxEVmthRTVaR1JKbi1BOWFQLVo4T3lrOERuTVBmc2FfYlZNSFdaZXE5dGpXdDQ4XzN4Qkc2TXFEMDlTQnNyR3ZCUGtkSjRBNnVmSl90eG1JQTZrN2RDMGUzSmlWZ0tFRTF4eWNaSzFJMHB1anN1Nkd4dHdVd0sxOVFtbFR1QThvLVlkTEtWM2QxQzU?oc=5",
       "snippet": "Evacuated US and French MV Hondius passengers test positive for hantavirus The Guardian",
       "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "7315c7fb78355c2b",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
+      "title": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUWlQaHNoaWNyYk5NYjBWRFQyQ3VjdGR5QjJCNnJhSnZOYldPS2pzQnVCa1d0ZzRmRVVYWE9GeGJiUjltNXlULUpKT3RLZ3ZVVEZTMFBUamdEX3lZNVZhUzlBbnRfaHBVQ0pmOWx4LUZMRGE2cGVHcmkxSHdINWZYTEFqeGpxTTg5M1VzRXpB?oc=5",
+      "snippet": "MV Hondius: All passengers evacuated from cruise ship hit by deadly hantavirus CNN",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "b13b8b9262ee31d8",
@@ -169,26 +180,15 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "69c72c8e8c256b03",
+      "id": "a3584efb7e1e2bd8",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Bay Area health officials confirm resident exposed to hantavirus on MV Hondius cruise ship - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNldpck5OVk5wMW5sZWVGWjdxdXY3NGtSRkxtOEpqZ0J4UkFmdzJUb21ZMmZZMWtTaUJMRi1GdzhIb2xPWmxITzlYNXFweG5PVmt1UVlhdWw1bVNpU196TkEwemJzbXRlbXhUdGhsTTlWTDZtamNIYXhLSEE1eFNtYURBVkRPSG1ZVjU1OXh1S3RHLV9ES2ZVT0REeE56dFVkaTNDamtqbFhoLWxuSjBCMW5hTjI2ZHhQbDBqSE9fMC1TdzJK?oc=5",
-      "snippet": "Bay Area health officials confirm resident exposed to hantavirus on MV Hondius cruise ship CBS News",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "a2410c4eaf75cfb7",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVBNLUlScGFKUW5aV3QxbGlsNEdlelFBX1ZrOWZEMF9GQlREeGp5UDVNNERDZkNxNTdSOVpfNUh4eDh1eFFfVS1QQ1ZadjQxNVEtQkNHVWtZeGlpMGw3TFRfcU9oZ0E0LXJDc1hrNXFYamVpZW04MGxJSExNaTBBXzhSd2wtd053TUswR2Y3TVEwYm9lUUgwUkZKZXkyQXIzLU4xRzd5WDVLRTg?oc=5",
-      "snippet": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak PBS",
-      "published": "Sun, 10 May 2026 07:00:00 GMT"
+      "title": "Hantavirus-stricken cruise ship docks in the Netherlands for disinfection - seMissourian",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbldqQklEZWV3Nk0yLVRhSVRiQWZqeUJfZEtFNjJQTnNNVUVOZzNBTE5oNTltTzk2RDJySjg5TWg0cmpRNHhVWk9WNlRYVlRKdVVxWVFOdmpKa05JOU1zZ19MT2dvY3hadzdTTTZwd05FcUUyOWpBVlFSRE8zZ3U1cy1HLVFuRmZmYktxS0xGMjVaYnhKT3FfaTFCLURrNzJYdXF2UjFERnNySUYwZjgxVE5sWQ?oc=5",
+      "snippet": "Hantavirus-stricken cruise ship docks in the Netherlands for disinfection seMissourian",
+      "published": "Mon, 18 May 2026 07:00:00 GMT"
     },
     {
       "id": "64fb47477bad145c",
@@ -202,26 +202,26 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "d6986367f1468ca8",
+      "id": "a2410c4eaf75cfb7",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "American cruise ship passenger tests positive for hantavirus after evacuation - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzlnN2lpZ2RyTVRjNXp4UGRyZmdCbVNwaHdsUlBUM3VOT2oybzZtNmI2REF4U0YzeGVVb1BPNTRmdG1WazhLZVV1WlJrakxIYjRnX2hOVmpIZkRIekVhWm9sN3RXVVdqZTVsRHllU3loOUdfSkNyRVBKZmkwZ1o0WDYzRWhkcm51bzRXRW9SbWFrOU1HcXptOXNYNGdpVFRCcHUyWFFBSHFqQW95Z2hhNmhydw?oc=5",
-      "snippet": "American cruise ship passenger tests positive for hantavirus after evacuation PBS",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
+      "title": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVBNLUlScGFKUW5aV3QxbGlsNEdlelFBX1ZrOWZEMF9GQlREeGp5UDVNNERDZkNxNTdSOVpfNUh4eDh1eFFfVS1QQ1ZadjQxNVEtQkNHVWtZeGlpMGw3TFRfcU9oZ0E0LXJDc1hrNXFYamVpZW04MGxJSExNaTBBXzhSd2wtd053TUswR2Y3TVEwYm9lUUgwUkZKZXkyQXIzLU4xRzd5WDVLRTg?oc=5",
+      "snippet": "Passengers evacuate MV Hondius cruise ship following hantavirus outbreak PBS",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
-      "id": "304aec932b4a21a3",
+      "id": "69c72c8e8c256b03",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"MV Hondius\"",
-      "title": "Medical epidemiologist explains what to know about the cruise ship hantavirus outbreak - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUp1UElUWjE0QVAtQl9rRkRzWWhvSG1LTWpIR1NZc1NETUFYYnVsN2dqQW10ZmV2UW9qN3FsREdFenRfVF94S1hqRFhUc25WVzNfRnJVWjlKeUdVOEVVSkdxWVJ2NG4wS2tYM09TQ285VzY5OVl4dGxmUUxmU1A0YXl3T204ZXdzVnM1WDR3cWFlOTJWa2s3LWlobEI0X1NFdVBubWhqb1pXN0MwQUkzcmxZbEVFaEpyb2lDSU9iaw?oc=5",
-      "snippet": "Medical epidemiologist explains what to know about the cruise ship hantavirus outbreak PBS",
-      "published": "Sat, 09 May 2026 07:00:00 GMT"
+      "title": "Bay Area health officials confirm resident exposed to hantavirus on MV Hondius cruise ship - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNldpck5OVk5wMW5sZWVGWjdxdXY3NGtSRkxtOEpqZ0J4UkFmdzJUb21ZMmZZMWtTaUJMRi1GdzhIb2xPWmxITzlYNXFweG5PVmt1UVlhdWw1bVNpU196TkEwemJzbXRlbXhUdGhsTTlWTDZtamNIYXhLSEE1eFNtYURBVkRPSG1ZVjU1OXh1S3RHLV9ES2ZVT0REeE56dFVkaTNDamtqbFhoLWxuSjBCMW5hTjI2ZHhQbDBqSE9fMC1TdzJK?oc=5",
+      "snippet": "Bay Area health officials confirm resident exposed to hantavirus on MV Hondius cruise ship CBS News",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "38661d85274adfe0",
@@ -620,14 +620,25 @@
       "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
-      "id": "b1c18e533ad8c0b2",
+      "id": "07c0569444d9cad0",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "Where Passengers From the Hantavirus-Struck Cruise Ship Are Now - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNamU1WDVlemRqeDh6UkhsVC1qUVgzd2NDamxVWTlaUlFreVBySi1KdDMwdXhCYzUtejlpQzFhUUVtaFRWNWZ3cm9Eb2xNX0QtdDZNY0RTcEFqUmpzVmR0LVZoN0pfeF9KcUh6OUR0aGpDck1ldW1VNlg4dDNkYi1iTWlHbndXWmVNTVpUbm9xUzJfZw?oc=5",
-      "snippet": "Where Passengers From the Hantavirus-Struck Cruise Ship Are Now The New York Times",
+      "title": "How a Nature Cruise Turned Into a Nightmare - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0RhYk1MVnRWZ01DdEhhcTRIelU0ZFMtVDMwekFBdlBjSUdQSG56cllUc1ljYjJyZkM0RXhoRHAyRE0xOHE0MEJvM3BZUTd4UWkwaGE4UE8wVlhUM1g5R29YWWIyeFV2bXBjN09yT2p6OV9acUNYRVctSzd1YmhSZVZFeTI?oc=5",
+      "snippet": "How a Nature Cruise Turned Into a Nightmare The New York Times",
+      "published": "Sat, 16 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "acde77422bd04db3",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
+      "title": "Last passengers leave virus-hit cruise ship as three more test positive - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFY3oydExDUlVxYVNReUU3NDhNMjBYYVhYYzFNcGxlVjJick1zcFJfX2M0dTAwZnY1VExDaGd2Vm1wWGxRWjREcmE1djNjYjNJZldIUjNZNnZ6QQ?oc=5",
+      "snippet": "Last passengers leave virus-hit cruise ship as three more test positive BBC",
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
@@ -642,26 +653,15 @@
       "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
-      "id": "acde77422bd04db3",
+      "id": "b1c18e533ad8c0b2",
       "kind": "media",
       "tier": 2,
       "confidence": "reported",
       "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "Last passengers leave virus-hit cruise ship as three more test positive - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFY3oydExDUlVxYVNReUU3NDhNMjBYYVhYYzFNcGxlVjJick1zcFJfX2M0dTAwZnY1VExDaGd2Vm1wWGxRWjREcmE1djNjYjNJZldIUjNZNnZ6QQ?oc=5",
-      "snippet": "Last passengers leave virus-hit cruise ship as three more test positive BBC",
+      "title": "Where Passengers From the Hantavirus-Struck Cruise Ship Are Now - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNamU1WDVlemRqeDh6UkhsVC1qUVgzd2NDamxVWTlaUlFreVBySi1KdDMwdXhCYzUtejlpQzFhUUVtaFRWNWZ3cm9Eb2xNX0QtdDZNY0RTcEFqUmpzVmR0LVZoN0pfeF9KcUh6OUR0aGpDck1ldW1VNlg4dDNkYi1iTWlHbndXWmVNTVpUbm9xUzJfZw?oc=5",
+      "snippet": "Where Passengers From the Hantavirus-Struck Cruise Ship Are Now The New York Times",
       "published": "Tue, 12 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "07c0569444d9cad0",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"cruise ship\" \"MV Hondius\"",
-      "title": "How a Nature Cruise Turned Into a Nightmare - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0RhYk1MVnRWZ01DdEhhcTRIelU0ZFMtVDMwekFBdlBjSUdQSG56cllUc1ljYjJyZkM0RXhoRHAyRE0xOHE0MEJvM3BZUTd4UWkwaGE4UE8wVlhUM1g5R29YWWIyeFV2bXBjN09yT2p6OV9acUNYRVctSzd1YmhSZVZFeTI?oc=5",
-      "snippet": "How a Nature Cruise Turned Into a Nightmare The New York Times",
-      "published": "Sat, 16 May 2026 07:00:00 GMT"
     },
     {
       "id": "4f73552bad5f3c96",
@@ -1071,17 +1071,6 @@
       "published": "Sat, 09 May 2026 07:00:00 GMT"
     },
     {
-      "id": "f2a37a7a30d5f7a2",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
-      "title": "Evacuated US and French MV Hondius passengers test positive for hantavirus - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkdZc2lRVkRBeHBQLVdvYkR5S3VvLXVLZ0NmNTlIb25IX01xOTV3WnFackFhenlnNGxaUzdDQ2hfdkxEVmthRTVaR1JKbi1BOWFQLVo4T3lrOERuTVBmc2FfYlZNSFdaZXE5dGpXdDQ4XzN4Qkc2TXFEMDlTQnNyR3ZCUGtkSjRBNnVmSl90eG1JQTZrN2RDMGUzSmlWZ0tFRTF4eWNaSzFJMHB1anN1Nkd4dHdVd0sxOVFtbFR1QThvLVlkTEtWM2QxQzU?oc=5",
-      "snippet": "Evacuated US and French MV Hondius passengers test positive for hantavirus The Guardian",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "59f95b2d8f4eac90",
       "kind": "media",
       "tier": 2,
@@ -1091,6 +1080,17 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWVJHZXJiWk5zYlhSLTZ5d0hEaTYzeENvb2ZPMlRSRTJ4Vk81TWo4TjVxcHhtNHZ0UHlta3dEeWNiSFB0dk1FLTMyWVpiZUY5eHpjQXdTUmdnaGtRcHh1UXRucldMeXhGQzNJR2VBeHJzTVFLV1VVcDdXOTNmQ2VzTWlWUU5DbzZvUy1qQy1NUlZRV2hpTEQ1WTBNZ21VbnRtWlJKMWVZQktubUh1LXhqWHh1cmhIZjY1eDZfWjdvQ2xwbnNxa1ZOU2JEOUVCcWhrNHpIbGtDUnlFSVE1bHRCVk9saE5fUQ?oc=5",
       "snippet": "Hantavirus-hit cruise ship heads to Spain after three people evacuated Reuters",
       "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "aa7fdaa96dac0005",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"Tenerife\" \"MV Hondius\"",
+      "title": "Countries airlift nationals evacuated from virus-hit cruise ship - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HcnFfclF5UHczNGdVXzhOWUJaM0x6NGJhYmlJdDJLM2hDcV80b1dXTlBCNU5DRWFhTGV5S0Vubm1EX01vRGQyejRyVkNOZVM0azRKX1B3OFlpUQ?oc=5",
+      "snippet": "Countries airlift nationals evacuated from virus-hit cruise ship BBC",
+      "published": "Sun, 10 May 2026 07:00:00 GMT"
     },
     {
       "id": "4dc2e5169ff6db56",
@@ -1225,17 +1225,6 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
-      "id": "fc58cdadf1e886cf",
-      "kind": "media",
-      "tier": 2,
-      "confidence": "reported",
-      "source": "Google News: \"hantavirus\" \"UKHSA\" \"cruise ship\"",
-      "title": "UKHSA update on the hantavirus cruise ship outbreak - GOV.UK",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOenluQ21BemRjS3hrOTZKaGJhY0FYdDkwaG1xeDIxaUtsUzIzYWp0RkpqQWFZUHQzcTFINmRRdG5CaFNya2dBNXJnOTF4aDdNb2pLNFpnVlJGOWxLLTR3TjJYWmxtU2M1N09ralVzN3c4RUd0Q1ZOLTRJZzFnSTB5X3lXZWstT2tYWkpGZmNLcw?oc=5",
-      "snippet": "UKHSA update on the hantavirus cruise ship outbreak GOV.UK",
-      "published": "Wed, 06 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "238f613b208eb6dc",
       "kind": "media",
       "tier": 2,
@@ -1245,6 +1234,17 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWxadW9zVkN2dmFiRnFQM2tUVkhzakh1SmxhZlo5TWZOcTVRRTc4UHJ6QkNvVHd1dmJCRUdUa0paYzNqV0dNbE5lMkRYRU92aUplMldpenR5VmtYUjdsMFpjLTFCQ3FBRGpUN1FGazI4NnRWaE5ubVR4N1VuSGpKZ3VKOS03WGRxSmwxeEpmaXFCbjJ5ZGZYbmZjdUh0S2ZPMUE?oc=5",
       "snippet": "Third Briton has suspected hantavirus linked to cruise ship outbreak The Guardian",
       "published": "Fri, 08 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "fc58cdadf1e886cf",
+      "kind": "media",
+      "tier": 2,
+      "confidence": "reported",
+      "source": "Google News: \"hantavirus\" \"UKHSA\" \"cruise ship\"",
+      "title": "UKHSA update on the hantavirus cruise ship outbreak - GOV.UK",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOenluQ21BemRjS3hrOTZKaGJhY0FYdDkwaG1xeDIxaUtsUzIzYWp0RkpqQWFZUHQzcTFINmRRdG5CaFNya2dBNXJnOTF4aDdNb2pLNFpnVlJGOWxLLTR3TjJYWmxtU2M1N09ralVzN3c4RUd0Q1ZOLTRJZzFnSTB5X3lXZWstT2tYWkpGZmNLcw?oc=5",
+      "snippet": "UKHSA update on the hantavirus cruise ship outbreak GOV.UK",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
     },
     {
       "id": "0af45690404f4c11",
@@ -1722,6 +1722,17 @@
       "published": "Tue, 12 May 2026 07:00:00 GMT"
     },
     {
+      "id": "b747e2bddfa31c66",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
+      "snippet": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami Scientific American",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "b13d1c86a2f08413",
       "kind": "academic",
       "tier": 3,
@@ -1731,17 +1742,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT1VoRmV5TWVOWDFxU3BrcDRJZDBHQzlOTDdMdFhHOWxubXVrY3lKRzRjTF9jTnEzVGdXRFcyTXlWdVFhRzdiOHdlWXFsaGFBczZ3ZW1qaVJwQVEyTkhiZ1EydHVMa2lZNmxqZTZWU241SjhDQjV0QWdwNy1JRG5FNWZpQzhpZ3lQY1kxckUyV1lHSDNWOXFTZlRTVHlPUF8xYm1iZENxYV9VVjk4bXV1OFc0bVFWT1NLaHdmQXBhdDNWclZNeHdXdHNTaHBCU1Q0cW1V?oc=5",
       "snippet": "Hantavirus outbreak, PCOS name change, unexpected hiding place for one fish Scientific American",
       "published": "Mon, 18 May 2026 07:00:00 GMT"
-    },
-    {
-      "id": "8a735e097bc8e0ac",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "Hantavirus outbreak, climate risks from microplastics and Alaska’s surprise tsunami - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
-      "snippet": "Hantavirus outbreak, climate risks from microplastics and Alaska’s surprise tsunami Scientific American",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "a1728c438722c3ff",
@@ -2030,17 +2030,6 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT"
     },
     {
-      "id": "0d0cc63af7b91f65",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver - Avian Flu Diary",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPelRYdmE5LWV2U1dQNUx1LTMyY1BuOU00VGNYNzJwTkhxMmNFS21qWEZKaS1KOVJVOVFfWnpWam5rSTduMUNBdDdhRmRQU2ViSl9SOXpWdTNZOE45MGpGSXROaWNIWWQ1d2Vud2ZxX1ZmcnM2YjMyY0ZYdjM0WDB2blBVVQ?oc=5",
-      "snippet": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver Avian Flu Diary",
-      "published": "Sun, 17 May 2026 07:00:00 GMT"
-    },
-    {
       "id": "e8bfca5280b121b3",
       "kind": "academic",
       "tier": 3,
@@ -2105,17 +2094,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZGZ3RnBNUzBYblcydVF5Wkh1WUF1YjlNbnlfM3NrS01HcWJPS09YQllxcVYzRFhiSEJoeDlaMzQ1TWd2OUFGQ0kya1JuM1BLMkVNekQyOXhIRmlmSGplWXNTZWttNTF2OXI4UXhRUkYzdU1JN1JxdWljY2NPRUZTQg?oc=5",
       "snippet": "EID Journal: Characteristics and Superspreading Potential of Andes Virus Person-to-Person Transmission Avian Flu Diary",
       "published": "Mon, 14 Sep 2026 07:00:00 GMT"
-    },
-    {
-      "id": "096c812d19eea05e",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Avian Flu Diary",
-      "title": "At Least One Evacuated American Passenger From m/v Hondius Tests Positive for Hantavirus - Avian Flu Diary",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTTE3SXBNVU5KQjlDYUlxQ19fdWxTSFJYVXNINTNBNDd0WHVacXpOSlExN3lISmdmVWFackdPVmF1ZEluV1hnN2JSOER2YTcxNnBrU3lKNGNYeUtLUHVfem1reVhWcWFITExyMUZQQ2dWcVJyY3ItYUtFZFdvWG9HNA?oc=5",
-      "snippet": "At Least One Evacuated American Passenger From m/v Hondius Tests Positive for Hantavirus Avian Flu Diary",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "01b4d5f1c8953a79",
@@ -2360,6 +2338,39 @@
       "published": "Wed, 21 Nov 2018 08:00:00 GMT"
     },
     {
+      "id": "8a735e097bc8e0ac",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Scientific American",
+      "title": "Hantavirus outbreak, climate risks from microplastics and Alaska’s surprise tsunami - Scientific American",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
+      "snippet": "Hantavirus outbreak, climate risks from microplastics and Alaska’s surprise tsunami Scientific American",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "0d0cc63af7b91f65",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Avian Flu Diary",
+      "title": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver - Avian Flu Diary",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPelRYdmE5LWV2U1dQNUx1LTMyY1BuOU00VGNYNzJwTkhxMmNFS21qWEZKaS1KOVJVOVFfWnpWam5rSTduMUNBdDdhRmRQU2ViSl9SOXpWdTNZOE45MGpGSXROaWNIWWQ1d2Vud2ZxX1ZmcnM2YjMyY0ZYdjM0WDB2blBVVQ?oc=5",
+      "snippet": "Canada: PHAC Statement on `Presumed Positive' Hantavirus Case in Vancouver Avian Flu Diary",
+      "published": "Sun, 17 May 2026 07:00:00 GMT"
+    },
+    {
+      "id": "096c812d19eea05e",
+      "kind": "academic",
+      "tier": 3,
+      "confidence": "expert-news",
+      "source": "Avian Flu Diary",
+      "title": "At Least One Evacuated American Passenger From m/v Hondius Tests Positive for Hantavirus - Avian Flu Diary",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTTE3SXBNVU5KQjlDYUlxQ19fdWxTSFJYVXNINTNBNDd0WHVacXpOSlExN3lISmdmVWFackdPVmF1ZEluV1hnN2JSOER2YTcxNnBrU3lKNGNYeUtLUHVfem1reVhWcWFITExyMUZQQ2dWcVJyY3ItYUtFZFdvWG9HNA?oc=5",
+      "snippet": "At Least One Evacuated American Passenger From m/v Hondius Tests Positive for Hantavirus Avian Flu Diary",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
       "id": "704316702d94650d",
       "kind": "academic",
       "tier": 3,
@@ -2391,17 +2402,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hNGN2bDFYUVBKZ1FyRXl5ZTh5cS1Yd1J2dnUzX3hnSEF6bS1UTFdMVUFKeElfelRNNGp4bnYwVXJfdk9WdXF4MXM1SkJ3ckJjWE5LRW85b0l5ZnB4aDhWSUtBaElIWXR5c1E?oc=5",
       "snippet": "Hantavirus cardiopulmonary syndrome - Epidemiology BMJ Best Practice",
       "published": "Sat, 20 Jan 2018 10:40:33 GMT"
-    },
-    {
-      "id": "b747e2bddfa31c66",
-      "kind": "academic",
-      "tier": 3,
-      "confidence": "expert-news",
-      "source": "Scientific American",
-      "title": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami - Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZybWtRRk9sbXJfdl9qbEx4cjZ2MDBNR09iZlp2allCM29lVk50NHlTOUJiNm5DSEJHZ3N4MmFKOXVhU3poVE5QeHJvSGtpcXN1aXZnYjFORGYyYXJQUmUxTE1sdjdWbjdOSGsxZXZsXzBQLXlpV2k3am9TOFVxVWRLaVhJSVhDV2Z1VGNKMDRnVFlsWDdRMnFqbnpoVVRkeTdnaFEzYzExSTZrOHJPMjFtY2ZOcF9vMXZhbmR0YXRFT2l1Q2R3Vmx2LWpETWxac21ITzQxTl9fc1B0cHplWHJYTHhFRDk5OENVTHp3?oc=5",
-      "snippet": "Hantavirus cruise ship outbreak, risk of microplastics-caused climate warming and Alaska landslide tsunami Scientific American",
-      "published": "Mon, 11 May 2026 07:00:00 GMT"
     },
     {
       "id": "fd4df7c3cabb3395",
